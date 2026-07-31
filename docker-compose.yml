@@ -1,0 +1,39 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: wodoo_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-wodoo}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-wodoo}
+      POSTGRES_DB: ${POSTGRES_DB:-wodoo}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-wodoo} -d ${POSTGRES_DB:-wodoo}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  landing:
+    build:
+      context: ./landing
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_DASHBOARD_URL: ${NEXT_PUBLIC_DASHBOARD_URL:-http://localhost:5173/login}
+    container_name: wodoo_landing
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${LANDING_PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgres://${POSTGRES_USER:-wodoo}:${POSTGRES_PASSWORD:-wodoo}@postgres:5432/${POSTGRES_DB:-wodoo}
+
+volumes:
+  postgres_data:
