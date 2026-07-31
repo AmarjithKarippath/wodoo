@@ -15,7 +15,6 @@ The Medusa store (`store/`) is separate and not part of this Docker stack yet. T
 .
 ├── landing/                 # Next.js landing app
 ├── db/init/                 # Postgres schema (waitlist table)
-├── deploy/Caddyfile         # Production reverse proxy + HTTPS
 ├── docker-compose.yml       # Local development stack
 ├── docker-compose.prod.yml  # Production stack (www.wodoo.store)
 ├── .env.example             # Local env template
@@ -78,15 +77,12 @@ make psql
 
 ## Production deployment (www.wodoo.store)
 
-Production runs three services:
+Production runs two services. TLS and reverse proxy are handled by **Cloudpanel** on the VPS.
 
 | Service | Role |
 |---------|------|
-| **Caddy** | HTTP reverse proxy on host port **3013** (TLS handled by your existing reverse proxy on 443) |
-| **landing** | Next.js app (internal only — not exposed on the host) |
+| **landing** | Next.js app on host port **3013** |
 | **postgres** | Waitlist database (internal only — not exposed on the host) |
-
-`wodoo.store` permanently redirects to `https://www.wodoo.store`.
 
 ### 1. DNS
 
@@ -96,8 +92,6 @@ Point both domains at your server:
 |------|------|-------|
 | `wodoo.store` | `A` / `AAAA` | Server IP |
 | `www.wodoo.store` | `A` / `AAAA` | Server IP |
-
-Host port **3013** must be free. Point your existing reverse proxy (the one already on 443) at `http://127.0.0.1:3013`.
 
 ### 2. Configure secrets
 
@@ -110,7 +104,7 @@ make prod-init
 This creates `.env.production` from `.env.production.example` (does not overwrite an existing file). Edit it before deploying:
 
 ```bash
-# Host port for Caddy HTTP — proxy TLS traffic here
+# Host port for the landing app (Cloudpanel → this port)
 PROD_PORT=3013
 
 # Required — use a strong password
@@ -123,18 +117,6 @@ NEXT_PUBLIC_SITE_URL=https://www.wodoo.store
 
 # Dashboard / login link (update when the store is live)
 NEXT_PUBLIC_DASHBOARD_URL=https://www.wodoo.store
-```
-
-Example nginx upstream (TLS already on 443):
-
-```nginx
-location / {
-    proxy_pass http://127.0.0.1:3013;
-    proxy_set_header Host $host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto $scheme;
-}
 ```
 
 `.env.production` is gitignored — never commit it.
@@ -153,7 +135,30 @@ First-time alternative:
 make prod-up
 ```
 
-### 4. Verify
+Confirm the app answers locally:
+
+```bash
+curl -I http://127.0.0.1:3013
+```
+
+### 4. Cloudpanel reverse proxy
+
+In Cloudpanel, create (or edit) the site for `www.wodoo.store` and reverse-proxy to the Docker app:
+
+- **Proxy URL:** `http://127.0.0.1:3013`
+- Enable SSL for `www.wodoo.store` (and redirect `wodoo.store` → `www` if desired)
+
+Cloudpanel / nginx should forward at least:
+
+```nginx
+proxy_pass http://127.0.0.1:3013;
+proxy_set_header Host $host;
+proxy_set_header X-Real-IP $remote_addr;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header X-Forwarded-Proto $scheme;
+```
+
+### 5. Verify
 
 ```bash
 make prod-ps
@@ -192,7 +197,7 @@ ORDER BY created_at DESC;
 ## Architecture notes
 
 - **Local** (`docker-compose.yml`): landing on `localhost:3000`, Postgres on `localhost:5432`.
-- **Production** (`docker-compose.prod.yml`): only Caddy is published on host port **3013**. Landing and Postgres stay internal. TLS stays on your existing reverse proxy.
+- **Production** (`docker-compose.prod.yml`): landing published on host port **3013**; Postgres stays internal. TLS / proxy via Cloudpanel.
 - The `waitlist` table is created automatically on first Postgres start via `db/init/01-waitlist.sql`.
 - `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_DASHBOARD_URL` are build args — rebuild after changing them (`make rebuild` or `make prod-deploy`).
 
@@ -211,5 +216,5 @@ When you add a blog post, update `landing/public/sitemap.xml` with the new `/blo
 
 - Next.js 16 (landing)
 - PostgreSQL 16 (waitlist)
-- Caddy 2 (production TLS + reverse proxy)
+- Cloudpanel (VPS reverse proxy + TLS)
 - Docker Compose + Makefile

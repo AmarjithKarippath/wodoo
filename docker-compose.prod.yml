@@ -38,36 +38,15 @@ services:
       NODE_ENV: production
       DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-wodoo}
       NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://www.wodoo.store}
-    expose:
-      - "3000"
+    ports:
+      # Point Cloudpanel / your reverse proxy at this port
+      - "${PROD_PORT:-3013}:3000"
     networks:
       - internal
-      - edge
-    # Not published to the host — only reachable via Caddy
-
-  caddy:
-    image: caddy:2-alpine
-    container_name: wodoo_prod_caddy
-    restart: unless-stopped
-    depends_on:
-      - landing
-    ports:
-      # Host port 3013 only — TLS stays on your existing reverse proxy
-      - "${PROD_PORT:-3013}:80"
-    volumes:
-      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-    networks:
-      - edge
 
 volumes:
   postgres_prod_data:
-  caddy_data:
-  caddy_config:
 
 networks:
   internal:
-    driver: bridge
-  edge:
     driver: bridge

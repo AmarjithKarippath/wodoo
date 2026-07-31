@@ -12,7 +12,7 @@ help: ## Show available commands
 	@echo "Local (docker-compose.yml)"
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | grep -v 'prod-' | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-14s\033[0m %s\n", $$1, $$2}'
 	@echo ""
-	@echo "Production (docker-compose.prod.yml → www.wodoo.store)"
+	@echo "Production (docker-compose.prod.yml → :3013, proxy via Cloudpanel)"
 	@grep -E '^prod-[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-14s\033[0m %s\n", $$1, $$2}'
 	@echo ""
 
@@ -58,7 +58,7 @@ prod-init: ## Create .env.production from the example (does not overwrite)
 		&& echo ".env.production already exists" \
 		|| (cp .env.production.example .env.production && echo "Created .env.production — edit secrets before deploying")
 
-prod-up: ## Start production stack (Caddy + landing + postgres)
+prod-up: ## Start production stack (landing + postgres on :3013)
 	@test -f .env.production || (echo "Missing .env.production — run: make prod-init" && exit 1)
 	$(COMPOSE_PROD) up -d --build
 
