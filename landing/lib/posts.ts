@@ -1,9 +1,9 @@
 /**
  * Blog content lives here as structured data (no MDX dependency). Each post
- * compiles to a static page at /blog/{slug} and shows up in /sitemap.xml.
+ * compiles to a static page at /blog/{slug}.
  *
- * Add a new post: append an entry. Sitemap + index + dynamic route pick it
- * up automatically.
+ * Add a new post: append an entry here, then add the URL to
+ * public/sitemap.xml so search engines can discover it.
  */
 
 export type Block =

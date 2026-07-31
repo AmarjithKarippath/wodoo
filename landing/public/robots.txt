@@ -1,0 +1,7 @@
+# https://www.wodoo.store/robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://www.wodoo.store
+Sitemap: https://www.wodoo.store/sitemap.xml
