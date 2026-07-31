@@ -82,7 +82,7 @@ Production runs three services:
 
 | Service | Role |
 |---------|------|
-| **Caddy** | Reverse proxy on host port **3013** (HTTP) and **443** (HTTPS), automatic TLS via Let’s Encrypt |
+| **Caddy** | HTTP reverse proxy on host port **3013** (TLS handled by your existing reverse proxy on 443) |
 | **landing** | Next.js app (internal only — not exposed on the host) |
 | **postgres** | Waitlist database (internal only — not exposed on the host) |
 
@@ -97,7 +97,7 @@ Point both domains at your server:
 | `wodoo.store` | `A` / `AAAA` | Server IP |
 | `www.wodoo.store` | `A` / `AAAA` | Server IP |
 
-Host port **3013** (HTTP) must be reachable (and **443** if terminating TLS on this host). If another reverse proxy sits in front, forward traffic to `localhost:3013`.
+Host port **3013** must be free. Point your existing reverse proxy (the one already on 443) at `http://127.0.0.1:3013`.
 
 ### 2. Configure secrets
 
@@ -110,12 +110,8 @@ make prod-init
 This creates `.env.production` from `.env.production.example` (does not overwrite an existing file). Edit it before deploying:
 
 ```bash
-# Host ports (Caddy) — HTTP on 3013
+# Host port for Caddy HTTP — proxy TLS traffic here
 PROD_PORT=3013
-PROD_HTTPS_PORT=443
-
-# Required — used for Let's Encrypt certificates
-ACME_EMAIL=ops@wodoo.store
 
 # Required — use a strong password
 POSTGRES_USER=wodoo
@@ -127,6 +123,18 @@ NEXT_PUBLIC_SITE_URL=https://www.wodoo.store
 
 # Dashboard / login link (update when the store is live)
 NEXT_PUBLIC_DASHBOARD_URL=https://www.wodoo.store
+```
+
+Example nginx upstream (TLS already on 443):
+
+```nginx
+location / {
+    proxy_pass http://127.0.0.1:3013;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+}
 ```
 
 `.env.production` is gitignored — never commit it.
@@ -184,7 +192,7 @@ ORDER BY created_at DESC;
 ## Architecture notes
 
 - **Local** (`docker-compose.yml`): landing on `localhost:3000`, Postgres on `localhost:5432`.
-- **Production** (`docker-compose.prod.yml`): only Caddy is published (`3013` → HTTP, `443` → HTTPS). Landing and Postgres share an internal Docker network.
+- **Production** (`docker-compose.prod.yml`): only Caddy is published on host port **3013**. Landing and Postgres stay internal. TLS stays on your existing reverse proxy.
 - The `waitlist` table is created automatically on first Postgres start via `db/init/01-waitlist.sql`.
 - `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_DASHBOARD_URL` are build args — rebuild after changing them (`make rebuild` or `make prod-deploy`).
 

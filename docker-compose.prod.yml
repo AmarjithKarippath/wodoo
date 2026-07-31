@@ -52,12 +52,8 @@ services:
     depends_on:
       - landing
     ports:
-      # Host port 3013 → Caddy HTTP (point your upstream proxy / firewall here)
+      # Host port 3013 only — TLS stays on your existing reverse proxy
       - "${PROD_PORT:-3013}:80"
-      - "${PROD_HTTPS_PORT:-443}:443"
-      - "${PROD_HTTPS_PORT:-443}:443/udp"
-    environment:
-      ACME_EMAIL: ${ACME_EMAIL}
     volumes:
       - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data

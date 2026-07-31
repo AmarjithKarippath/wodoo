@@ -1,21 +1,21 @@
+# TLS is terminated by an upstream reverse proxy.
+# This container only serves HTTP on port 80 (host → 3013).
 {
-	email {$ACME_EMAIL}
+	auto_https off
 }
 
-www.wodoo.store {
+:80 {
 	encode gzip zstd
 
 	header {
-		Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 		X-Content-Type-Options "nosniff"
 		X-Frame-Options "SAMEORIGIN"
 		Referrer-Policy "strict-origin-when-cross-origin"
 		-Server
 	}
 
-	reverse_proxy landing:3000
-}
+	@apex host wodoo.store
+	redir @apex https://www.wodoo.store{uri} permanent
 
-wodoo.store {
-	redir https://www.wodoo.store{uri} permanent
+	reverse_proxy landing:3000
 }
