@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { allPosts } from "@/lib/posts";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://wodoo.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

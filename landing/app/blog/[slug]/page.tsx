@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { allPosts, getPost, type Block } from "@/lib/posts";
 import { StartStoreButton } from "@/components/wodoo/start-store-button";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://wodoo.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store";
 
 export function generateStaticParams() {
   return allPosts().map((p) => ({ slug: p.slug }));

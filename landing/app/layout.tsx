@@ -10,7 +10,7 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://wodoo.store'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wodoo.store'
 
 const TITLE = 'Woodo Store — Start your online store today, sell tomorrow'
 const DESCRIPTION =

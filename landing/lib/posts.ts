@@ -247,7 +247,7 @@ export const POSTS: Post[] = [
       { type: "p", text: "Here's the actual 10-minute path with Woodo Store — single product, cash on delivery, live URL you can post on Instagram before lunch." },
 
       { type: "h2", text: "Minute 0–2: Sign up", id: "signup" },
-      { type: "p", text: "Email, password, store name. Your store URL (wodoo.com/s/your-name) is created automatically on signup — no DNS to configure, no domain to buy, no SSL to wait for." },
+      { type: "p", text: "Email, password, store name. Your store URL (wodoo.store/s/your-name) is created automatically on signup — no DNS to configure, no domain to buy, no SSL to wait for." },
 
       { type: "h2", text: "Minute 2–5: Add your product", id: "add-product" },
       { type: "p", text: "Single-product stores have one form to fill:" },

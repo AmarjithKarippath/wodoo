@@ -9,7 +9,9 @@ RUN pnpm install --frozen-lockfile && pnpm rebuild sharp
 
 FROM base AS builder
 COPY . .
+ARG NEXT_PUBLIC_SITE_URL=https://www.wodoo.store
 ARG NEXT_PUBLIC_DASHBOARD_URL
+ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
 ENV NEXT_PUBLIC_DASHBOARD_URL=${NEXT_PUBLIC_DASHBOARD_URL}
 RUN pnpm build
 

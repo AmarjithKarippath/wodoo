@@ -108,7 +108,7 @@ export function Hero() {
               <span className="h-3 w-3 rounded-full bg-accent" />
               <span className="h-3 w-3 rounded-full bg-primary" />
               <span className="ml-3 rounded-md bg-background px-3 py-1 text-xs text-muted-foreground">
-                wodoo.com
+                wodoo.store
               </span>
             </div>
             <div className="p-5">
