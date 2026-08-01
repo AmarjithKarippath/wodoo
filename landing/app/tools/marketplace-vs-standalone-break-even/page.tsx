@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free Etsy vs Shopify break-even calculator — find the monthly order volume and GMV where a fixed website plan beats marketplace fees.",
   alternates: { canonical: "/tools/marketplace-vs-standalone-break-even" },
+  openGraph: {
+    title: "Marketplace vs. standalone break-even calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/marketplace-vs-standalone-break-even.png",
+        width: 1200,
+        height: 630,
+        alt: "Marketplace vs. standalone break-even calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Compare USPS, UPS, FedEx, and DHL estimates to find the cheapest and fastest courier for your package size, weight, and distance.",
   alternates: { canonical: "/tools/courier-carrier-finder" },
   openGraph: {
+    images: [{ url: "/tools/courier-carrier-finder.png", width: 1200, height: 630, alt: "Cheapest & fastest courier finder — free ecommerce tool" }],
     title: "Cheapest & fastest courier carrier finder — Woodo Store",
     description:
       "Find the cheapest and fastest shipping carrier for your parcel with a quick multi-carrier comparison.",

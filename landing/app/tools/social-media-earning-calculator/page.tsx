@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free social media earning calculator — estimate influencer income, sponsored post rates, CPM monetization, and monthly creator earnings by niche.",
   alternates: { canonical: "/tools/social-media-earning-calculator" },
+  openGraph: {
+    title: "Social media earning / monetization calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/social-media-earning-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Social media earning / monetization calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

@@ -1,254 +1,450 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.wodoo.store/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/free-shipping-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/free-shipping-calculator.png</image:loc>
+      <image:title>Free shipping rate calculator</image:title>
+      <image:caption>Free shipping rate calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/shipping-policy-generator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/shipping-policy-generator.png</image:loc>
+      <image:title>Shipping policy generator</image:title>
+      <image:caption>Shipping policy generator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/courier-carrier-finder</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/courier-carrier-finder.png</image:loc>
+      <image:title>Cheapest &amp; fastest courier finder</image:title>
+      <image:caption>Cheapest &amp; fastest courier finder — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/tax-duty-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/tax-duty-calculator.png</image:loc>
+      <image:title>Tax &amp; duty calculator</image:title>
+      <image:caption>Tax &amp; duty calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/hs-tariff-code-lookup</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/hs-tariff-code-lookup.png</image:loc>
+      <image:title>HS tariff code lookup</image:title>
+      <image:caption>HS tariff code lookup — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/postcode-address-finder</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/postcode-address-finder.png</image:loc>
+      <image:title>Address by ZIP / postcode finder</image:title>
+      <image:caption>Address by ZIP / postcode finder — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/seo-audit</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/seo-audit.png</image:loc>
+      <image:title>SEO audit tool</image:title>
+      <image:caption>SEO audit tool — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/seo-keyword-explorer</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/seo-keyword-explorer.png</image:loc>
+      <image:title>SEO keyword explorer</image:title>
+      <image:caption>SEO keyword explorer — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/fba-fee-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/fba-fee-calculator.png</image:loc>
+      <image:title>FBA fee &amp; revenue calculator</image:title>
+      <image:caption>FBA fee &amp; revenue calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/ecommerce-profit-margin-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/ecommerce-profit-margin-calculator.png</image:loc>
+      <image:title>Ecommerce profit margin calculator</image:title>
+      <image:caption>Ecommerce profit margin calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/dimensional-weight-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/dimensional-weight-calculator.png</image:loc>
+      <image:title>Dimensional weight &amp; volume calculator</image:title>
+      <image:caption>Dimensional weight &amp; volume calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/break-even-units-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/break-even-units-calculator.png</image:loc>
+      <image:title>Break-even units calculator</image:title>
+      <image:caption>Break-even units calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/landed-product-cost-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/landed-product-cost-calculator.png</image:loc>
+      <image:title>Landed product cost calculator</image:title>
+      <image:caption>Landed product cost calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/cac-payback-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/cac-payback-calculator.png</image:loc>
+      <image:title>CAC payback calculator</image:title>
+      <image:caption>CAC payback calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/marketplace-fee-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/marketplace-fee-calculator.png</image:loc>
+      <image:title>Marketplace fee calculator (eBay &amp; Etsy)</image:title>
+      <image:caption>Marketplace fee calculator (eBay &amp; Etsy) — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/volume-discount-planner</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/volume-discount-planner.png</image:loc>
+      <image:title>Volume discount vs unit margin planner</image:title>
+      <image:caption>Volume discount vs unit margin planner — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/influencer-engagement-rate-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/influencer-engagement-rate-calculator.png</image:loc>
+      <image:title>Influencer engagement rate calculator</image:title>
+      <image:caption>Influencer engagement rate calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/social-media-earning-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/social-media-earning-calculator.png</image:loc>
+      <image:title>Social media earning / monetization calculator</image:title>
+      <image:caption>Social media earning / monetization calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/follower-to-buyer-conversion-estimator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/follower-to-buyer-conversion-estimator.png</image:loc>
+      <image:title>Follower-to-buyer conversion estimator</image:title>
+      <image:caption>Follower-to-buyer conversion estimator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/print-on-demand-profit-planner</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/print-on-demand-profit-planner.png</image:loc>
+      <image:title>Print-on-demand (POD) profit planner</image:title>
+      <image:caption>Print-on-demand (POD) profit planner — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/merchandise-mockup-generator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/merchandise-mockup-generator.png</image:loc>
+      <image:title>Merchandise mockup generator</image:title>
+      <image:caption>Merchandise mockup generator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/link-in-bio-store-integrator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/link-in-bio-store-integrator.png</image:loc>
+      <image:title>Link-in-bio store integrator</image:title>
+      <image:caption>Link-in-bio store integrator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/wholesale-private-label-catalog</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/wholesale-private-label-catalog.png</image:loc>
+      <image:title>Wholesale sourcing &amp; private label catalog tool</image:title>
+      <image:caption>Wholesale sourcing &amp; private label catalog tool — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/digital-product-course-profit-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/digital-product-course-profit-calculator.png</image:loc>
+      <image:title>Digital product &amp; course profit margin calculator</image:title>
+      <image:caption>Digital product &amp; course profit margin calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/affiliate-vs-owned-store-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/affiliate-vs-owned-store-calculator.png</image:loc>
+      <image:title>Affiliate vs. owned store commission calculator</image:title>
+      <image:caption>Affiliate vs. owned store commission calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/domain-name-availability-checker</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/domain-name-availability-checker.png</image:loc>
+      <image:title>Domain name availability checker</image:title>
+      <image:caption>Domain name availability checker — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/qr-code-generator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/qr-code-generator.png</image:loc>
+      <image:title>QR code generator</image:title>
+      <image:caption>QR code generator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/trademark-registry-search</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/trademark-registry-search.png</image:loc>
+      <image:title>Trademark &amp; registry search</image:title>
+      <image:caption>Trademark &amp; registry search — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/offsite-ads-margin-checker</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/offsite-ads-margin-checker.png</image:loc>
+      <image:title>Offsite ads margin checker</image:title>
+      <image:caption>Offsite ads margin checker — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/marketplace-vs-standalone-break-even</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/marketplace-vs-standalone-break-even.png</image:loc>
+      <image:title>Marketplace vs. standalone break-even calculator</image:title>
+      <image:caption>Marketplace vs. standalone break-even calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/company-name-availability-checker</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/company-name-availability-checker.png</image:loc>
+      <image:title>Company name availability checker</image:title>
+      <image:caption>Company name availability checker — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/uspto-tess-trademark-search</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/uspto-tess-trademark-search.png</image:loc>
+      <image:title>USPTO TESS trademark search</image:title>
+      <image:caption>USPTO TESS trademark search — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/startup-legal-document-generator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/startup-legal-document-generator.png</image:loc>
+      <image:title>Startup legal document generator</image:title>
+      <image:caption>Startup legal document generator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/llc-vs-scorp-tax-calculator</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/llc-vs-scorp-tax-calculator.png</image:loc>
+      <image:title>LLC vs. S-Corp tax calculator</image:title>
+      <image:caption>LLC vs. S-Corp tax calculator — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/state-filing-fee-comparison</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/state-filing-fee-comparison.png</image:loc>
+      <image:title>State filing fee comparison</image:title>
+      <image:caption>State filing fee comparison — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/irs-ein-assistant</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/irs-ein-assistant.png</image:loc>
+      <image:title>IRS EIN online assistant</image:title>
+      <image:caption>IRS EIN online assistant — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/fincen-boi-filing-helper</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/fincen-boi-filing-helper.png</image:loc>
+      <image:title>FinCEN BOI filing helper</image:title>
+      <image:caption>FinCEN BOI filing helper — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/startup-business-plan-builder</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/startup-business-plan-builder.png</image:loc>
+      <image:title>Startup business plan &amp; cash flow builder</image:title>
+      <image:caption>Startup business plan &amp; cash flow builder — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/duns-number-request-helper</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/duns-number-request-helper.png</image:loc>
+      <image:title>D-U-N-S number request helper</image:title>
+      <image:caption>D-U-N-S number request helper — free ecommerce tool on Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/blog</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

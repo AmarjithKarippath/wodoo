@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free USPTO TESS trademark search helper — score your company name and open the Trademark Electronic Search System before you register a business brand.",
   alternates: { canonical: "/tools/uspto-tess-trademark-search" },
+  openGraph: {
+    title: "USPTO TESS trademark search — Woodo Store",
+    images: [
+      {
+        url: "/tools/uspto-tess-trademark-search.png",
+        width: 1200,
+        height: 630,
+        alt: "USPTO TESS trademark search — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

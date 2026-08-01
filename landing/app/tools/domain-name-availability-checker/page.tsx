@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free domain name availability checker — search .com, .store, .shop, .io and more to see if your ecommerce brand domain is available.",
   alternates: { canonical: "/tools/domain-name-availability-checker" },
+  openGraph: {
+    title: "Domain name availability checker — Woodo Store",
+    images: [
+      {
+        url: "/tools/domain-name-availability-checker.png",
+        width: 1200,
+        height: 630,
+        alt: "Domain name availability checker — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

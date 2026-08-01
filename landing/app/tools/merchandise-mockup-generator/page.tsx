@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free merchandise mockup generator — create t-shirt, hoodie, mug, and tote bag mockups with your brand text and download SVG previews.",
   alternates: { canonical: "/tools/merchandise-mockup-generator" },
+  openGraph: {
+    title: "Merchandise mockup generator — Woodo Store",
+    images: [
+      {
+        url: "/tools/merchandise-mockup-generator.png",
+        width: 1200,
+        height: 630,
+        alt: "Merchandise mockup generator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

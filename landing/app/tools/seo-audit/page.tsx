@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Run a free on-page SEO audit — check title tags, meta descriptions, headings, Open Graph, HTTPS, image alt text, and more.",
   alternates: { canonical: "/tools/seo-audit" },
   openGraph: {
+    images: [{ url: "/tools/seo-audit.png", width: 1200, height: 630, alt: "SEO audit tool — free ecommerce tool" }],
     title: "Free SEO audit tool — Woodo Store",
     description:
       "Analyze any public webpage for common SEO issues and get a clear pass/warn/fail report.",

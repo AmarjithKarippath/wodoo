@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free Amazon FBA fee calculator — estimate referral fees, fulfillment fees, storage, net revenue, and profit margin per unit.",
   alternates: { canonical: "/tools/fba-fee-calculator" },
+  openGraph: {
+    title: "FBA fee & revenue calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/fba-fee-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "FBA fee & revenue calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

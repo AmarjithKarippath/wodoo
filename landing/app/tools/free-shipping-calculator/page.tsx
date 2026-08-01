@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Calculate a free-shipping threshold that covers shipping cost, protects gross margin, and lifts average order value.",
   alternates: { canonical: "/tools/free-shipping-calculator" },
   openGraph: {
+    images: [{ url: "/tools/free-shipping-calculator.png", width: 1200, height: 630, alt: "Free shipping rate calculator — free ecommerce tool" }],
     title: "Free shipping rate calculator — Woodo Store",
     description:
       "Find a free-shipping threshold that covers your shipping cost and protects margin.",

@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free DUNS number request checklist — prepare your company details and open the Dun & Bradstreet D-U-N-S number request tool.",
   alternates: { canonical: "/tools/duns-number-request-helper" },
+  openGraph: {
+    title: "D-U-N-S number request helper — Woodo Store",
+    images: [
+      {
+        url: "/tools/duns-number-request-helper.png",
+        width: 1200,
+        height: 630,
+        alt: "D-U-N-S number request helper — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

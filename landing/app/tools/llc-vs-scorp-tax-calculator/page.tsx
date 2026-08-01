@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free LLC vs S-Corp tax calculator — compare self-employment tax vs reasonable salary payroll tax using projected profit and salary.",
   alternates: { canonical: "/tools/llc-vs-scorp-tax-calculator" },
+  openGraph: {
+    title: "LLC vs. S-Corp tax calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/llc-vs-scorp-tax-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "LLC vs. S-Corp tax calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

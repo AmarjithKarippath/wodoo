@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Free SEO keyword explorer — expand a seed keyword into related terms, long-tail ideas, and intent clusters for content and ecommerce SEO.",
   alternates: { canonical: "/tools/seo-keyword-explorer" },
   openGraph: {
+    images: [{ url: "/tools/seo-keyword-explorer.png", width: 1200, height: 630, alt: "SEO keyword explorer — free ecommerce tool" }],
     title: "SEO keyword explorer — Woodo Store",
     description:
       "Discover related keywords, long-tail ideas, and search intent groups from any seed keyword.",

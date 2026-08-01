@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free follower-to-buyer conversion calculator — estimate social commerce buyers, link-in-bio clicks, and revenue from your follower count.",
   alternates: { canonical: "/tools/follower-to-buyer-conversion-estimator" },
+  openGraph: {
+    title: "Follower-to-buyer conversion estimator — Woodo Store",
+    images: [
+      {
+        url: "/tools/follower-to-buyer-conversion-estimator.png",
+        width: 1200,
+        height: 630,
+        alt: "Follower-to-buyer conversion estimator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

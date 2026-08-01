@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free trademark search tool — check brand name strength and open USPTO, EUIPO, UK IPO, and WIPO registry searches plus matching domains.",
   alternates: { canonical: "/tools/trademark-registry-search" },
+  openGraph: {
+    title: "Trademark & registry search — Woodo Store",
+    images: [
+      {
+        url: "/tools/trademark-registry-search.png",
+        width: 1200,
+        height: 630,
+        alt: "Trademark & registry search — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

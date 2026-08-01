@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Look up Harmonized System (HS) tariff codes for common ecommerce products — search by keyword or code for customs classification.",
   alternates: { canonical: "/tools/hs-tariff-code-lookup" },
   openGraph: {
+    images: [{ url: "/tools/hs-tariff-code-lookup.png", width: 1200, height: 630, alt: "HS tariff code lookup — free ecommerce tool" }],
     title: "HS tariff code lookup — Woodo Store",
     description:
       "Find HS tariff codes for apparel, electronics, cosmetics, and more with a free product search.",

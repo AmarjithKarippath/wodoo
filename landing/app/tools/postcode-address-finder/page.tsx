@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Free ZIP code and postcode lookup — find city, region, and map location from a postal code for shipping and delivery planning.",
   alternates: { canonical: "/tools/postcode-address-finder" },
   openGraph: {
+    images: [{ url: "/tools/postcode-address-finder.png", width: 1200, height: 630, alt: "Address by ZIP / postcode finder — free ecommerce tool" }],
     title: "Address by ZIP / postcode finder — Woodo Store",
     description:
       "Look up city and region from a ZIP or postcode for ecommerce shipping zones.",

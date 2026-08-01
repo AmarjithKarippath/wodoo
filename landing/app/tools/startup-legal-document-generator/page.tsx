@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free startup legal document generator — draft LLC operating agreements, articles of organization outlines, and corporate bylaws for early-stage filings.",
   alternates: { canonical: "/tools/startup-legal-document-generator" },
+  openGraph: {
+    title: "Startup legal document generator — Woodo Store",
+    images: [
+      {
+        url: "/tools/startup-legal-document-generator.png",
+        width: 1200,
+        height: 630,
+        alt: "Startup legal document generator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

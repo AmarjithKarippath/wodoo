@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free digital product profit calculator — estimate course margins, ebook profit, platform fees, refunds, and break-even sales.",
   alternates: { canonical: "/tools/digital-product-course-profit-calculator" },
+  openGraph: {
+    title: "Digital product & course profit margin calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/digital-product-course-profit-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Digital product & course profit margin calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

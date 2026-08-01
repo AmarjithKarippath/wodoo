@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free landed cost calculator — estimate true product cost including factory price, inbound shipping, duties, taxes, insurance, and handling.",
   alternates: { canonical: "/tools/landed-product-cost-calculator" },
+  openGraph: {
+    title: "Landed product cost calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/landed-product-cost-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Landed product cost calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

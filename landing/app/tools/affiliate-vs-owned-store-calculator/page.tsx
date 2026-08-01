@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free affiliate vs DTC calculator — compare affiliate commission profit versus owned ecommerce store margins per order and period.",
   alternates: { canonical: "/tools/affiliate-vs-owned-store-calculator" },
+  openGraph: {
+    title: "Affiliate vs. owned store commission calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/affiliate-vs-owned-store-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Affiliate vs. owned store commission calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

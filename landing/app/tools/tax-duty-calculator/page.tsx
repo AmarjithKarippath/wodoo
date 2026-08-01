@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Estimate import duty, VAT/GST, and total landed cost for international ecommerce shipments by destination and product category.",
   alternates: { canonical: "/tools/tax-duty-calculator" },
   openGraph: {
+    images: [{ url: "/tools/tax-duty-calculator.png", width: 1200, height: 630, alt: "Tax & duty calculator — free ecommerce tool" }],
     title: "Tax & duty calculator — Woodo Store",
     description:
       "Calculate customs duty, tax, and landed cost for cross-border orders in minutes.",

@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free offsite ads margin calculator — subtract marketplace referral penalties (12%–15%) from margins when running Amazon, eBay, or marketplace offsite ads.",
   alternates: { canonical: "/tools/offsite-ads-margin-checker" },
+  openGraph: {
+    title: "Offsite ads margin checker — Woodo Store",
+    images: [
+      {
+        url: "/tools/offsite-ads-margin-checker.png",
+        width: 1200,
+        height: 630,
+        alt: "Offsite ads margin checker — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

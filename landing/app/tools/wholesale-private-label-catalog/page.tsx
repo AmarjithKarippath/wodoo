@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free wholesale vs private label calculator — compare MOQ, landed cost, setup fees, margins, and monthly profit for sourcing decisions.",
   alternates: { canonical: "/tools/wholesale-private-label-catalog" },
+  openGraph: {
+    title: "Wholesale sourcing & private label catalog tool — Woodo Store",
+    images: [
+      {
+        url: "/tools/wholesale-private-label-catalog.png",
+        width: 1200,
+        height: 630,
+        alt: "Wholesale sourcing & private label catalog tool — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

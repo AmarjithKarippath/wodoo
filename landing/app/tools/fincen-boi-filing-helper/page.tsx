@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free FinCEN BOI e-filing helper — prepare beneficial ownership information for your LLC or corporation and open the official FinCEN BOI portal.",
   alternates: { canonical: "/tools/fincen-boi-filing-helper" },
+  openGraph: {
+    title: "FinCEN BOI filing helper — Woodo Store",
+    images: [
+      {
+        url: "/tools/fincen-boi-filing-helper.png",
+        width: 1200,
+        height: 630,
+        alt: "FinCEN BOI filing helper — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free company name availability checker — open Companies House and US Secretary of State entity searches to verify if your LLC or corporation name is taken.",
   alternates: { canonical: "/tools/company-name-availability-checker" },
+  openGraph: {
+    title: "Company name availability checker — Woodo Store",
+    images: [
+      {
+        url: "/tools/company-name-availability-checker.png",
+        width: 1200,
+        height: 630,
+        alt: "Company name availability checker — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

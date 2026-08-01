@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free ecommerce profit margin calculator — compute gross margin, net margin, and profit per unit including COGS, shipping, fees, and ads.",
   alternates: { canonical: "/tools/ecommerce-profit-margin-calculator" },
+  openGraph: {
+    title: "Ecommerce profit margin calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/ecommerce-profit-margin-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Ecommerce profit margin calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

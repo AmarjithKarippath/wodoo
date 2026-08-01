@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free startup business plan cash flow builder — project monthly revenue, costs, and ending cash for bank accounts, loans, and formation planning.",
   alternates: { canonical: "/tools/startup-business-plan-builder" },
+  openGraph: {
+    title: "Startup business plan & cash flow builder — Woodo Store",
+    images: [
+      {
+        url: "/tools/startup-business-plan-builder.png",
+        width: 1200,
+        height: 630,
+        alt: "Startup business plan & cash flow builder — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

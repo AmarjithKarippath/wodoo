@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free eBay final value fee calculator and Etsy fee calculator — estimate marketplace fees, payment processing, net payout, and profit.",
   alternates: { canonical: "/tools/marketplace-fee-calculator" },
+  openGraph: {
+    title: "Marketplace fee calculator (eBay & Etsy) — Woodo Store",
+    images: [
+      {
+        url: "/tools/marketplace-fee-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Marketplace fee calculator (eBay & Etsy) — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free customer acquisition cost payback calculator — estimate CAC payback period, contribution per order, and LTV:CAC for ecommerce brands.",
   alternates: { canonical: "/tools/cac-payback-calculator" },
+  openGraph: {
+    title: "CAC payback calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/cac-payback-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "CAC payback calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

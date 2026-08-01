@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free print-on-demand profit calculator — plan POD margins for shirts, hoodies, and merch with base cost, print fees, shipping, ads, and fees.",
   alternates: { canonical: "/tools/print-on-demand-profit-planner" },
+  openGraph: {
+    title: "Print-on-demand (POD) profit planner — Woodo Store",
+    images: [
+      {
+        url: "/tools/print-on-demand-profit-planner.png",
+        width: 1200,
+        height: 630,
+        alt: "Print-on-demand (POD) profit planner — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

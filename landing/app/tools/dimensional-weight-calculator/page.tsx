@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free DIM weight calculator — compute volumetric weight, package volume, and billable shipping weight for USPS, UPS, and FedEx-style divisors.",
   alternates: { canonical: "/tools/dimensional-weight-calculator" },
+  openGraph: {
+    title: "Dimensional weight & volume calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/dimensional-weight-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Dimensional weight & volume calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

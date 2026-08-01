@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free influencer engagement rate calculator — compute Instagram, TikTok, and YouTube engagement rate from likes, comments, shares, followers, and reach.",
   alternates: { canonical: "/tools/influencer-engagement-rate-calculator" },
+  openGraph: {
+    title: "Influencer engagement rate calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/influencer-engagement-rate-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Influencer engagement rate calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free QR code generator — create downloadable QR codes for product links, store URLs, menus, packaging, and marketing campaigns.",
   alternates: { canonical: "/tools/qr-code-generator" },
+  openGraph: {
+    title: "QR code generator — Woodo Store",
+    images: [
+      {
+        url: "/tools/qr-code-generator.png",
+        width: 1200,
+        height: 630,
+        alt: "QR code generator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {

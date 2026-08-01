@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   description:
     "Free break-even calculator for ecommerce — find how many units you must sell to cover fixed costs based on price and variable cost.",
   alternates: { canonical: "/tools/break-even-units-calculator" },
+  openGraph: {
+    title: "Break-even units calculator — Woodo Store",
+    images: [
+      {
+        url: "/tools/break-even-units-calculator.png",
+        width: 1200,
+        height: 630,
+        alt: "Break-even units calculator — free ecommerce tool",
+      },
+    ],
+  },
 }
 
 export default function Page() {
