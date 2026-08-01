@@ -201,6 +201,31 @@ ORDER BY created_at DESC;
 - The `waitlist` table is created automatically on first Postgres start via `db/init/01-waitlist.sql`.
 - `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_DASHBOARD_URL` are build args — rebuild after changing them (`make rebuild` or `make prod-deploy`).
 
+## Tools
+
+Productivity tools live under `/tools`. Registry: `landing/lib/tools.ts`.
+
+| Tool | URL |
+|------|-----|
+| Free shipping rate calculator | `/tools/free-shipping-calculator` |
+| Shipping policy generator | `/tools/shipping-policy-generator` |
+| Cheapest & fastest courier finder | `/tools/courier-carrier-finder` |
+| Tax & duty calculator | `/tools/tax-duty-calculator` |
+| HS tariff code lookup | `/tools/hs-tariff-code-lookup` |
+| Address by ZIP / postcode finder | `/tools/postcode-address-finder` |
+| SEO audit tool | `/tools/seo-audit` |
+| SEO keyword explorer | `/tools/seo-keyword-explorer` |
+| FBA fee & revenue calculator | `/tools/fba-fee-calculator` |
+| Ecommerce profit margin calculator | `/tools/ecommerce-profit-margin-calculator` |
+| Dimensional weight & volume calculator | `/tools/dimensional-weight-calculator` |
+| Break-even units calculator | `/tools/break-even-units-calculator` |
+| Landed product cost calculator | `/tools/landed-product-cost-calculator` |
+| CAC payback calculator | `/tools/cac-payback-calculator` |
+| Marketplace fee calculator (eBay & Etsy) | `/tools/marketplace-fee-calculator` |
+| Volume discount vs unit margin planner | `/tools/volume-discount-planner` |
+
+To add another tool: register it in `lib/tools.ts`, add `app/tools/<slug>/page.tsx`, and update `public/sitemap.xml`.
+
 ## SEO
 
 Static files are served from `landing/public/`:
@@ -210,7 +235,7 @@ Static files are served from `landing/public/`:
 | https://www.wodoo.store/robots.txt | `landing/public/robots.txt` |
 | https://www.wodoo.store/sitemap.xml | `landing/public/sitemap.xml` |
 
-When you add a blog post, update `landing/public/sitemap.xml` with the new `/blog/{slug}` URL.
+When you add a blog post or tool, update `landing/public/sitemap.xml` with the new URL.
 
 ## Stack
 

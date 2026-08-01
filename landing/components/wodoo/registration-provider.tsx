@@ -113,94 +113,110 @@ function RegistrationDialog({
     setStep("success")
   })
 
+  const fieldClassName =
+    "border-white/15 bg-white/5 text-white placeholder:text-white/35 focus-visible:border-brand focus-visible:ring-brand/30"
+  const labelClassName = "text-white/80"
+
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent
+        className="border-white/10 bg-ink text-ink-foreground sm:max-w-md [&_[data-slot=dialog-close]]:text-white/70 [&_[data-slot=dialog-close]]:hover:bg-white/10 [&_[data-slot=dialog-close]]:hover:text-white [&_[data-slot=dialog-close]]:focus:ring-white/30 [&_[data-slot=dialog-close]]:ring-offset-ink"
+      >
         {step === "form" ? (
           <>
             <DialogHeader>
-              <DialogTitle>Create your store</DialogTitle>
-              <DialogDescription>
+              <DialogTitle className="text-white">Create your store</DialogTitle>
+              <DialogDescription className="text-white/60">
                 Get started in minutes. Tell us a bit about you and your shop.
               </DialogDescription>
             </DialogHeader>
 
             <form onSubmit={onSubmit} className="space-y-4">
               <div className="space-y-2">
-                <Label htmlFor="name">Full name</Label>
+                <Label htmlFor="name" className={labelClassName}>
+                  Full name
+                </Label>
                 <Input
                   id="name"
                   autoComplete="name"
                   placeholder="Jane Doe"
+                  className={fieldClassName}
                   aria-invalid={!!form.formState.errors.name}
                   {...form.register("name")}
                 />
                 {form.formState.errors.name && (
-                  <p className="text-sm text-destructive">
+                  <p className="text-sm text-red-400">
                     {form.formState.errors.name.message}
                   </p>
                 )}
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email" className={labelClassName}>
+                  Email
+                </Label>
                 <Input
                   id="email"
                   type="email"
                   autoComplete="email"
                   placeholder="you@example.com"
+                  className={fieldClassName}
                   aria-invalid={!!form.formState.errors.email}
                   {...form.register("email")}
                 />
                 {form.formState.errors.email && (
-                  <p className="text-sm text-destructive">
+                  <p className="text-sm text-red-400">
                     {form.formState.errors.email.message}
                   </p>
                 )}
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="storeName">Store name</Label>
+                <Label htmlFor="storeName" className={labelClassName}>
+                  Store name
+                </Label>
                 <Input
                   id="storeName"
                   autoComplete="organization"
                   placeholder="Wildgood Co."
+                  className={fieldClassName}
                   aria-invalid={!!form.formState.errors.storeName}
                   {...form.register("storeName")}
                 />
                 {form.formState.errors.storeName && (
-                  <p className="text-sm text-destructive">
+                  <p className="text-sm text-red-400">
                     {form.formState.errors.storeName.message}
                   </p>
                 )}
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="website">
-                  Website <span className="text-muted-foreground">(optional)</span>
+                <Label htmlFor="website" className={labelClassName}>
+                  Website <span className="text-white/40">(optional)</span>
                 </Label>
                 <Input
                   id="website"
                   type="url"
                   autoComplete="url"
                   placeholder="https://yourbrand.com"
+                  className={fieldClassName}
                   aria-invalid={!!form.formState.errors.website}
                   {...form.register("website")}
                 />
                 {form.formState.errors.website && (
-                  <p className="text-sm text-destructive">
+                  <p className="text-sm text-red-400">
                     {form.formState.errors.website.message}
                   </p>
                 )}
               </div>
 
               {submitError && (
-                <p className="text-sm text-destructive">{submitError}</p>
+                <p className="text-sm text-red-400">{submitError}</p>
               )}
 
               <Button
                 type="submit"
-                className="w-full rounded-full"
+                className="w-full rounded-full bg-brand text-ink hover:bg-brand/90"
                 disabled={form.formState.isSubmitting}
               >
                 {form.formState.isSubmitting ? (
@@ -216,21 +232,23 @@ function RegistrationDialog({
           </>
         ) : (
           <div className="space-y-4 py-2 text-center">
-            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
+            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-brand/20 text-brand">
               <CheckCircle2 className="h-7 w-7" />
             </div>
             <DialogHeader className="text-center sm:text-center">
-              <DialogTitle>You&apos;re on the list!</DialogTitle>
-              <DialogDescription className="text-pretty">
+              <DialogTitle className="text-white">
+                You&apos;re on the list!
+              </DialogTitle>
+              <DialogDescription className="text-pretty text-white/60">
                 Due to high demand, you&apos;re on our waiting list. We&apos;ll get
                 your store ready soon and reach out at{" "}
-                <span className="font-medium text-foreground">{submittedEmail}</span>{" "}
+                <span className="font-medium text-white">{submittedEmail}</span>{" "}
                 when it&apos;s your turn.
               </DialogDescription>
             </DialogHeader>
             <Button
               type="button"
-              className="w-full rounded-full"
+              className="w-full rounded-full bg-brand text-ink hover:bg-brand/90"
               onClick={() => handleOpenChange(false)}
             >
               Got it

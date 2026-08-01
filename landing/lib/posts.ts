@@ -282,6 +282,359 @@ export const POSTS: Post[] = [
       { type: "callout", text: "The brands that grow fastest are the ones that ship first and polish second. A store live for 10 days with three flaws beats a perfect store launched next quarter every single time." },
     ],
   },
+
+  {
+    slug: "ecommerce-platform-guide",
+    title: "Ecommerce Platform Guide: How to Choose the Right One for Your Store",
+    description:
+      "A practical ecommerce platform guide covering storefronts, checkout, payments, shipping, fees, and the checklist to pick software that fits your product and growth stage.",
+    publishedAt: "2026-06-05",
+    author: "Woodo Store Team",
+    readingMinutes: 8,
+    tags: ["ecommerce platform", "guide", "getting-started"],
+    body: [
+      { type: "p", text: "Choosing an ecommerce platform is one of the highest-leverage decisions a new brand makes. Pick well and you launch in days. Pick poorly and you spend months fighting themes, fees, and plugins." },
+      { type: "p", text: "This ecommerce platform guide walks through what actually matters — so you can choose software based on your product, margins, and sales channels, not marketing slogans." },
+
+      { type: "h2", text: "What an ecommerce platform must do", id: "must-do" },
+      { type: "ul", items: [
+        "Publish a product page and take payment (or COD) without custom code.",
+        "Handle shipping rules, taxes, and order notifications cleanly.",
+        "Stay fast on mobile — most buyers never see desktop.",
+        "Grow with you: apps, analytics, and multi-channel sales when you need them.",
+      ]},
+
+      { type: "h2", text: "Match the platform to your store type", id: "store-type" },
+      { type: "p", text: "A single-product D2C brand needs a different stack than a 2,000-SKU marketplace seller. Start with your catalog size, average order value, and whether you sell primarily on your own site or marketplaces." },
+
+      { type: "h2", text: "Non-negotiable checklist", id: "checklist" },
+      { type: "ol", items: [
+        "Checkout under three steps on mobile.",
+        "Clear total cost before payment (shipping + tax).",
+        "Built-in or easy COD / local payment options if you sell in markets that need them.",
+        "Transparent pricing — know monthly fees, transaction fees, and app costs up front.",
+        "Exportable data — you should own orders and customers.",
+      ]},
+
+      { type: "callout", text: "The best ecommerce platform is the one that gets you to a live store this week — then stays out of your way while you sell." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-tips",
+    title: "12 Ecommerce Platform Tips to Launch Faster and Convert Better",
+    description:
+      "Actionable ecommerce platform tips for setup, product pages, checkout, apps, and operations — so your store converts instead of collecting dust.",
+    publishedAt: "2026-06-12",
+    author: "Woodo Store Team",
+    readingMinutes: 7,
+    tags: ["ecommerce platform", "tips", "conversion"],
+    body: [
+      { type: "p", text: "Most stores don’t fail because of traffic. They fail because the platform setup is slow, confusing, or bloated. These ecommerce platform tips focus on the settings and habits that move revenue." },
+
+      { type: "h2", text: "Setup tips", id: "setup" },
+      { type: "ol", items: [
+        "Launch with one product page done well before adding collections.",
+        "Use real product photos in context — not only white-background shots.",
+        "Write a one-sentence value prop above the fold.",
+        "Turn on abandoned-cart recovery on day one.",
+      ]},
+
+      { type: "h2", text: "Conversion tips", id: "conversion" },
+      { type: "ul", items: [
+        "Show shipping cost early — surprise fees kill checkouts.",
+        "Add quantity discounts or a simple upsell, not ten popups.",
+        "Keep the buy button sticky on mobile.",
+        "Use reviews near the price, not buried at the bottom.",
+      ]},
+
+      { type: "h2", text: "Ops tips", id: "ops" },
+      { type: "ul", items: [
+        "Automate order confirmation and shipping emails.",
+        "Track AOV and conversion weekly, not vanity pageviews.",
+        "Audit apps quarterly — unused plugins slow the store.",
+        "Document your fulfillment SOP before Black Friday, not during it.",
+      ]},
+
+      { type: "callout", text: "Platform tips only matter if you ship. Apply two improvements this week, measure, then stack the next ones." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-examples",
+    title: "Ecommerce Platform Examples: Store Setups That Actually Work",
+    description:
+      "Real-world ecommerce platform examples — single-product stores, niche catalogs, and service-plus-product hybrids — and what you can copy from each.",
+    publishedAt: "2026-06-19",
+    author: "Woodo Store Team",
+    readingMinutes: 7,
+    tags: ["ecommerce platform", "examples", "strategy"],
+    body: [
+      { type: "p", text: "Abstract feature lists don’t help you decide. Ecommerce platform examples do. Here are common store setups and what each one needs from its software." },
+
+      { type: "h2", text: "Example 1: Single-product brand", id: "single-product" },
+      { type: "p", text: "One hero SKU, strong story, COD or prepaid checkout, and a short upsell. The platform should make the product page the homepage and keep checkout friction near zero." },
+
+      { type: "h2", text: "Example 2: Niche catalog (20–100 SKUs)", id: "niche-catalog" },
+      { type: "p", text: "Collections, filters, and clear category SEO matter. You need inventory sync, variants, and a theme that stays fast with more images." },
+
+      { type: "h2", text: "Example 3: Digital + physical hybrid", id: "hybrid" },
+      { type: "p", text: "Courses, downloads, or memberships sold alongside merch. Look for platforms (or apps) that can fulfill digital goods automatically without messy workarounds." },
+
+      { type: "h2", text: "Example 4: Local / regional D2C", id: "local" },
+      { type: "p", text: "WhatsApp support, cash on delivery, and city-level shipping rules often beat global ‘enterprise’ features. Pick software that supports how your customers already pay." },
+
+      { type: "callout", text: "Copy the structure of these ecommerce platform examples — not their branding. Your product and market decide the rest." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-2026",
+    title: "Ecommerce Platform Trends in 2026: What’s Changing for Online Stores",
+    description:
+      "Ecommerce platform 2026 trends — AI product pages, faster checkout, marketplace sync, and why simplicity beats bloated app stacks for growing brands.",
+    publishedAt: "2026-06-26",
+    author: "Woodo Store Team",
+    readingMinutes: 6,
+    tags: ["ecommerce platform", "2026", "trends"],
+    body: [
+      { type: "p", text: "The ecommerce platform market in 2026 looks different from five years ago. Buyers expect instant checkout. Sellers expect AI help without a developer. Margins leave less room for surprise fees." },
+
+      { type: "h2", text: "Trend 1: Fewer apps, more built-ins", id: "built-ins" },
+      { type: "p", text: "Stores are cutting plugin sprawl. Platforms that ship native upsells, analytics, and shipping tools win — every third-party app is another monthly bill and another performance risk." },
+
+      { type: "h2", text: "Trend 2: Mobile-first checkout is table stakes", id: "mobile-checkout" },
+      { type: "p", text: "If checkout isn’t one-handed and fast, paid traffic wastes money. Expect platforms to compete on speed and payment flexibility more than theme galleries." },
+
+      { type: "h2", text: "Trend 3: AI for merchandising, not magic", id: "ai" },
+      { type: "p", text: "Useful AI writes descriptions, suggests images, and flags weak product pages. Ignore ‘AI-powered’ claims that don’t change a metric you can measure." },
+
+      { type: "h2", text: "What to prioritize when evaluating platforms in 2026", id: "priorities" },
+      { type: "ul", items: [
+        "Time-to-first-sale under a day.",
+        "Clear total cost of ownership (software + apps + payments).",
+        "Data portability and basic SEO controls.",
+        "Support for your local payment and shipping reality.",
+      ]},
+
+      { type: "callout", text: "In 2026, the winning ecommerce platform is the one that removes work — not the one with the longest feature list." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-cost",
+    title: "Ecommerce Platform Cost: What You’ll Really Pay to Run a Store",
+    description:
+      "Break down ecommerce platform cost — subscriptions, transaction fees, apps, themes, and hidden expenses — so you can budget before you build.",
+    publishedAt: "2026-07-03",
+    author: "Woodo Store Team",
+    readingMinutes: 7,
+    tags: ["ecommerce platform", "cost", "pricing"],
+    body: [
+      { type: "p", text: "‘Free to start’ rarely means free to run. Ecommerce platform cost is a stack: software, payments, apps, themes, and your time. Here’s how to estimate the real number." },
+
+      { type: "h2", text: "The five cost layers", id: "layers" },
+      { type: "ol", items: [
+        "Platform subscription (monthly or annual).",
+        "Payment processing / transaction fees.",
+        "Apps and themes that aren’t included.",
+        "Domain, email, and basic tooling.",
+        "People time — setup, support, and maintenance.",
+      ]},
+
+      { type: "h2", text: "How to compare cost fairly", id: "compare" },
+      { type: "p", text: "Don’t compare sticker prices alone. Model 100 orders/month and 1,000 orders/month. Fee structures that look cheap at low volume can get expensive when you scale — and the reverse is also true." },
+
+      { type: "h2", text: "Where founders overspend", id: "overspend" },
+      { type: "ul", items: [
+        "Paying for enterprise features before they have demand.",
+        "Stacking five apps that overlap with native tools.",
+        "Custom theme work before validating the offer.",
+      ]},
+
+      { type: "callout", text: "Calculate ecommerce platform cost on a per-order basis. If fees eat more than a few percent of AOV early on, simplify the stack." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-pricing",
+    title: "Ecommerce Platform Pricing Explained: Plans, Fees, and Fine Print",
+    description:
+      "Understand ecommerce platform pricing models — freemium, flat monthly, transaction fees, and usage tiers — and how to pick a plan that won’t punish growth.",
+    publishedAt: "2026-07-10",
+    author: "Woodo Store Team",
+    readingMinutes: 6,
+    tags: ["ecommerce platform", "pricing", "fees"],
+    body: [
+      { type: "p", text: "Ecommerce platform pricing looks simple on the homepage and complicated on the invoice. Here’s how common pricing models work and what to watch for in the fine print." },
+
+      { type: "h2", text: "Common pricing models", id: "models" },
+      { type: "ul", items: [
+        "Freemium — free storefront with paid upgrades or branding limits.",
+        "Flat monthly — predictable software fee; payments billed separately.",
+        "Revenue share — lower subscription, higher cut of each sale.",
+        "Usage-based — fees tied to orders, staff seats, or bandwidth.",
+      ]},
+
+      { type: "h2", text: "Questions to ask before you subscribe", id: "questions" },
+      { type: "ol", items: [
+        "What happens when I exceed plan limits?",
+        "Are transaction fees charged on top of payment processing?",
+        "Can I leave with my data, and how hard is migration?",
+        "Which ‘must-have’ features sit behind a higher tier?",
+      ]},
+
+      { type: "h2", text: "Pricing strategy for new stores", id: "strategy" },
+      { type: "p", text: "Start on the cheapest plan that supports checkout and your payment methods. Upgrade when a feature clearly pays for itself — not when a sales email says you should." },
+
+      { type: "callout", text: "Good ecommerce platform pricing is boring: predictable, transparent, and aligned with your growth — not a maze of add-ons." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-software",
+    title: "Ecommerce Platform Software: Core Features Every Store Needs",
+    description:
+      "What ecommerce platform software should include in 2026 — catalog, checkout, payments, shipping, analytics, and apps — without drowning you in complexity.",
+    publishedAt: "2026-07-17",
+    author: "Woodo Store Team",
+    readingMinutes: 7,
+    tags: ["ecommerce platform", "software", "features"],
+    body: [
+      { type: "p", text: "Ecommerce platform software is the operating system of your online store. If the core is weak, no theme will save you. Here’s the feature set that matters for most brands." },
+
+      { type: "h2", text: "Core software modules", id: "modules" },
+      { type: "ul", items: [
+        "Catalog & inventory — products, variants, stock.",
+        "Storefront & SEO basics — titles, URLs, mobile layout.",
+        "Cart & checkout — discounts, taxes, shipping.",
+        "Payments & orders — capture, refunds, statuses.",
+        "Notifications — email/SMS for buyers and admins.",
+        "Analytics — conversion, AOV, top products.",
+      ]},
+
+      { type: "h2", text: "Nice-to-have vs need-to-have", id: "nice-vs-need" },
+      { type: "p", text: "Multi-currency, advanced ERP sync, and headless APIs are powerful — and usually premature. For a new store, need-to-have is a fast path to first revenue." },
+
+      { type: "h2", text: "How to evaluate software demos", id: "demos" },
+      { type: "ol", items: [
+        "Create a product and complete a test order yourself.",
+        "Check mobile checkout with your thumb, not a mouse.",
+        "Export an orders CSV — confirm you own your data.",
+        "Ask support one real question and time the reply.",
+      ]},
+
+      { type: "callout", text: "Judge ecommerce platform software by time-to-first-order, not by how impressive the feature matrix looks on a slide." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-app",
+    title: "Ecommerce Platform App Ecosystem: Which Apps Are Worth Installing?",
+    description:
+      "How to choose ecommerce platform apps without slowing your store — reviews, upsells, email, and the plugins you can usually skip.",
+    publishedAt: "2026-07-24",
+    author: "Woodo Store Team",
+    readingMinutes: 6,
+    tags: ["ecommerce platform", "apps", "tools"],
+    body: [
+      { type: "p", text: "Every ecommerce platform app promises growth. Most add cost and latency. Here’s a practical way to decide which apps earn a spot in your stack." },
+
+      { type: "h2", text: "Apps that usually pay for themselves", id: "worth-it" },
+      { type: "ul", items: [
+        "Email / SMS recovery for abandoned carts.",
+        "Reviews and UGC that sit near the buy button.",
+        "Simple upsell or bundle tools if native options are weak.",
+        "Shipping rate helpers when you sell across regions.",
+      ]},
+
+      { type: "h2", text: "Apps to be skeptical of", id: "skeptical" },
+      { type: "ul", items: [
+        "Popups that stack on top of other popups.",
+        "‘AI magic’ tools with no before/after metrics.",
+        "Duplicate analytics pixels that fight each other.",
+        "Anything you can do with a native setting in two clicks.",
+      ]},
+
+      { type: "h2", text: "App hygiene rules", id: "hygiene" },
+      { type: "ol", items: [
+        "Install one app, measure for two weeks, then decide.",
+        "Uninstall anything unused every quarter.",
+        "Prefer apps with clear pricing and recent updates.",
+      ]},
+
+      { type: "callout", text: "A lean ecommerce platform app stack beats a bloated one. Speed and clarity convert; clutter does not." },
+    ],
+  },
+
+  {
+    slug: "ecommerce-platform-for-small-business",
+    title: "Best Ecommerce Platform for Small Business: A Practical Framework",
+    description:
+      "How small businesses should pick an ecommerce platform — budget, skills, local payments, and a launch plan that doesn’t require a developer.",
+    publishedAt: "2026-07-31",
+    author: "Woodo Store Team",
+    readingMinutes: 7,
+    tags: ["ecommerce platform", "small-business", "getting-started"],
+    body: [
+      { type: "p", text: "Small businesses don’t need enterprise complexity. They need an ecommerce platform that takes payments, looks trustworthy, and won’t eat the weekend to maintain." },
+
+      { type: "h2", text: "What small businesses should optimize for", id: "optimize" },
+      { type: "ul", items: [
+        "Low fixed monthly cost until sales are consistent.",
+        "Templates that look good without a designer.",
+        "Local payment methods and simple shipping rules.",
+        "Support that answers in plain language.",
+      ]},
+
+      { type: "h2", text: "A 7-day launch plan", id: "launch-plan" },
+      { type: "ol", items: [
+        "Day 1–2: Pick platform, claim store URL, add branding basics.",
+        "Day 3–4: Upload products, pricing, and shipping options.",
+        "Day 5: Test checkout end-to-end on mobile.",
+        "Day 6: Soft launch to your existing customers or WhatsApp list.",
+        "Day 7: Fix friction from real orders, then expand traffic.",
+      ]},
+
+      { type: "h2", text: "Red flags for small teams", id: "red-flags" },
+      { type: "p", text: "Long contracts, mandatory agencies, and ‘custom only’ workflows are red flags. If you can’t publish a product alone, the platform isn’t small-business friendly." },
+
+      { type: "callout", text: "The best ecommerce platform for small business is the one you can run yourself on Monday morning — and still have time to fulfill orders." },
+    ],
+  },
+
+  {
+    slug: "how-to-choose-ecommerce-platform",
+    title: "How to Choose an Ecommerce Platform Without Getting Overwhelmed",
+    description:
+      "A step-by-step process to choose an ecommerce platform — score features, fees, speed, and support — then pick a winner and launch.",
+    publishedAt: "2026-08-01",
+    author: "Woodo Store Team",
+    readingMinutes: 8,
+    tags: ["ecommerce platform", "guide", "decision"],
+    body: [
+      { type: "p", text: "Comparison articles list twenty platforms and leave you more confused. Use this process instead: shortlist three, score them against your constraints, and ship." },
+
+      { type: "h2", text: "Step 1: Write your constraints", id: "constraints" },
+      { type: "ul", items: [
+        "Budget ceiling per month (software + apps).",
+        "Must-have payments (cards, UPI, COD, PayPal, etc.).",
+        "Catalog size and whether you need variants.",
+        "Who will run the store day to day.",
+      ]},
+
+      { type: "h2", text: "Step 2: Score each shortlist option", id: "score" },
+      { type: "p", text: "Give 1–5 points for: time to launch, checkout quality, total fees at your volume, SEO basics, and support quality. Multiply fees and checkout by two — they affect every order." },
+
+      { type: "h2", text: "Step 3: Do a real test order", id: "test-order" },
+      { type: "p", text: "Never choose from a sales call alone. Create a dummy product, complete checkout on your phone, and process a refund. Friction here foreshadows every future customer complaint." },
+
+      { type: "h2", text: "Step 4: Commit for 90 days", id: "commit" },
+      { type: "p", text: "Platform hopping kills momentum. Once you pick, focus on product, traffic, and offers for a quarter before you blame the software." },
+
+      { type: "callout", text: "How to choose an ecommerce platform: constrain, score, test-order, then commit. Decision speed is a competitive advantage." },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {

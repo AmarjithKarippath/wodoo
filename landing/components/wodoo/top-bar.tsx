@@ -50,6 +50,12 @@ export function TopBar() {
         </Link>
         <div className="flex items-center gap-4">
           <Link
+            href="/tools"
+            className="hidden text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground sm:inline"
+          >
+            Tools
+          </Link>
+          <Link
             href="/blog"
             className="hidden text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground sm:inline"
           >
