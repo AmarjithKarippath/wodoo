@@ -2,3 +2,5 @@
 .env.production
 .env.local
 *.pem
+node_modules/
+package-lock.json

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Analytics } from '@vercel/analytics/next'
 import { RegistrationProvider } from '@/components/wodoo/registration-provider'
 import './globals.css'
@@ -140,6 +141,9 @@ export default function RootLayout({
           {children}
         </RegistrationProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ? (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+        ) : null}
       </body>
     </html>
   )
