@@ -77,7 +77,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/logo.svg', type: 'image/svg+xml' },
+    ],
     shortcut: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
@@ -112,11 +117,6 @@ const WEBSITE_JSONLD = {
   '@type': 'WebSite',
   name: 'Woodo Store',
   url: SITE_URL,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: `${SITE_URL}/?q={search_term_string}`,
-    'query-input': 'required name=search_term_string',
-  },
 }
 
 export default function RootLayout({
