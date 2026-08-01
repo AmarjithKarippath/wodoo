@@ -135,6 +135,118 @@ export const TOOLS: Tool[] = [
     href: "/tools/volume-discount-planner",
     status: "live",
   },
+  {
+    slug: "influencer-engagement-rate-calculator",
+    title: "Influencer engagement rate calculator",
+    description:
+      "Calculate Instagram, TikTok, and social engagement rate from likes, comments, shares, followers, and reach.",
+    href: "/tools/influencer-engagement-rate-calculator",
+    status: "live",
+  },
+  {
+    slug: "social-media-earning-calculator",
+    title: "Social media earning / monetization calculator",
+    description:
+      "Estimate influencer income and sponsored-post rates from followers, engagement, CPM, and niche.",
+    href: "/tools/social-media-earning-calculator",
+    status: "live",
+  },
+  {
+    slug: "follower-to-buyer-conversion-estimator",
+    title: "Follower-to-buyer conversion estimator",
+    description:
+      "Estimate buyers and revenue from your follower count using profile visits, link clicks, and conversion rate.",
+    href: "/tools/follower-to-buyer-conversion-estimator",
+    status: "live",
+  },
+  {
+    slug: "print-on-demand-profit-planner",
+    title: "Print-on-demand (POD) profit planner",
+    description:
+      "Plan POD profit per order and monthly earnings after blank cost, print fees, shipping, ads, and fees.",
+    href: "/tools/print-on-demand-profit-planner",
+    status: "live",
+  },
+  {
+    slug: "merchandise-mockup-generator",
+    title: "Merchandise mockup generator",
+    description:
+      "Create t-shirt, hoodie, mug, and tote mockups with your brand text and download SVG previews.",
+    href: "/tools/merchandise-mockup-generator",
+    status: "live",
+  },
+  {
+    slug: "link-in-bio-store-integrator",
+    title: "Link-in-bio store integrator",
+    description:
+      "Generate a link-in-bio HTML page that connects Instagram or TikTok to your ecommerce store and offers.",
+    href: "/tools/link-in-bio-store-integrator",
+    status: "live",
+  },
+  {
+    slug: "wholesale-private-label-catalog",
+    title: "Wholesale sourcing & private label catalog tool",
+    description:
+      "Compare wholesale vs private label on MOQ, landed cost, setup fees, margins, and monthly profit.",
+    href: "/tools/wholesale-private-label-catalog",
+    status: "live",
+  },
+  {
+    slug: "digital-product-course-profit-calculator",
+    title: "Digital product & course profit margin calculator",
+    description:
+      "Estimate course and digital product margins after platform fees, refunds, creation cost, and marketing.",
+    href: "/tools/digital-product-course-profit-calculator",
+    status: "live",
+  },
+  {
+    slug: "affiliate-vs-owned-store-calculator",
+    title: "Affiliate vs. owned store commission calculator",
+    description:
+      "Compare affiliate commission profit versus owned ecommerce store margins per order and period.",
+    href: "/tools/affiliate-vs-owned-store-calculator",
+    status: "live",
+  },
+  {
+    slug: "domain-name-availability-checker",
+    title: "Domain name availability checker",
+    description:
+      "Check if your brand domain is available across .com, .store, .shop, .io and other ecommerce TLDs.",
+    href: "/tools/domain-name-availability-checker",
+    status: "live",
+  },
+  {
+    slug: "qr-code-generator",
+    title: "QR code generator",
+    description:
+      "Create downloadable QR codes for product links, store URLs, packaging, and marketing campaigns.",
+    href: "/tools/qr-code-generator",
+    status: "live",
+  },
+  {
+    slug: "trademark-registry-search",
+    title: "Trademark & registry search",
+    description:
+      "Score brand distinctiveness and open USPTO, EUIPO, UK IPO, and WIPO searches plus matching domains.",
+    href: "/tools/trademark-registry-search",
+    status: "live",
+  },
+  {
+    slug: "offsite-ads-margin-checker",
+    title: "Offsite ads margin checker",
+    description:
+      "Subtract marketplace referral penalties (12%–15%) from margins when running offsite ads.",
+    href: "/tools/offsite-ads-margin-checker",
+    status: "live",
+  },
+  {
+    slug: "marketplace-vs-standalone-break-even",
+    title: "Marketplace vs. standalone break-even calculator",
+    description:
+      "Find the monthly order volume where a fixed website plan beats marketplace fees (Etsy vs Shopify and more).",
+    href: "/tools/marketplace-vs-standalone-break-even",
+    status: "live",
+  },
 ]
 
 export function getTool(slug: string): Tool | undefined {
