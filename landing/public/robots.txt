@@ -6,10 +6,11 @@ Allow: /tools
 Allow: /tools/
 Allow: /blog
 Allow: /blog/
+
 Disallow: /api/
 Disallow: /api/*
 
-# Prefer the canonical host
+# Canonical host
 Host: www.wodoo.store
 
 Sitemap: https://www.wodoo.store/sitemap.xml

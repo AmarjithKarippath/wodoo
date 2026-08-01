@@ -247,6 +247,78 @@ export const TOOLS: Tool[] = [
     href: "/tools/marketplace-vs-standalone-break-even",
     status: "live",
   },
+  {
+    slug: "company-name-availability-checker",
+    title: "Company name availability checker",
+    description:
+      "Check proposed LLC and company names via Companies House and US Secretary of State entity search portals.",
+    href: "/tools/company-name-availability-checker",
+    status: "live",
+  },
+  {
+    slug: "uspto-tess-trademark-search",
+    title: "USPTO TESS trademark search",
+    description:
+      "Score your brand name and open the USPTO Trademark Electronic Search System before you register.",
+    href: "/tools/uspto-tess-trademark-search",
+    status: "live",
+  },
+  {
+    slug: "startup-legal-document-generator",
+    title: "Startup legal document generator",
+    description:
+      "Draft free LLC operating agreements, articles of organization outlines, and corporate bylaws.",
+    href: "/tools/startup-legal-document-generator",
+    status: "live",
+  },
+  {
+    slug: "llc-vs-scorp-tax-calculator",
+    title: "LLC vs. S-Corp tax calculator",
+    description:
+      "Compare self-employment tax on LLC profits versus S-Corp salary payroll taxes and distributions.",
+    href: "/tools/llc-vs-scorp-tax-calculator",
+    status: "live",
+  },
+  {
+    slug: "state-filing-fee-comparison",
+    title: "State filing fee comparison",
+    description:
+      "Compare approximate LLC and corporation formation and annual report fees across popular US states.",
+    href: "/tools/state-filing-fee-comparison",
+    status: "live",
+  },
+  {
+    slug: "irs-ein-assistant",
+    title: "IRS EIN online assistant",
+    description:
+      "Prep your entity details and open the official IRS Employer Identification Number online application.",
+    href: "/tools/irs-ein-assistant",
+    status: "live",
+  },
+  {
+    slug: "fincen-boi-filing-helper",
+    title: "FinCEN BOI filing helper",
+    description:
+      "Prepare Beneficial Ownership Information details and continue to official FinCEN BOI filing resources.",
+    href: "/tools/fincen-boi-filing-helper",
+    status: "live",
+  },
+  {
+    slug: "startup-business-plan-builder",
+    title: "Startup business plan & cash flow builder",
+    description:
+      "Project monthly revenue, costs, and cash for banking, loans, and early company planning.",
+    href: "/tools/startup-business-plan-builder",
+    status: "live",
+  },
+  {
+    slug: "duns-number-request-helper",
+    title: "D-U-N-S number request helper",
+    description:
+      "Prep company details and open the Dun & Bradstreet D-U-N-S number request for credit and contracts.",
+    href: "/tools/duns-number-request-helper",
+    status: "live",
+  },
 ]
 
 export function getTool(slug: string): Tool | undefined {
