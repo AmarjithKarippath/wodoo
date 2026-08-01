@@ -18,21 +18,10 @@ export default function PostcodeAddressFinderPage() {
   return (
     <ToolShell
       title="Address by ZIP / postcode finder"
+      intro="Look up city and region details from a ZIP or postcode. Handy when you are setting shipping zones or checking a delivery area."
       description="Enter a country and ZIP or postcode to find the matching city, region, and map coordinates — handy for shipping zones, tax regions, and delivery checks."
     >
       <PostcodeAddressFinder />
-
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a fast and accurate address lookup by post code? Our free tool works as
-        a complete postcode address finder and postcode lookup that instantly returns
-        the full address from postcode. Whether you’re searching for a UK postcode
-        lookup, free postcode address finder, or simply need to convert postcode to
-        address, this address finder by postcode makes it easy to find address by
-        postcode in seconds. Just enter the code into our powerful postcode search
-        and get precise results — it also supports zip code address lookup and postal
-        code address finder for international use, helping you verify delivery
-        addresses quickly and reduce shipping errors.
-      </p>
     </ToolShell>
   )
 }

@@ -18,20 +18,10 @@ export default function ShippingPolicyGeneratorPage() {
   return (
     <ToolShell
       title="Shipping policy generator"
-      description="Fill in your store details and get a ready-to-copy shipping policy covering processing times, delivery windows, rates, carriers, and common edge cases."
+      intro="Create a clear shipping policy your customers can understand at checkout. Fill in your store details and copy a ready draft in minutes."
+      description="Add processing times, delivery windows, rates, and carriers, then copy the draft into your store policies."
     >
       <ShippingPolicyGenerator />
-
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a professional shipping policy generator for your online store? Our free shipping policy
-        generator and shipping policy template make it simple to create a clear, store-ready document in
-        minutes. Whether you’re looking for a Shopify shipping policy generator, an ecommerce shipping policy
-        generator, or a shipping policy generator free tool, this online shipping policy generator delivers a
-        customized sample shipping policy template that covers processing times, carriers, and delivery
-        expectations. Use our free shipping policy template or free shipping policy generator for Shopify to
-        quickly generate a compliant policy with no signup required — just fill in your details and get a
-        polished shipping policy template free version ready to paste into your store.
-      </p>
     </ToolShell>
   )
 }

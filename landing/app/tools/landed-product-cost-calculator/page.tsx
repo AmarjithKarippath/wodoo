@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Landed product cost calculator"
+      intro="Add factory cost, freight, duties, and handling into a true cost per unit. Better purchasing decisions start with the full landed number."
       description="Roll up factory cost, inbound freight, duties, taxes, insurance, and handling into total landed cost and cost per unit."
     >
       <LandedProductCostCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free landed product cost calculator? This landed cost calculator and import product cost calculator
-        helps you combine factory price, inbound shipping, customs duties, taxes, insurance, and brokerage into true
-        cost per unit. Use it as a total landed cost calculator, inventory cost calculator, or sourcing cost
-        calculator so your retail price covers the full cost of getting products to your warehouse.
-      </p>
     </ToolShell>
   )
 }

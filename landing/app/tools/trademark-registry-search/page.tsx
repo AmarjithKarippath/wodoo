@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Trademark & registry search"
-      description="Score brand distinctiveness, launch official trademark registry searches, and check matching domain availability in one place."
+      intro="Get a quick distinctiveness read, then open official trademark databases for your mark. Always confirm results on the government sites before filing."
+      description="Enter a mark to score distinctiveness, open registry searches, and optionally check matching domains."
     >
       <TrademarkRegistrySearch />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free trademark search tool? This brand name registry checker helps you start USPTO trademark
-        search, EUIPO trademark search, UK IPO lookups, and WIPO Global Brand Database queries. Use it as a brand
-        name availability checker, trademark conflict starter tool, or ecommerce brand registry search before you file
-        or launch.
-      </p>
     </ToolShell>
   )
 }

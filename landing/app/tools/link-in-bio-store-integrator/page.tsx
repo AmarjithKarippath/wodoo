@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Link-in-bio store integrator"
+      intro="Build a simple bio page that points followers to your store and key offers. Copy the HTML and host it wherever you like."
       description="Generate a clean link-in-bio HTML page that connects Instagram or TikTok to your store, bestsellers, and offers."
     >
       <LinkInBioIntegrator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free link in bio store integrator? This Instagram link in bio generator and TikTok bio link
-        builder helps creators and brands send followers to an ecommerce store, product pages, and waitlists. Use it
-        as a social commerce landing page maker, bio link HTML generator, or storefront link hub tool without another
-        subscription.
-      </p>
     </ToolShell>
   )
 }

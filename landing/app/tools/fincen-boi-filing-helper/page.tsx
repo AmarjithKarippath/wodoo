@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="FinCEN BOI filing helper"
-      description="Prepare Beneficial Ownership Information details for your reporting company, then continue to the official FinCEN BOI resources."
+      intro="Prep beneficial ownership details before you file with FinCEN. Rules change, so confirm current requirements on the official portal."
+      description="Enter your company details and owner count to build a prep sheet, then continue to FinCEN’s official BOI resources."
     >
       <FincenBoiHelper />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for the FinCEN BOI e-filing portal helper? This Beneficial Ownership Information checklist helps newly
-        registered corporations and LLCs gather owner IDs, addresses, and company details for Corporate Transparency Act
-        style reporting. Use it as a BOI report prep tool, FinCEN filing checklist, or beneficial ownership compliance
-        starter before submitting on the official site.
-      </p>
     </ToolShell>
   )
 }

@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Affiliate vs. owned store commission calculator"
+      intro="Compare profit from affiliate commissions with selling through your own store. Decide where the next order is more valuable."
       description="Compare profit from affiliate sales (commission paid) versus selling through your own store after fees and fulfillment."
     >
       <AffiliateVsOwnedCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free affiliate vs owned store calculator? This affiliate commission calculator and DTC margin
-        comparison tool helps brands decide whether to scale affiliate marketing or push traffic to their own
-        ecommerce store. Use it as an affiliate payout planner, marketplace vs DTC profit tool, or owned-store ROI
-        calculator before allocating budget.
-      </p>
     </ToolShell>
   )
 }

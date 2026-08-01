@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Startup legal document generator"
+      intro="Draft starter operating agreements, articles outlines, and bylaws for early setup. These are educational templates — have a lawyer review before you rely on them."
       description="Generate editable starter Operating Agreements, Articles of Organization outlines, and Bylaws for early-stage company setup."
     >
       <StartupLegalDocumentGenerator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for free legal templates like Docracy-style startup documents? This operating agreement generator,
-        articles of organization template, and corporate bylaws builder helps founders draft early registration
-        paperwork without paying a lawyer for a first draft. Use it as a free LLC document generator or formation
-        paperwork starter — then have counsel review before filing.
-      </p>
     </ToolShell>
   )
 }

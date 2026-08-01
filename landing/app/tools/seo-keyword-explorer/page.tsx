@@ -18,18 +18,10 @@ export default function SeoKeywordExplorerPage() {
   return (
     <ToolShell
       title="SEO keyword explorer"
+      intro="Expand a seed topic into related phrases and longer variations. Use the ideas to plan blog posts, product pages, or FAQ content."
       description="Enter a seed keyword to uncover related terms, autocomplete-style suggestions, and long-tail modifiers — grouped by search intent so you can plan content and product pages faster."
     >
       <KeywordExplorerTool />
-
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free SEO keyword explorer? This keyword research tool and
-        keyword idea generator helps you expand seed terms into related keywords,
-        long-tail phrases, and intent clusters for blog posts and product pages.
-        Use it as a free keyword finder, SEO keyword research tool, or long-tail
-        keyword generator to brainstorm content topics and ecommerce search
-        opportunities before you write or optimize a page.
-      </p>
     </ToolShell>
   )
 }

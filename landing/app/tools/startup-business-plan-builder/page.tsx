@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Startup business plan & cash flow builder"
+      intro="Build a simple cash-flow forecast from revenue, costs, and growth assumptions. Helpful when a bank or partner asks for early numbers."
       description="Build a simple month-by-month cash-flow projection founders often need for corporate bank accounts and early planning."
     >
       <StartupBusinessPlanBuilder />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free government-style business plan cash flow tool? This startup financial projection calculator helps
-        founders formalise revenue, COGS, and operating expenses like Startup Loans / Prince’s Trust style worksheets.
-        Use it as a business plan cash flow builder, formation banking projection tool, or small business forecast
-        sheet before opening a corporate account.
-      </p>
     </ToolShell>
   )
 }

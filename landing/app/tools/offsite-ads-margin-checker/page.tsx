@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Offsite ads margin checker"
+      intro="See what remains after marketplace referral penalties and ad spend. Helps you judge whether offsite traffic still makes sense."
       description="See true profit after automated marketplace referral penalties (typically 12%–15%) plus ads, COGS, shipping, and payment fees."
     >
       <OffsiteAdsMarginChecker />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free offsite ads margin checker? This marketplace referral fee calculator and Amazon offsite ads margin
-        tool subtracts 12%–15% referral penalties from your profit so you know if external traffic still pays. Use it
-        as an eBay promoted listings margin calculator, marketplace advertising ROI tool, or seller fee impact
-        calculator before scaling offsite campaigns.
-      </p>
     </ToolShell>
   )
 }

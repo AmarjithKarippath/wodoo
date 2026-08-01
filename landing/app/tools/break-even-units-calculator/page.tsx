@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Break-even units calculator"
+      intro="Work out how many units you need to sell to cover fixed costs. Plug in price and variable cost to see the break-even point."
       description="Find how many units you need to sell to cover fixed costs, using price per unit and variable cost per unit."
     >
       <BreakEvenCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free break-even units calculator? This break-even point calculator and ecommerce break-even
-        analysis tool shows how many units you must sell to cover fixed costs. Use it as a break-even sales
-        calculator, contribution margin calculator, or units-to-break-even calculator before launching a product,
-        running ads, or committing to inventory — so you know the volume required to get profitable.
-      </p>
     </ToolShell>
   )
 }

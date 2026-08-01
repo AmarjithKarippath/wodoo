@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Wholesale sourcing & private label catalog tool"
+      intro="Compare wholesale versus private-label sourcing on cost, MOQ, and payback. See which path fits your cash and margin goals."
       description="Compare wholesale and private-label sourcing on landed unit cost, startup inventory, margin, and payback months."
     >
       <WholesalePrivateLabelTool />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free wholesale sourcing calculator or private label profit tool? This MOQ cost calculator and white
-        label vs private label planner helps ecommerce brands compare supplier landed cost, branding setup fees, and
-        monthly profit. Use it as a product sourcing catalog tool, Alibaba margin estimator, or private label
-        business calculator before placing your first PO.
-      </p>
     </ToolShell>
   )
 }

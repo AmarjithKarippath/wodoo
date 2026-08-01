@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="D-U-N-S number request helper"
-      description="Prep your registered company information, then request a free D-U-N-S number from Dun & Bradstreet for credit and contracting profiles."
+      intro="Collect the company details Dun & Bradstreet usually needs, then continue to their official request flow. Useful for credit files and some vendor setups."
+      description="Enter your legal company name and location, review the prep list, then open the official Dun & Bradstreet request page."
     >
       <DunsNumberHelper />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free DUNS number request tool helper? This Dun &amp; Bradstreet D-U-N-S checklist helps registered
-        companies gather legal name, address, and ownership details before creating a corporate credit tracking profile.
-        Use it as a DUNS application guide, business credit setup helper, or government contracting identifier prep
-        sheet.
-      </p>
     </ToolShell>
   )
 }

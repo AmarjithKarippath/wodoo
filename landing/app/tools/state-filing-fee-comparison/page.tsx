@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="State filing fee comparison"
+      intro="Compare approximate formation and annual fees across popular U.S. states. Verify current amounts on each Secretary of State site before you file."
       description="Compare approximate Secretary of State formation fees and annual report costs across popular U.S. formation states."
     >
       <StateFilingFeeComparison />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free state filing fee comparison tool? This LLC formation cost calculator and corporation annual
-        report fee chart helps founders compare Wyoming vs Delaware registration costs and other corporate tax-haven
-        states. Use it as a business formation fee comparison, SOS filing cost table, or incorporation cost planner
-        before you choose a home state.
-      </p>
     </ToolShell>
   )
 }

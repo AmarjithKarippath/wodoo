@@ -13,14 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Domain name availability checker"
-      description="Check whether your brand name is available across popular ecommerce TLDs using live RDAP and DNS lookups."
+      intro="Check whether a brand name is free across popular web domains. A practical first step before you commit to a store name."
+      description="Type a brand name or full domain, then check availability across common ecommerce TLDs."
     >
       <DomainAvailabilityChecker />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free domain name availability checker? This domain search tool and brand domain checker helps
-        ecommerce founders find available .com, .store, .shop, and .io domains before launch. Use it as a website
-        domain lookup, store name domain finder, or WHOIS-style availability checker when naming your online store.
-      </p>
     </ToolShell>
   )
 }

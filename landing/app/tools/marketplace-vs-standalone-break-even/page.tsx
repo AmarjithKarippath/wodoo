@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Marketplace vs. standalone break-even calculator"
+      intro="Find the monthly sales volume where a fixed website plan beats marketplace fees. Useful when you are weighing Etsy-style fees against your own store."
       description="Compare marketplace percentage fees with a fixed standalone store plan and find the monthly volume where your own site becomes cheaper."
     >
       <MarketplaceVsStandaloneCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free marketplace vs standalone break-even calculator? This Etsy vs Shopify comparison tool and
-        eBay vs website fee calculator shows the monthly transaction volume where a fixed ecommerce plan beats
-        marketplace commissions. Use it as a seller platform cost calculator, DTC vs marketplace planner, or store
-        migration break-even tool before leaving a marketplace.
-      </p>
     </ToolShell>
   )
 }

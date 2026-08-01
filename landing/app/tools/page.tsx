@@ -4,9 +4,9 @@ import { TopBar } from "@/components/wodoo/top-bar"
 import { TOOLS } from "@/lib/tools"
 
 export const metadata: Metadata = {
-  title: "Free tools for store owners",
+  title: "Free ecommerce tools",
   description:
-    "Practical calculators and productivity tools for ecommerce founders — starting with a free shipping rate calculator.",
+    "Discover a suite of free, powerful ecommerce tools designed to streamline your workflow, cut costs, and boost your productivity.",
   alternates: { canonical: "/tools" },
 }
 
@@ -25,8 +25,8 @@ export default function ToolsIndexPage() {
           Tools
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground text-pretty">
-          Free productivity tools for store owners. More calculators coming —
-          start with free shipping.
+          Discover a suite of free, powerful ecommerce tools designed to
+          streamline your workflow, cut costs, and boost your productivity.
         </p>
 
         <ul className="mt-12 divide-y divide-border border-y border-border">

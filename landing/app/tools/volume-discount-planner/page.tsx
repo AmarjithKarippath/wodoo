@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Volume discount vs unit margin planner"
+      intro="Compare discount tiers against expected volume and total profit. Find offers that move more units without wiping out margin."
       description="Compare discount tiers against expected volume to see which bulk-pricing offer maximizes total profit without destroying unit margin."
     >
       <VolumeDiscountPlanner />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free volume discount calculator? This bulk pricing calculator and unit margin planner helps you
-        compare discount tiers against expected sales volume, revenue, and total profit. Use it as a wholesale
-        discount calculator, quantity break pricing tool, or volume pricing margin calculator to design offers that
-        grow order size without giving away your margin.
-      </p>
     </ToolShell>
   )
 }

@@ -13,14 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="QR code generator"
+      intro="Create a scannable code for a link or short text, then download it as a PNG. Handy for packaging, print, and in-store signage."
       description="Generate a scannable QR code for any URL or text, customize colors and size, then download a PNG for print or packaging."
     >
       <QrCodeGenerator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free QR code generator? This QR code maker creates downloadable PNG codes for ecommerce product pages,
-        Instagram bio links, packaging inserts, and storefront signage. Use it as a URL QR code generator, product QR
-        code tool, or marketing QR creator without watermarks or signup.
-      </p>
     </ToolShell>
   )
 }

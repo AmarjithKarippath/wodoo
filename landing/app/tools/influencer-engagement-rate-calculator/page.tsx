@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Influencer engagement rate calculator"
+      intro="Measure how actively an audience responds relative to follower count. A quick signal when you are vetting creators or reporting campaign results."
       description="Calculate engagement rate from average likes, comments, shares, and follower count — with an optional reach-based rate for campaign reporting."
     >
       <InfluencerEngagementCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free influencer engagement rate calculator? This Instagram engagement rate calculator and
-        TikTok engagement calculator helps creators, agencies, and ecommerce brands measure social media engagement
-        rate, influencer KPIs, and campaign performance. Use it as a YouTube engagement rate tool, influencer audit
-        calculator, or brand partnership vetting tool before you book sponsored posts.
-      </p>
     </ToolShell>
   )
 }

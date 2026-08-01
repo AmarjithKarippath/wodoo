@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Digital product & course profit margin calculator"
+      intro="Estimate net profit on courses and downloads after fees, refunds, and marketing. Clarify whether your price and funnel can support the work."
       description="Calculate net margin per sale for courses, ebooks, and downloads after platform fees, refunds, creation cost, and marketing."
     >
       <DigitalProductMarginCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free digital product profit calculator? This online course margin calculator and ebook profit
-        tool helps creators price info products after Gumroad/Teachable-style fees, payment processing, refunds, and
-        ads. Use it as a course business calculator, digital download pricing tool, or creator product break-even
-        calculator before you launch.
-      </p>
     </ToolShell>
   )
 }

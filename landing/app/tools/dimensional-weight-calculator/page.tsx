@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Dimensional weight & volume calculator"
+      intro="Convert package size into dimensional weight and billable weight. Helps you avoid surprises when carriers charge for bulky boxes."
       description="Calculate package volume, dimensional (DIM) weight, and billable weight using common carrier divisors — so oversized boxes don’t surprise you at checkout."
     >
       <DimWeightCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free dimensional weight calculator? This DIM weight calculator and volumetric weight calculator helps
-        you convert length × width × height into billable shipping weight. Use it as a shipping volume calculator,
-        package dimensional weight calculator, or courier DIM calculator to compare actual weight vs dimensional
-        weight and avoid unexpected freight charges on bulky parcels.
-      </p>
     </ToolShell>
   )
 }

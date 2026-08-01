@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Company name availability checker"
-      description="Prepare your proposed entity name and jump to official government registries like Companies House and state SOS business searches."
+      intro="Prepare a proposed company name, then open official registry searches to check it. Availability is only confirmed on the government portals themselves."
+      description="Enter your proposed name for checklist tips, then open Companies House or a U.S. Secretary of State search to confirm availability."
     >
       <CompanyNameAvailabilityChecker />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free company name availability checker? This business entity name search hub helps founders verify
-        LLC and corporation names through Companies House WebCHeck-style UK search and US Secretary of State name
-        lookups before filing. Use it as a company registration name checker, SOS business search launcher, or entity
-        availability tool before you incorporate.
-      </p>
     </ToolShell>
   )
 }

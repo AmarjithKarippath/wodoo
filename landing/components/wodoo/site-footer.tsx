@@ -64,7 +64,7 @@ export function SiteFooter() {
           <p>© {new Date().getFullYear()} Woodo Store. All rights reserved.</p>
           <p>
             <Link href="/tools" className="hover:text-foreground">
-              Free productivity tools for store owners
+              Free ecommerce tools
             </Link>
           </p>
         </div>

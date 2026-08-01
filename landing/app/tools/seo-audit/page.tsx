@@ -18,18 +18,10 @@ export default function SeoAuditPage() {
   return (
     <ToolShell
       title="SEO audit tool"
+      intro="Run a quick on-page check for titles, meta tags, headings, and other basics. Fix the obvious gaps before you publish or redesign a page."
       description="Paste a public page URL to check title tags, meta description, H1s, canonicals, Open Graph, HTTPS, image alt text, content length, and more — then fix what’s holding you back."
     >
       <SeoAuditTool />
-
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Looking for a free SEO audit tool? This on-page SEO checker and website SEO
-        analyzer helps you spot missing title tags, weak meta descriptions, heading
-        issues, and social preview gaps in seconds. Use it as a free website audit
-        tool, SEO score checker, or technical SEO scanner to improve crawlability,
-        click-through rates, and on-page fundamentals before you publish or
-        redesign.
-      </p>
     </ToolShell>
   )
 }

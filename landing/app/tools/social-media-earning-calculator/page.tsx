@@ -13,15 +13,10 @@ export default function Page() {
   return (
     <ToolShell
       title="Social media earning / monetization calculator"
+      intro="Rough out sponsored-post rates from audience size, engagement, and niche demand. Helps creators and brands start rate conversations with clearer numbers."
       description="Estimate sponsored-post rates and monthly creator income from followers, engagement, CPM, and niche demand."
     >
       <SocialMediaEarningCalculator />
-      <p className="mt-14 text-sm leading-relaxed text-muted-foreground text-pretty">
-        Need a free social media monetization calculator? This influencer income calculator and creator earnings
-        estimator helps you price sponsored posts with CPM-based rates by niche. Use it as an Instagram money
-        calculator, TikTok creator payout estimator, influencer rate card calculator, or brand deal pricing tool
-        before negotiating partnerships.
-      </p>
     </ToolShell>
   )
 }
