@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "FinCEN BOI filing helper — Woodo Store",
     images: [
       {
-        url: "/tools/fincen-boi-filing-helper.png",
+        url: "/tools/fincen-boi-filing-helper.webp",
         width: 1200,
         height: 630,
-        alt: "FinCEN BOI filing helper — free ecommerce tool",
+        alt: "Online FinCEN BOI filing helper for Beneficial Ownership Information preparation",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="fincen-boi-filing-helper"
       title="FinCEN BOI filing helper"
       intro="Prep beneficial ownership details before you file with FinCEN. Rules change, so confirm current requirements on the official portal."
       description="Enter your company details and owner count to build a prep sheet, then continue to FinCEN’s official BOI resources."

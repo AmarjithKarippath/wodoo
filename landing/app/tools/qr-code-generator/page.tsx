@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "QR code generator — Woodo Store",
     images: [
       {
-        url: "/tools/qr-code-generator.png",
+        url: "/tools/qr-code-generator.webp",
         width: 1200,
         height: 630,
-        alt: "QR code generator — free ecommerce tool",
+        alt: "Free online QR code generator for product links, store URLs, and packaging",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="qr-code-generator"
       title="QR code generator"
       intro="Create a scannable code for a link or short text, then download it as a PNG. Handy for packaging, print, and in-store signage."
       description="Generate a scannable QR code for any URL or text, customize colors and size, then download a PNG for print or packaging."

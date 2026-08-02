@@ -1,8 +1,10 @@
-import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { TopBar } from "@/components/wodoo/top-bar"
+import { ToolThumbnail } from "@/components/tools/tool-thumbnail"
 import { TOOLS } from "@/lib/tools"
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
 
 export const metadata: Metadata = {
   title: "Free ecommerce tools",
@@ -18,8 +20,34 @@ export const metadata: Metadata = {
 }
 
 export default function ToolsIndexPage() {
+  const imageListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Woodo Store free ecommerce tool thumbnails",
+    itemListElement: TOOLS.map((tool, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "ImageObject",
+        contentUrl: `${SITE_URL}${tool.image}`,
+        url: `${SITE_URL}${tool.image}`,
+        name: tool.title,
+        description: tool.imageAlt,
+        width: 1200,
+        height: 630,
+        encodingFormat: "image/webp",
+        caption: tool.imageAlt,
+        acquireLicensePage: `${SITE_URL}${tool.href}`,
+      },
+    })),
+  }
+
   return (
     <main className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(imageListSchema) }}
+      />
       <TopBar />
       <div className="mx-auto max-w-6xl px-6 pb-20 pt-32">
         <Link
@@ -43,17 +71,14 @@ export default function ToolsIndexPage() {
         </div>
 
         <ul className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {TOOLS.map((tool) => {
+          {TOOLS.map((tool, index) => {
             const card = (
               <>
                 <div className="relative aspect-[1200/630] overflow-hidden bg-secondary/40">
-                  <Image
-                    src={tool.image}
-                    alt={tool.imageAlt}
-                    title={tool.title}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                  <ToolThumbnail
+                    tool={tool}
+                    priority={index < 3}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-5">

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Print-on-demand (POD) profit planner — Woodo Store",
     images: [
       {
-        url: "/tools/print-on-demand-profit-planner.png",
+        url: "/tools/print-on-demand-profit-planner.webp",
         width: 1200,
         height: 630,
-        alt: "Print-on-demand (POD) profit planner — free ecommerce tool",
+        alt: "Free online print-on-demand profit planner for per-order and monthly POD earnings",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="print-on-demand-profit-planner"
       title="Print-on-demand (POD) profit planner"
       intro="Model profit after blank cost, print fees, shipping, and ads. Check whether a design can make money before you launch it."
       description="Model POD profit per order and monthly earnings after blank cost, print fees, shipping, payment fees, and ads."

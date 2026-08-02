@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Marketplace fee calculator (eBay & Etsy) — Woodo Store",
     images: [
       {
-        url: "/tools/marketplace-fee-calculator.png",
+        url: "/tools/marketplace-fee-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Marketplace fee calculator (eBay & Etsy) — free ecommerce tool",
+        alt: "Free online eBay and Etsy marketplace fee calculator for net payout and profit",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="marketplace-fee-calculator"
       title="Marketplace fee calculator (eBay & Etsy)"
       intro="Estimate selling fees and net payout on marketplaces like eBay and Etsy. Price with the platform cut already in mind."
       description="Estimate final value / transaction fees, payment processing, net payout, and profit for eBay and Etsy listings."

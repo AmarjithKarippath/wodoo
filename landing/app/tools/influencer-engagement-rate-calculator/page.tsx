@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Influencer engagement rate calculator — Woodo Store",
     images: [
       {
-        url: "/tools/influencer-engagement-rate-calculator.png",
+        url: "/tools/influencer-engagement-rate-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Influencer engagement rate calculator — free ecommerce tool",
+        alt: "Free online influencer engagement rate calculator for Instagram and TikTok",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="influencer-engagement-rate-calculator"
       title="Influencer engagement rate calculator"
       intro="Measure how actively an audience responds relative to follower count. A quick signal when you are vetting creators or reporting campaign results."
       description="Calculate engagement rate from average likes, comments, shares, and follower count — with an optional reach-based rate for campaign reporting."

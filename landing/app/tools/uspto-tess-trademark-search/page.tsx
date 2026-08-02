@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "USPTO TESS trademark search — Woodo Store",
     images: [
       {
-        url: "/tools/uspto-tess-trademark-search.png",
+        url: "/tools/uspto-tess-trademark-search.webp",
         width: 1200,
         height: 630,
-        alt: "USPTO TESS trademark search — free ecommerce tool",
+        alt: "Online USPTO TESS trademark search helper to check brand name conflicts",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="uspto-tess-trademark-search"
       title="USPTO TESS trademark search"
       intro="Score a name for distinctiveness, then jump into USPTO trademark search. Do this before you invest heavily in branding or formation paperwork."
       description="Enter the brand or company name you want to check, review the snapshot, then open USPTO TESS for the official search."

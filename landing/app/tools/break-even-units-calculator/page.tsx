@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Break-even units calculator — Woodo Store",
     images: [
       {
-        url: "/tools/break-even-units-calculator.png",
+        url: "/tools/break-even-units-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Break-even units calculator — free ecommerce tool",
+        alt: "Free online break-even units calculator for ecommerce pricing and fixed costs",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="break-even-units-calculator"
       title="Break-even units calculator"
       intro="Work out how many units you need to sell to cover fixed costs. Plug in price and variable cost to see the break-even point."
       description="Find how many units you need to sell to cover fixed costs, using price per unit and variable cost per unit."

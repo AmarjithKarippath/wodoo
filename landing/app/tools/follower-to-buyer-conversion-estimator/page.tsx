@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Follower-to-buyer conversion estimator — Woodo Store",
     images: [
       {
-        url: "/tools/follower-to-buyer-conversion-estimator.png",
+        url: "/tools/follower-to-buyer-conversion-estimator.webp",
         width: 1200,
         height: 630,
-        alt: "Follower-to-buyer conversion estimator — free ecommerce tool",
+        alt: "Free online follower-to-buyer estimator for creator ecommerce conversion and revenue",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="follower-to-buyer-conversion-estimator"
       title="Follower-to-buyer conversion estimator"
       intro="Translate followers into estimated buyers and revenue using realistic funnel rates. Useful before you invest more in content or ads."
       description="Turn followers into estimated buyers and revenue using profile visits, link clicks, conversion rate, and AOV."

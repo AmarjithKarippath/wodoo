@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Ecommerce profit margin calculator — Woodo Store",
     images: [
       {
-        url: "/tools/ecommerce-profit-margin-calculator.png",
+        url: "/tools/ecommerce-profit-margin-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Ecommerce profit margin calculator — free ecommerce tool",
+        alt: "Free online ecommerce profit margin calculator for COGS, fees, and ad costs",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="ecommerce-profit-margin-calculator"
       title="Ecommerce profit margin calculator"
       intro="See gross and net margin after product cost, shipping, fees, and ads. A simple way to check whether a SKU is actually profitable."
       description="Calculate gross and net profit margins with COGS, shipping, payment fees, ad spend, and other costs — built for online store owners."

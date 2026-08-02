@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Link-in-bio store integrator — Woodo Store",
     images: [
       {
-        url: "/tools/link-in-bio-store-integrator.png",
+        url: "/tools/link-in-bio-store-integrator.webp",
         width: 1200,
         height: 630,
-        alt: "Link-in-bio store integrator — free ecommerce tool",
+        alt: "Online link-in-bio store integrator to connect Instagram or TikTok to your shop",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="link-in-bio-store-integrator"
       title="Link-in-bio store integrator"
       intro="Build a simple bio page that points followers to your store and key offers. Copy the HTML and host it wherever you like."
       description="Generate a clean link-in-bio HTML page that connects Instagram or TikTok to your store, bestsellers, and offers."

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "FBA fee & revenue calculator — Woodo Store",
     images: [
       {
-        url: "/tools/fba-fee-calculator.png",
+        url: "/tools/fba-fee-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "FBA fee & revenue calculator — free ecommerce tool",
+        alt: "Free online Amazon FBA fee calculator to estimate referral, fulfillment, and profit",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="fba-fee-calculator"
       title="FBA fee & revenue calculator"
       intro="Estimate referral, fulfillment, and storage-style fees before you list a product. See what is left after Amazon-style costs come out."
       description="Estimate Amazon-style FBA referral fees, fulfillment fees, storage, net revenue, and profit per unit before you list a product."

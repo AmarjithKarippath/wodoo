@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Digital product & course profit margin calculator — Woodo Store",
     images: [
       {
-        url: "/tools/digital-product-course-profit-calculator.png",
+        url: "/tools/digital-product-course-profit-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Digital product & course profit margin calculator — free ecommerce tool",
+        alt: "Online digital product and course profit margin calculator for creators",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="digital-product-course-profit-calculator"
       title="Digital product & course profit margin calculator"
       intro="Estimate net profit on courses and downloads after fees, refunds, and marketing. Clarify whether your price and funnel can support the work."
       description="Calculate net margin per sale for courses, ebooks, and downloads after platform fees, refunds, creation cost, and marketing."

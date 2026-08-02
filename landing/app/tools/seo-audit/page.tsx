@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Run a free on-page SEO audit — check title tags, meta descriptions, headings, Open Graph, HTTPS, image alt text, and more.",
   alternates: { canonical: "/tools/seo-audit" },
   openGraph: {
-    images: [{ url: "/tools/seo-audit.png", width: 1200, height: 630, alt: "SEO audit tool — free ecommerce tool" }],
+    images: [{ url: "/tools/seo-audit.webp", width: 1200, height: 630, alt: "Free online SEO audit tool to check on-page titles, metas, and technical signals" }],
     title: "Free SEO audit tool — Woodo Store",
     description:
       "Analyze any public webpage for common SEO issues and get a clear pass/warn/fail report.",
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 export default function SeoAuditPage() {
   return (
     <ToolShell
+      toolSlug="seo-audit"
       title="SEO audit tool"
       intro="Run a quick on-page check for titles, meta tags, headings, and other basics. Fix the obvious gaps before you publish or redesign a page."
       description="Paste a public page URL to check title tags, meta description, H1s, canonicals, Open Graph, HTTPS, image alt text, content length, and more — then fix what’s holding you back."

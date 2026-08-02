@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "State filing fee comparison — Woodo Store",
     images: [
       {
-        url: "/tools/state-filing-fee-comparison.png",
+        url: "/tools/state-filing-fee-comparison.webp",
         width: 1200,
         height: 630,
-        alt: "State filing fee comparison — free ecommerce tool",
+        alt: "Online US state filing fee comparison for LLC and corporation formation costs",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="state-filing-fee-comparison"
       title="State filing fee comparison"
       intro="Compare approximate formation and annual fees across popular U.S. states. Verify current amounts on each Secretary of State site before you file."
       description="Compare approximate Secretary of State formation fees and annual report costs across popular U.S. formation states."

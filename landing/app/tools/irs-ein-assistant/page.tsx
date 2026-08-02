@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "IRS EIN online assistant — Woodo Store",
     images: [
       {
-        url: "/tools/irs-ein-assistant.png",
+        url: "/tools/irs-ein-assistant.webp",
         width: 1200,
         height: 630,
-        alt: "IRS EIN online assistant — free ecommerce tool",
+        alt: "Free online IRS EIN assistant to prepare your Employer Identification Number application",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="irs-ein-assistant"
       title="IRS EIN online assistant"
       intro="Gather the details you need, then continue to the official IRS EIN application. The number itself is issued on the IRS site, not here."
       description="Fill in your entity basics to build a prep checklist, then continue to the official IRS EIN Online Assistant."

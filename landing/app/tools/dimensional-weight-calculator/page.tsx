@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Dimensional weight & volume calculator — Woodo Store",
     images: [
       {
-        url: "/tools/dimensional-weight-calculator.png",
+        url: "/tools/dimensional-weight-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Dimensional weight & volume calculator — free ecommerce tool",
+        alt: "Online dimensional weight calculator for package volume and billable shipping weight",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="dimensional-weight-calculator"
       title="Dimensional weight & volume calculator"
       intro="Convert package size into dimensional weight and billable weight. Helps you avoid surprises when carriers charge for bulky boxes."
       description="Calculate package volume, dimensional (DIM) weight, and billable weight using common carrier divisors — so oversized boxes don’t surprise you at checkout."

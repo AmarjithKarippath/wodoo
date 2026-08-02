@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Offsite ads margin checker — Woodo Store",
     images: [
       {
-        url: "/tools/offsite-ads-margin-checker.png",
+        url: "/tools/offsite-ads-margin-checker.webp",
         width: 1200,
         height: 630,
-        alt: "Offsite ads margin checker — free ecommerce tool",
+        alt: "Free online offsite ads margin checker for marketplace referral fee impact",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="offsite-ads-margin-checker"
       title="Offsite ads margin checker"
       intro="See what remains after marketplace referral penalties and ad spend. Helps you judge whether offsite traffic still makes sense."
       description="See true profit after automated marketplace referral penalties (typically 12%–15%) plus ads, COGS, shipping, and payment fees."

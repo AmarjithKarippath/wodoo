@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Startup legal document generator — Woodo Store",
     images: [
       {
-        url: "/tools/startup-legal-document-generator.png",
+        url: "/tools/startup-legal-document-generator.webp",
         width: 1200,
         height: 630,
-        alt: "Startup legal document generator — free ecommerce tool",
+        alt: "Free online startup legal document generator for LLC agreements and bylaws",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="startup-legal-document-generator"
       title="Startup legal document generator"
       intro="Draft starter operating agreements, articles outlines, and bylaws for early setup. These are educational templates — have a lawyer review before you rely on them."
       description="Generate editable starter Operating Agreements, Articles of Organization outlines, and Bylaws for early-stage company setup."

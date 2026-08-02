@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Social media earning / monetization calculator — Woodo Store",
     images: [
       {
-        url: "/tools/social-media-earning-calculator.png",
+        url: "/tools/social-media-earning-calculator.webp",
         width: 1200,
         height: 630,
-        alt: "Social media earning / monetization calculator — free ecommerce tool",
+        alt: "Online social media earning calculator for influencer income and sponsored rates",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="social-media-earning-calculator"
       title="Social media earning / monetization calculator"
       intro="Rough out sponsored-post rates from audience size, engagement, and niche demand. Helps creators and brands start rate conversations with clearer numbers."
       description="Estimate sponsored-post rates and monthly creator income from followers, engagement, CPM, and niche demand."

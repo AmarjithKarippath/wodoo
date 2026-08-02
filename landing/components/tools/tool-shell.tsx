@@ -1,5 +1,8 @@
 import Link from "next/link"
 import { TopBar } from "@/components/wodoo/top-bar"
+import { getTool } from "@/lib/tools"
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
 
 export function ToolShell({
   children,
@@ -7,6 +10,7 @@ export function ToolShell({
   title,
   intro,
   description,
+  toolSlug,
 }: {
   children: React.ReactNode
   eyebrow?: string
@@ -15,9 +19,36 @@ export function ToolShell({
   intro: string
   /** How-to / instruction paragraph shown after the intro */
   description: string
+  /** Registry slug — enables ImageObject structured data */
+  toolSlug?: string
 }) {
+  const tool = toolSlug ? getTool(toolSlug) : undefined
+  const imageObject = tool
+    ? {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        contentUrl: `${SITE_URL}${tool.image}`,
+        url: `${SITE_URL}${tool.image}`,
+        name: tool.title,
+        description: tool.imageAlt,
+        width: 1200,
+        height: 630,
+        encodingFormat: "image/webp",
+        caption: tool.imageAlt,
+        representativeOfPage: true,
+        license: SITE_URL,
+        acquireLicensePage: `${SITE_URL}${tool.href}`,
+      }
+    : null
+
   return (
     <main className="min-h-screen bg-background">
+      {imageObject ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObject) }}
+        />
+      ) : null}
       <TopBar />
       <div className="mx-auto max-w-3xl px-6 pb-20 pt-32">
         <Link

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Merchandise mockup generator — Woodo Store",
     images: [
       {
-        url: "/tools/merchandise-mockup-generator.png",
+        url: "/tools/merchandise-mockup-generator.webp",
         width: 1200,
         height: 630,
-        alt: "Merchandise mockup generator — free ecommerce tool",
+        alt: "Free online merchandise mockup generator for t-shirts, hoodies, mugs, and totes",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="merchandise-mockup-generator"
       title="Merchandise mockup generator"
       intro="Preview brand text on common merch products and download a simple mockup. Fast enough for early listing or ad concepts."
       description="Preview brand text on t-shirts, hoodies, mugs, and totes — then download a clean SVG mockup for listings or ads."

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Company name availability checker — Woodo Store",
     images: [
       {
-        url: "/tools/company-name-availability-checker.png",
+        url: "/tools/company-name-availability-checker.webp",
         width: 1200,
         height: 630,
-        alt: "Company name availability checker — free ecommerce tool",
+        alt: "Free online company name availability checker for LLC and business entity search",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="company-name-availability-checker"
       title="Company name availability checker"
       intro="Prepare a proposed company name, then open official registry searches to check it. Availability is only confirmed on the government portals themselves."
       description="Enter your proposed name for checklist tips, then open Companies House or a U.S. Secretary of State search to confirm availability."

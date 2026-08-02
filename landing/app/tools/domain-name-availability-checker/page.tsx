@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Domain name availability checker — Woodo Store",
     images: [
       {
-        url: "/tools/domain-name-availability-checker.png",
+        url: "/tools/domain-name-availability-checker.webp",
         width: 1200,
         height: 630,
-        alt: "Domain name availability checker — free ecommerce tool",
+        alt: "Free online domain name availability checker for ecommerce brand TLDs",
       },
     ],
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <ToolShell
+      toolSlug="domain-name-availability-checker"
       title="Domain name availability checker"
       intro="Check whether a brand name is free across popular web domains. A practical first step before you commit to a store name."
       description="Type a brand name or full domain, then check availability across common ecommerce TLDs."
