@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.wodoo.store/</loc>
     <lastmod>2026-08-02</lastmod>
@@ -11,6 +12,50 @@
       <image:title>Woodo Store</image:title>
       <image:caption>Woodo Store — launch a single-product ecommerce store fast</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://www.wodoo.store/images/admin-dashboard.jpg</image:loc>
+      <image:title>Woodo Store admin dashboard</image:title>
+      <image:caption>Manage products, promotions, revenue, and store operations from the Woodo Store dashboard</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wodoo.store/images/choose-design.jpg</image:loc>
+      <image:title>Choose your store design</image:title>
+      <image:caption>Customize your online store design and product gallery in the Woodo Store editor</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wodoo.store/images/products-shine.jpg</image:loc>
+      <image:title>Make your products shine</image:title>
+      <image:caption>Product photography and presentation for high-converting Woodo Store product pages</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wodoo.store/images/get-paid.jpg</image:loc>
+      <image:title>Get paid with secure checkout</image:title>
+      <image:caption>Accept modern contactless and digital wallet payments with Woodo Store checkout</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://www.wodoo.store/og.png</video:thumbnail_loc>
+      <video:title>Trusted and growing ecommerce platform — Woodo Store</video:title>
+      <video:description>Woodo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.</video:description>
+      <video:content_loc>https://www.wodoo.store/images/steps-hero.mp4</video:content_loc>
+      <video:publication_date>2026-08-02</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://www.wodoo.store/images/choose-design.jpg</video:thumbnail_loc>
+      <video:title>Sell where they&apos;re scrolling — Woodo Store</video:title>
+      <video:description>Put your products in every feed, inbox, reel and marketplace your shoppers already live in.</video:description>
+      <video:content_loc>https://www.wodoo.store/images/social-shopping.mp4</video:content_loc>
+      <video:publication_date>2026-08-02</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://www.wodoo.store/images/admin-dashboard.jpg</video:thumbnail_loc>
+      <video:title>Keep them coming back — Woodo Store</video:title>
+      <video:description>Re-engage shoppers with a steady drumbeat of offers, updates, and automations that run while you sleep.</video:description>
+      <video:content_loc>https://www.wodoo.store/images/retention.mp4</video:content_loc>
+      <video:publication_date>2026-08-02</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools</loc>

@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion"
 import { useEffect, useState } from "react"
+import { LANDING_VIDEOS } from "@/lib/landing-media"
 import { Reveal } from "./reveal"
 
 const FADE_MS = 1200
@@ -55,12 +56,16 @@ function GrowVideoCard({
   title,
   description,
   ariaLabel,
+  poster,
+  overlayTitle,
   delay = 0,
 }: {
   src: string
   title: string
   description: string
   ariaLabel: string
+  poster: string
+  overlayTitle: string
   delay?: number
 }) {
   return (
@@ -74,6 +79,8 @@ function GrowVideoCard({
       >
         <video
           src={src}
+          poster={poster}
+          title={title}
           autoPlay
           muted
           loop
@@ -82,13 +89,15 @@ function GrowVideoCard({
           aria-label={ariaLabel}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <VideoCardOverlay title={title} description={description} />
+        <VideoCardOverlay title={overlayTitle} description={description} />
       </motion.div>
     </Reveal>
   )
 }
 
 export function Grow() {
+  const { socialShopping, retention } = LANDING_VIDEOS
+
   return (
     <section className="px-4 py-12">
       <div className="mx-auto max-w-6xl">
@@ -100,16 +109,20 @@ export function Grow() {
 
         <div className="mt-6 grid gap-6 lg:grid-cols-2">
           <GrowVideoCard
-            src="/images/social-shopping.mp4"
-            title="Sell where they're scrolling"
-            description="Put your products in every feed, inbox, reel and marketplace your shoppers already live in."
-            ariaLabel="Sell where they're scrolling — shopper browsing a shoppable storefront"
+            src={socialShopping.src}
+            poster={socialShopping.thumbnailSrc}
+            title={socialShopping.title}
+            description={socialShopping.description}
+            ariaLabel={socialShopping.ariaLabel}
+            overlayTitle="Sell where they're scrolling"
           />
           <GrowVideoCard
-            src="/images/retention.mp4"
-            title="Keep them coming back"
-            description="Re-engage shoppers with a steady drumbeat of offers, updates, and automations that run while you sleep."
-            ariaLabel="Keep them coming back — retention and re-engagement for ecommerce"
+            src={retention.src}
+            poster={retention.thumbnailSrc}
+            title={retention.title}
+            description={retention.description}
+            ariaLabel={retention.ariaLabel}
+            overlayTitle="Keep them coming back"
             delay={0.12}
           />
         </div>

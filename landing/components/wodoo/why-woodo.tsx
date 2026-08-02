@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { LANDING_IMAGES } from "@/lib/landing-media"
 import { Reveal } from "./reveal"
 
 const COLUMNS = [
@@ -38,16 +39,19 @@ const COLUMNS = [
 ] as const
 
 export function WhyWoodo() {
+  const dashboard = LANDING_IMAGES.adminDashboard
+
   return (
     <section className="px-4 py-20">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <div className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-sm">
             <Image
-              src="/images/admin-dashboard.jpg"
-              alt="Woodo Store admin dashboard for sales, promotions, and product management"
-              width={1024}
-              height={379}
+              src={dashboard.src}
+              alt={dashboard.alt}
+              title={dashboard.title}
+              width={dashboard.width}
+              height={dashboard.height}
               className="h-auto w-full object-cover"
             />
           </div>

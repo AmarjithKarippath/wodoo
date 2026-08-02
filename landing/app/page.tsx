@@ -7,10 +7,12 @@ import { WhyWoodo } from "@/components/wodoo/why-woodo"
 import { Faq } from "@/components/wodoo/faq"
 import { Cta } from "@/components/wodoo/cta"
 import { SiteFooter } from "@/components/wodoo/site-footer"
+import { LandingMediaSchema } from "@/components/wodoo/landing-media-schema"
 
 export default function Page() {
   return (
     <main className="min-h-screen bg-background">
+      <LandingMediaSchema />
       <TopBar />
       <Hero />
       <Steps />

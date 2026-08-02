@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion"
 import Image from "next/image"
 import { useEffect, useState } from "react"
+import { LANDING_IMAGES, LANDING_VIDEOS } from "@/lib/landing-media"
 import { Reveal } from "./reveal"
 
 const OVERLAY_PHASES = [
@@ -56,16 +57,18 @@ function StepsHeroOverlay() {
 }
 
 function DesignVisual() {
+  const image = LANDING_IMAGES.chooseDesign
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
       className="overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-sm"
     >
       <Image
-        src="/images/choose-design.jpg"
-        alt="Merchant customizing product designs in their Woodo Store editor"
-        width={1024}
-        height={761}
+        src={image.src}
+        alt={image.alt}
+        title={image.title}
+        width={image.width}
+        height={image.height}
         className="h-44 w-full object-cover"
       />
     </motion.div>
@@ -73,16 +76,18 @@ function DesignVisual() {
 }
 
 function ProductVisual() {
+  const image = LANDING_IMAGES.productsShine
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
       className="overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-sm"
     >
       <Image
-        src="/images/products-shine.jpg"
-        alt="Premium skincare products styled for an ecommerce product page"
-        width={682}
-        height={1024}
+        src={image.src}
+        alt={image.alt}
+        title={image.title}
+        width={image.width}
+        height={image.height}
         className="h-44 w-full object-cover"
       />
     </motion.div>
@@ -90,16 +95,18 @@ function ProductVisual() {
 }
 
 function PayVisual() {
+  const image = LANDING_IMAGES.getPaid
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
       className="overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-sm"
     >
       <Image
-        src="/images/get-paid.jpg"
-        alt="Customer paying contactless with a smartwatch at checkout"
-        width={1024}
-        height={833}
+        src={image.src}
+        alt={image.alt}
+        title={image.title}
+        width={image.width}
+        height={image.height}
         className="h-44 w-full object-cover"
       />
     </motion.div>
@@ -128,19 +135,23 @@ const STEPS = [
 ]
 
 export function Steps() {
+  const hero = LANDING_VIDEOS.stepsHero
+
   return (
-    <section id="tour" className="px-4 py-24">
+    <section id="product" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <div className="relative overflow-hidden rounded-[2rem] border border-border bg-secondary/30 shadow-sm">
             <video
-              src="/images/steps-hero.mp4"
+              src={hero.src}
+              poster={hero.thumbnailSrc}
+              title={hero.title}
               autoPlay
               muted
               loop
               playsInline
               preload="metadata"
-              aria-label="Woodo Store storefront preview"
+              aria-label={hero.ariaLabel}
               className="aspect-video h-auto w-full object-cover"
             />
             <StepsHeroOverlay />
