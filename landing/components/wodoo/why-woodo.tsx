@@ -45,7 +45,14 @@ export function WhyWoodo() {
     <section className="px-4 py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <div className="overflow-hidden rounded-[1.5rem] sm:rounded-[2rem]">
+          <h2 className="max-w-3xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:text-4xl">
+            Whether you&apos;re just starting out or already running a growing
+            business.
+          </h2>
+        </Reveal>
+
+        <Reveal delay={0.08}>
+          <div className="mt-8 overflow-hidden rounded-[1.5rem] sm:mt-10 sm:rounded-[2rem]">
             <Image
               src={dashboard.src}
               alt={dashboard.alt}
@@ -57,13 +64,6 @@ export function WhyWoodo() {
               className="h-auto w-full object-cover"
             />
           </div>
-        </Reveal>
-
-        <Reveal delay={0.08}>
-          <h2 className="mt-8 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:mt-10 sm:text-4xl">
-            Whether you&apos;re just starting out or already running a growing
-            business.
-          </h2>
         </Reveal>
 
         <div className="mt-8 grid gap-8 sm:mt-10 md:grid-cols-3 md:gap-8">
