@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "dropshipping-profit-calculator",
+    "title": "Dropshipping profit calculator",
+    "component": "DropshippingProfitCalculator",
+    "metaDescription": "Free dropshipping profit calculator — estimate profit, margin, fees, and break-even price per order for ecommerce stores.",
+    "intro": "See what you actually keep after product cost, shipping, ads, and platform fees. Useful before you launch or scale a dropshipping offer.",
+    "description": "Enter selling price, supplier cost, shipping, ad spend per order, and platform fee percent. We’ll show profit, margin, and a break-even price.",
+    "imageAlt": "Free online dropshipping profit calculator for margin, fees, and break-even price",
+    "registryDescription": "Estimate dropshipping profit and margin after product cost, shipping, ads, and platform fees.",
+    "accent": "#0ea5e9"
+  },
+  {
+    "slug": "aliexpress-supplier-profit-calculator",
+    "title": "AliExpress / supplier profit calculator",
+    "component": "AliExpressSupplierProfitCalculator",
+    "metaDescription": "Free AliExpress supplier profit calculator — estimate landed cost, duties, fees, and profit for imported ecommerce products.",
+    "intro": "Roll supplier cost, shipping, and duty into a true landed cost so you know if an AliExpress product can still make money.",
+    "description": "Enter supplier price, shipping, customs duty, payment fees, and ads. We’ll estimate landed cost, total cost, profit, and margin.",
+    "imageAlt": "Free online AliExpress supplier profit calculator for landed cost and margin",
+    "registryDescription": "Estimate AliExpress and supplier landed cost, duties, fees, and profit per unit.",
+    "accent": "#f97316"
+  },
+  {
+    "slug": "roas-calculator",
+    "title": "ROAS calculator",
+    "component": "RoasCalculator",
+    "metaDescription": "Free ROAS calculator — measure return on ad spend, contribution profit, and break-even ROAS for ecommerce ads.",
+    "intro": "Check whether your ad spend is returning enough revenue — and what ROAS you need just to break even on margin.",
+    "description": "Enter ad spend, attributed revenue, and gross margin. We’ll calculate ROAS, contribution profit, and break-even ROAS.",
+    "imageAlt": "Free online ROAS calculator for ecommerce return on ad spend and break-even ROAS",
+    "registryDescription": "Calculate return on ad spend, contribution profit, and break-even ROAS for paid campaigns.",
+    "accent": "#22c55e"
+  },
+  {
+    "slug": "shopify-fee-calculator",
+    "title": "Shopify fee calculator",
+    "component": "ShopifyFeeCalculator",
+    "metaDescription": "Free Shopify fee calculator — estimate payment processing fees, plan fees, and net per order for Shopify stores.",
+    "intro": "Estimate what Shopify-style plan and card fees take from each order and across a month of sales.",
+    "description": "Enter average order value, monthly orders, plan fee, and card rate. We’ll show fees per order, monthly totals, and net.",
+    "imageAlt": "Free online Shopify fee calculator for payment fees, plan fees, and net payout",
+    "registryDescription": "Estimate Shopify plan and payment processing fees, monthly totals, and net per order.",
+    "accent": "#96bf48"
+  },
+  {
+    "slug": "paypal-stripe-fee-calculator",
+    "title": "PayPal / Stripe fee calculator",
+    "component": "PaypalStripeFeeCalculator",
+    "metaDescription": "Free PayPal and Stripe fee calculator — estimate processing fees and net payout for domestic or international payments.",
+    "intro": "Compare roughly what PayPal or Stripe takes from a payment so you can price with fees in mind.",
+    "description": "Choose PayPal or Stripe, set amount and domestic/international, then see estimated fee and net amount.",
+    "imageAlt": "Free online PayPal and Stripe fee calculator for processing fees and net payout",
+    "registryDescription": "Estimate PayPal or Stripe processing fees and net payout for domestic or international charges.",
+    "accent": "#635bff"
+  },
+  {
+    "slug": "facebook-ads-budget-calculator",
+    "title": "Facebook ads budget calculator",
+    "component": "FacebookAdsBudgetCalculator",
+    "metaDescription": "Free Facebook ads budget calculator — project clicks, orders, CPA, ROAS, and revenue from daily Meta ad spend.",
+    "intro": "Turn a daily Meta ads budget into expected clicks, orders, CPA, and ROAS before you spend.",
+    "description": "Enter daily budget, campaign days, CPC, conversion rate, and AOV. We’ll project traffic, sales, and return.",
+    "imageAlt": "Free online Facebook ads budget calculator for Meta CPC, CPA, ROAS, and revenue",
+    "registryDescription": "Project Facebook/Meta ad clicks, orders, CPA, ROAS, and revenue from a daily budget.",
+    "accent": "#1877f2"
+  },
+  {
+    "slug": "winning-product-score-calculator",
+    "title": "Winning product score calculator",
+    "component": "WinningProductScoreCalculator",
+    "metaDescription": "Free winning product score calculator — score dropshipping and ecommerce product ideas on demand, competition, margin, and trend.",
+    "intro": "Score a product idea across demand, competition, margin, trend, and shipping ease before you invest in ads or inventory.",
+    "description": "Rate each factor from 1–10 (and enter margin %). We’ll produce a 0–100 score with a clear grade and breakdown.",
+    "imageAlt": "Free online winning product score calculator for dropshipping and ecommerce ideas",
+    "registryDescription": "Score ecommerce product ideas on demand, competition, margin, trend, and shipping ease.",
+    "accent": "#eab308"
+  },
+  {
+    "slug": "discount-impact-calculator",
+    "title": "Discount impact calculator",
+    "component": "DiscountImpactCalculator",
+    "metaDescription": "Free discount impact calculator — see how a sale affects margin and how many extra units you need to keep the same profit.",
+    "intro": "Discounts feel good for conversion — this shows what they do to margin and how much more you must sell to stay even.",
+    "description": "Enter price, cost, and discount percent. We’ll show discounted profit, margin, and units needed to match original profit.",
+    "imageAlt": "Free online discount impact calculator for margin loss and break-even volume",
+    "registryDescription": "Measure how a discount changes margin and how many extra units you need for the same profit.",
+    "accent": "#ef4444"
+  },
+  {
+    "slug": "cpa-ad-cost-calculator",
+    "title": "CPA / ad cost calculator",
+    "component": "CpaAdCostCalculator",
+    "metaDescription": "Free CPA ad cost calculator — calculate cost per acquisition and max profitable CPA from AOV and margin.",
+    "intro": "Know your cost per acquisition and the ceiling CPA your margins can still support.",
+    "description": "Enter ad spend, conversions, AOV, and gross margin. We’ll show CPA, max profitable CPA, and headroom.",
+    "imageAlt": "Free online CPA ad cost calculator for cost per acquisition and max profitable CPA",
+    "registryDescription": "Calculate cost per acquisition and the maximum profitable CPA from AOV and margin.",
+    "accent": "#a855f7"
+  },
+  {
+    "slug": "conversion-rate-calculator",
+    "title": "Conversion rate calculator",
+    "component": "ConversionRateCalculator",
+    "metaDescription": "Free conversion rate calculator — measure store conversion rate and visitors needed to hit a sales goal.",
+    "intro": "Turn visitors and orders into a conversion rate — then see how much traffic a sales goal really needs.",
+    "description": "Enter visitors, orders, and a sales goal. We’ll calculate conversion rate and visitors required for that goal.",
+    "imageAlt": "Free online conversion rate calculator for visitors needed to hit ecommerce sales goals",
+    "registryDescription": "Calculate conversion rate and how many visitors you need to hit a sales goal.",
+    "accent": "#14b8a6"
+  },
+  {
+    "slug": "traffic-calculator",
+    "title": "Traffic calculator",
+    "component": "TrafficCalculator",
+    "metaDescription": "Free ecommerce traffic calculator — estimate monthly and daily visitors needed to hit a profit goal.",
+    "intro": "Work backwards from a profit goal to the traffic you need, given AOV, margin, and conversion rate.",
+    "description": "Enter monthly profit goal, AOV, gross margin, and conversion rate. We’ll estimate orders and visitors required.",
+    "imageAlt": "Free online traffic calculator for visitors needed to hit ecommerce profit goals",
+    "registryDescription": "Estimate how much traffic you need to hit a monthly profit goal from AOV, margin, and conversion rate.",
+    "accent": "#06b6d4"
+  },
+  {
+    "slug": "ltv-calculator",
+    "title": "LTV calculator",
+    "component": "LtvCalculator",
+    "metaDescription": "Free customer LTV calculator — estimate lifetime value from AOV, purchase frequency, lifespan, and margin.",
+    "intro": "Estimate how much a customer is worth over their relationship with your store — key for CAC and retention decisions.",
+    "description": "Enter AOV, purchases per year, customer lifespan, and gross margin. We’ll estimate contribution LTV and lifetime orders.",
+    "imageAlt": "Free online customer LTV calculator for ecommerce lifetime value and contribution",
+    "registryDescription": "Estimate customer lifetime value from AOV, purchase frequency, lifespan, and margin.",
+    "accent": "#f59e0b"
+  },
+  {
+    "slug": "store-name-generator",
+    "title": "Store name generator",
+    "component": "StoreNameGenerator",
+    "metaDescription": "Free ecommerce store name generator — get brandable online store name ideas from a niche or keyword.",
+    "intro": "Stuck on a brand name? Generate clean, brandable store name ideas from a niche keyword in seconds.",
+    "description": "Type a niche or product keyword. We’ll generate store name ideas you can check for domains and trademarks next.",
+    "imageAlt": "Free online store name generator for ecommerce brand and shop name ideas",
+    "registryDescription": "Generate brandable ecommerce store name ideas from a niche or product keyword.",
+    "accent": "#ec4899"
+  }
+]

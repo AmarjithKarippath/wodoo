@@ -1,107 +1,127 @@
 "use client"
 
-import { motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 import Image from "next/image"
+import { useEffect, useState } from "react"
 import { Reveal } from "./reveal"
 
-function DesignVisual() {
-  const themes = [
-    { label: "Bloom", c: "bg-primary" },
-    { label: "Mono", c: "bg-foreground" },
-    { label: "Sunny", c: "bg-accent" },
-  ]
+const OVERLAY_PHASES = [
+  {
+    id: "headline",
+    holdMs: 3800,
+    className:
+      "max-w-3xl font-display text-3xl font-extrabold leading-tight tracking-tight text-white text-balance drop-shadow-md sm:text-5xl lg:text-6xl",
+    lines: ["Trusted and growing ecommerce platform"],
+  },
+] as const
+
+const FADE_MS = 1200
+const GAP_MS = 900
+
+function StepsHeroOverlay() {
+  const [index, setIndex] = useState(0)
+  const phase = OVERLAY_PHASES[index]
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setIndex((current) => (current + 1) % OVERLAY_PHASES.length)
+    }, FADE_MS + phase.holdMs + FADE_MS + GAP_MS)
+    return () => window.clearTimeout(timer)
+  }, [index, phase.holdMs])
+
   return (
-    <div className="flex flex-wrap gap-3">
-      {themes.map((t, i) => (
+    <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-6 sm:px-10">
+      <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/30 to-black/25" />
+      <AnimatePresence mode="wait">
         <motion.div
-          key={t.label}
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: i * 0.12 }}
-          whileHover={{ y: -6, rotate: i % 2 ? 2 : -2 }}
-          className="w-28 overflow-hidden rounded-xl border border-border bg-card shadow-sm"
+          key={phase.id}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -8 }}
+          transition={{ duration: FADE_MS / 1000, ease: [0.22, 1, 0.36, 1] }}
+          className="relative z-10 text-center"
         >
-          <div className={`h-16 ${t.c}`} />
-          <div className="space-y-1.5 p-2.5">
-            <div className="h-2 w-3/4 rounded-full bg-muted" />
-            <div className="h-2 w-1/2 rounded-full bg-muted" />
-            <p className="pt-1 text-xs font-semibold text-foreground">{t.label}</p>
-          </div>
+          {phase.lines.map((line, i) => (
+            <p
+              key={line}
+              className={`${phase.className}${i > 0 ? " mt-3 sm:mt-4" : ""}`}
+            >
+              {line}
+            </p>
+          ))}
         </motion.div>
-      ))}
+      </AnimatePresence>
     </div>
+  )
+}
+
+function DesignVisual() {
+  return (
+    <motion.div
+      whileHover={{ scale: 1.02 }}
+      className="overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-sm"
+    >
+      <Image
+        src="/images/choose-design.jpg"
+        alt="Merchant customizing product designs in their Woodo Store editor"
+        width={1024}
+        height={761}
+        className="h-44 w-full object-cover"
+      />
+    </motion.div>
   )
 }
 
 function ProductVisual() {
   return (
-    <div className="relative">
-      <motion.div
-        whileHover={{ scale: 1.03 }}
-        className="overflow-hidden rounded-2xl border border-border bg-secondary/40"
-      >
-        <Image
-          src="/images/product-skincare.png"
-          alt="Skincare serum product"
-          width={360}
-          height={260}
-          className="h-44 w-full object-cover"
-        />
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.3 }}
-        className="absolute -bottom-4 -right-3 rounded-xl border border-border bg-card px-3 py-2 shadow-lg"
-      >
-        <p className="text-xs font-medium text-muted-foreground">Auto-written</p>
-        <p className="text-sm font-semibold text-primary">Glow Serum ✦</p>
-      </motion.div>
-    </div>
+    <motion.div
+      whileHover={{ scale: 1.02 }}
+      className="overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-sm"
+    >
+      <Image
+        src="/images/products-shine.jpg"
+        alt="Premium skincare products styled for an ecommerce product page"
+        width={682}
+        height={1024}
+        className="h-44 w-full object-cover"
+      />
+    </motion.div>
   )
 }
 
 function PayVisual() {
-  const items = ["Cards", "Wallets", "UPI", "Buy now, pay later"]
   return (
-    <div className="space-y-2.5">
-      {items.map((it, i) => (
-        <motion.div
-          key={it}
-          initial={{ opacity: 0, x: -16 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: i * 0.1 }}
-          className="flex items-center justify-between rounded-xl border border-border bg-card px-4 py-2.5"
-        >
-          <span className="text-sm font-medium text-foreground">{it}</span>
-          <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
-            ✓
-          </span>
-        </motion.div>
-      ))}
-    </div>
+    <motion.div
+      whileHover={{ scale: 1.02 }}
+      className="overflow-hidden rounded-2xl border border-border bg-secondary/40 shadow-sm"
+    >
+      <Image
+        src="/images/get-paid.jpg"
+        alt="Customer paying contactless with a smartwatch at checkout"
+        width={1024}
+        height={833}
+        className="h-44 w-full object-cover"
+      />
+    </motion.div>
   )
 }
 
 const STEPS = [
   {
     n: "01",
-    title: "Choose your design",
+    title: "Choose design",
     body: "Start from a stunning prebuilt theme, or describe your vibe and let Woodo Store generate a store that looks built just for your brand.",
     visual: <DesignVisual />,
   },
   {
     n: "02",
-    title: "Make your products shine",
+    title: "List products",
     body: "Drop in your photos and Woodo Store polishes them, writes descriptions, and lays out product pages that turn browsers into buyers.",
     visual: <ProductVisual />,
   },
   {
     n: "03",
-    title: "Get ready to get paid",
+    title: "Get paid",
     body: "All you need is a bank account. Accept every way your customers love to pay, with secure checkout built right in.",
     visual: <PayVisual />,
   },
@@ -112,8 +132,24 @@ export function Steps() {
     <section id="tour" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <h2 className="max-w-2xl font-display text-4xl font-extrabold tracking-tight text-foreground text-balance sm:text-5xl">
-            Three steps from idea to open for business.
+          <div className="relative overflow-hidden rounded-[2rem] border border-border bg-secondary/30 shadow-sm">
+            <video
+              src="/images/steps-hero.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              aria-label="Woodo Store storefront preview"
+              className="aspect-video h-auto w-full object-cover"
+            />
+            <StepsHeroOverlay />
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.08}>
+          <h2 className="mt-12 max-w-2xl font-display text-4xl font-extrabold tracking-tight text-foreground text-balance sm:text-5xl">
+            You&apos;re three easy steps away from launching your ecommerce store
           </h2>
         </Reveal>
 

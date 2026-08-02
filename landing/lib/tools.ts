@@ -447,6 +447,149 @@ export const TOOLS: Tool[] = [
       "Online D-U-N-S number request helper to prepare Dun & Bradstreet company details",
     status: "live",
   },
+  {
+    slug: "dropshipping-profit-calculator",
+    title: "Dropshipping profit calculator",
+    description:
+      "Estimate dropshipping profit and margin after product cost, shipping, ads, and platform fees.",
+    href: "/tools/dropshipping-profit-calculator",
+    image: "/tools/dropshipping-profit-calculator.webp",
+    imageAlt:
+      "Free online dropshipping profit calculator for margin, fees, and break-even price",
+    status: "live",
+  },
+  {
+    slug: "aliexpress-supplier-profit-calculator",
+    title: "AliExpress / supplier profit calculator",
+    description:
+      "Estimate AliExpress and supplier landed cost, duties, fees, and profit per unit.",
+    href: "/tools/aliexpress-supplier-profit-calculator",
+    image: "/tools/aliexpress-supplier-profit-calculator.webp",
+    imageAlt:
+      "Free online AliExpress supplier profit calculator for landed cost and margin",
+    status: "live",
+  },
+  {
+    slug: "roas-calculator",
+    title: "ROAS calculator",
+    description:
+      "Calculate return on ad spend, contribution profit, and break-even ROAS for paid campaigns.",
+    href: "/tools/roas-calculator",
+    image: "/tools/roas-calculator.webp",
+    imageAlt:
+      "Free online ROAS calculator for ecommerce return on ad spend and break-even ROAS",
+    status: "live",
+  },
+  {
+    slug: "shopify-fee-calculator",
+    title: "Shopify fee calculator",
+    description:
+      "Estimate Shopify plan and payment processing fees, monthly totals, and net per order.",
+    href: "/tools/shopify-fee-calculator",
+    image: "/tools/shopify-fee-calculator.webp",
+    imageAlt:
+      "Free online Shopify fee calculator for payment fees, plan fees, and net payout",
+    status: "live",
+  },
+  {
+    slug: "paypal-stripe-fee-calculator",
+    title: "PayPal / Stripe fee calculator",
+    description:
+      "Estimate PayPal or Stripe processing fees and net payout for domestic or international charges.",
+    href: "/tools/paypal-stripe-fee-calculator",
+    image: "/tools/paypal-stripe-fee-calculator.webp",
+    imageAlt:
+      "Free online PayPal and Stripe fee calculator for processing fees and net payout",
+    status: "live",
+  },
+  {
+    slug: "facebook-ads-budget-calculator",
+    title: "Facebook ads budget calculator",
+    description:
+      "Project Facebook/Meta ad clicks, orders, CPA, ROAS, and revenue from a daily budget.",
+    href: "/tools/facebook-ads-budget-calculator",
+    image: "/tools/facebook-ads-budget-calculator.webp",
+    imageAlt:
+      "Free online Facebook ads budget calculator for Meta CPC, CPA, ROAS, and revenue",
+    status: "live",
+  },
+  {
+    slug: "winning-product-score-calculator",
+    title: "Winning product score calculator",
+    description:
+      "Score ecommerce product ideas on demand, competition, margin, trend, and shipping ease.",
+    href: "/tools/winning-product-score-calculator",
+    image: "/tools/winning-product-score-calculator.webp",
+    imageAlt:
+      "Free online winning product score calculator for dropshipping and ecommerce ideas",
+    status: "live",
+  },
+  {
+    slug: "discount-impact-calculator",
+    title: "Discount impact calculator",
+    description:
+      "Measure how a discount changes margin and how many extra units you need for the same profit.",
+    href: "/tools/discount-impact-calculator",
+    image: "/tools/discount-impact-calculator.webp",
+    imageAlt:
+      "Free online discount impact calculator for margin loss and break-even volume",
+    status: "live",
+  },
+  {
+    slug: "cpa-ad-cost-calculator",
+    title: "CPA / ad cost calculator",
+    description:
+      "Calculate cost per acquisition and the maximum profitable CPA from AOV and margin.",
+    href: "/tools/cpa-ad-cost-calculator",
+    image: "/tools/cpa-ad-cost-calculator.webp",
+    imageAlt:
+      "Free online CPA ad cost calculator for cost per acquisition and max profitable CPA",
+    status: "live",
+  },
+  {
+    slug: "conversion-rate-calculator",
+    title: "Conversion rate calculator",
+    description:
+      "Calculate conversion rate and how many visitors you need to hit a sales goal.",
+    href: "/tools/conversion-rate-calculator",
+    image: "/tools/conversion-rate-calculator.webp",
+    imageAlt:
+      "Free online conversion rate calculator for visitors needed to hit ecommerce sales goals",
+    status: "live",
+  },
+  {
+    slug: "traffic-calculator",
+    title: "Traffic calculator",
+    description:
+      "Estimate how much traffic you need to hit a monthly profit goal from AOV, margin, and conversion rate.",
+    href: "/tools/traffic-calculator",
+    image: "/tools/traffic-calculator.webp",
+    imageAlt:
+      "Free online traffic calculator for visitors needed to hit ecommerce profit goals",
+    status: "live",
+  },
+  {
+    slug: "ltv-calculator",
+    title: "LTV calculator",
+    description:
+      "Estimate customer lifetime value from AOV, purchase frequency, lifespan, and margin.",
+    href: "/tools/ltv-calculator",
+    image: "/tools/ltv-calculator.webp",
+    imageAlt:
+      "Free online customer LTV calculator for ecommerce lifetime value and contribution",
+    status: "live",
+  },
+  {
+    slug: "store-name-generator",
+    title: "Store name generator",
+    description:
+      "Generate brandable ecommerce store name ideas from a niche or product keyword.",
+    href: "/tools/store-name-generator",
+    image: "/tools/store-name-generator.webp",
+    imageAlt:
+      "Free online store name generator for ecommerce brand and shop name ideas",
+    status: "live",
+  },
 ]
 
 export function getTool(slug: string): Tool | undefined {
