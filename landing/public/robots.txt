@@ -11,6 +11,8 @@ Allow: /blog/
 # Block app APIs and private endpoints
 Disallow: /api/
 Disallow: /api/*
+Disallow: /admin
+Disallow: /admin/
 
 # Prefer the canonical host
 Host: www.wodoo.store

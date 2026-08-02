@@ -117,9 +117,15 @@ NEXT_PUBLIC_SITE_URL=https://www.wodoo.store
 
 # Dashboard / login link (update when the store is live)
 NEXT_PUBLIC_DASHBOARD_URL=https://www.wodoo.store
+
+# Private admin at /admin/registrations (HTTP Basic Auth)
+ADMIN_USER=amar
+ADMIN_PASSWORD=change-me-to-a-strong-password
 ```
 
 `.env.production` is gitignored — never commit it.
+
+After deploy, open `https://www.wodoo.store/admin/registrations` and sign in with `ADMIN_USER` / `ADMIN_PASSWORD` to view waitlist registration counts and details.
 
 ### 3. Deploy
 
