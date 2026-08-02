@@ -6,12 +6,22 @@
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Woodo Store</image:title>
+      <image:caption>Woodo Store — launch a single-product ecommerce store fast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Free ecommerce tools — Woodo Store</image:title>
+      <image:caption>Suite of free online ecommerce tools for shipping, SEO, margins, and store ops</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/free-shipping-calculator</loc>
@@ -439,7 +449,7 @@
     <image:image>
       <image:loc>https://www.wodoo.store/tools/duns-number-request-helper.webp</image:loc>
       <image:title>D-U-N-S number request helper</image:title>
-      <image:caption>Online D-U-N-S number request helper to prepare Dun & Bradstreet company details</image:caption>
+      <image:caption>Online D-U-N-S number request helper to prepare Dun &amp; Bradstreet company details</image:caption>
     </image:image>
   </url>
   <url>
@@ -539,3 +549,4 @@
     <priority>0.6</priority>
   </url>
 </urlset>
+

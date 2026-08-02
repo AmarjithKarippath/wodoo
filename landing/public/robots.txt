@@ -1,4 +1,5 @@
 # https://www.wodoo.store/robots.txt
+# Woodo Store — crawl rules for search engines
 
 User-agent: *
 Allow: /
@@ -7,10 +8,12 @@ Allow: /tools/
 Allow: /blog
 Allow: /blog/
 
+# Block app APIs and private endpoints
 Disallow: /api/
 Disallow: /api/*
 
-# Canonical host
+# Prefer the canonical host
 Host: www.wodoo.store
 
+# Sitemap index
 Sitemap: https://www.wodoo.store/sitemap.xml
