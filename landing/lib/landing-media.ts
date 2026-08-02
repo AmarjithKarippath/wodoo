@@ -1,3 +1,5 @@
+import { imageAttribution } from "@/lib/image-metadata"
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
 
 export type LandingImage = {
@@ -140,6 +142,7 @@ function escapeXml(value: string) {
 }
 
 export function landingImageObjects() {
+  const attribution = imageAttribution()
   return Object.values(LANDING_IMAGES).map((image) => ({
     "@type": "ImageObject" as const,
     contentUrl: abs(image.src),
@@ -151,9 +154,7 @@ export function landingImageObjects() {
     height: image.height,
     encodingFormat: image.encodingFormat,
     inLanguage: "en",
-    acquireLicensePage: SITE_URL,
-    creditText: "Woodo Store",
-    copyrightNotice: "Woodo Store",
+    ...attribution,
   }))
 }
 
@@ -177,6 +178,7 @@ export function landingVideoObjects() {
       logo: {
         "@type": "ImageObject" as const,
         url: abs("/og.png"),
+        ...imageAttribution(),
       },
     },
   }))

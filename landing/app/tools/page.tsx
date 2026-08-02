@@ -2,6 +2,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import { TopBar } from "@/components/wodoo/top-bar"
 import { ToolThumbnail } from "@/components/tools/tool-thumbnail"
+import { imageAttribution } from "@/lib/image-metadata"
 import { TOOLS } from "@/lib/tools"
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
 }
 
 export default function ToolsIndexPage() {
+  const attribution = imageAttribution()
   const imageListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -37,6 +39,7 @@ export default function ToolsIndexPage() {
         height: 630,
         encodingFormat: "image/webp",
         caption: tool.imageAlt,
+        ...attribution,
         acquireLicensePage: `${SITE_URL}${tool.href}`,
       },
     })),

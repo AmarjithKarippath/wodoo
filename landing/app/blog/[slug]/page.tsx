@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { allPosts, getPost, type Block } from "@/lib/posts";
 import { StartStoreButton } from "@/components/wodoo/start-store-button";
+import { imageAttribution } from "@/lib/image-metadata";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store";
 
@@ -109,7 +110,12 @@ export default async function BlogPost(
     publisher: {
       "@type": "Organization",
       name: "Woodo Store",
-      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.png`,
+        contentUrl: `${SITE_URL}/logo.png`,
+        ...imageAttribution(),
+      },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     keywords: post.tags.join(", "),

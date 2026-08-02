@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { TopBar } from "@/components/wodoo/top-bar"
 import { StartStoreButton } from "@/components/wodoo/start-store-button"
+import { imageAttribution } from "@/lib/image-metadata"
 import { getTool } from "@/lib/tools"
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
@@ -37,7 +38,7 @@ export function ToolShell({
         encodingFormat: "image/webp",
         caption: tool.imageAlt,
         representativeOfPage: true,
-        license: SITE_URL,
+        ...imageAttribution(),
         acquireLicensePage: `${SITE_URL}${tool.href}`,
       }
     : null
