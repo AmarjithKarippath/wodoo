@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { TopBar } from "@/components/wodoo/top-bar"
+import { StartStoreButton } from "@/components/wodoo/start-store-button"
 import { getTool } from "@/lib/tools"
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
@@ -70,6 +71,20 @@ export function ToolShell({
           {description}
         </p>
         <div className="mt-10">{children}</div>
+
+        <div className="mt-14 rounded-2xl border border-border bg-secondary/30 px-6 py-8 text-center sm:px-8">
+          <p className="font-display text-xl font-bold tracking-tight text-foreground text-balance sm:text-2xl">
+            Ready to sell? Open your Woodo Store.
+          </p>
+          <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground text-pretty">
+            Launch a live storefront in minutes — no code, no hassle.
+          </p>
+          <div className="mt-6 flex justify-center">
+            <StartStoreButton className="rounded-full bg-foreground px-7 py-3.5 text-base font-semibold text-background shadow-lg transition-colors hover:bg-primary">
+              Start your store
+            </StartStoreButton>
+          </div>
+        </div>
       </div>
     </main>
   )

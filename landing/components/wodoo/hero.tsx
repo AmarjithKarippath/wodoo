@@ -84,14 +84,6 @@ export function Hero() {
             >
               Start your store
             </motion.button>
-            <motion.a
-              href="#tour"
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.97 }}
-              className="rounded-full border border-border bg-card px-7 py-3.5 text-base font-semibold text-foreground transition-colors hover:border-foreground"
-            >
-              Take the tour
-            </motion.a>
           </div>
         </div>
 

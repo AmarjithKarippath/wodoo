@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 import { Reveal } from "./reveal"
 
 const COLUMNS = [
@@ -41,7 +42,19 @@ export function WhyWoodo() {
     <section className="px-4 py-20">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <h2 className="max-w-3xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:text-4xl">
+          <div className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-sm">
+            <Image
+              src="/images/admin-dashboard.jpg"
+              alt="Woodo Store admin dashboard for sales, promotions, and product management"
+              width={1024}
+              height={379}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.08}>
+          <h2 className="mt-12 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:text-4xl">
             Whether you&apos;re just starting out or already running a growing
             business.
           </h2>
