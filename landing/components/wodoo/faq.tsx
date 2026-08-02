@@ -69,7 +69,7 @@ export function Faq() {
   }
 
   return (
-    <section id="faq" className="px-4 py-20">
+    <section id="faq" className="px-4 py-14 sm:py-16 lg:py-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -79,14 +79,14 @@ export function Faq() {
           <h2 className="font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:text-4xl">
             Frequently asked questions
           </h2>
-          <p className="mt-3 text-lg text-muted-foreground text-pretty">
+          <p className="mt-3 text-base text-muted-foreground text-pretty sm:text-lg">
             Quick answers about starting an online store, selling with Woodo
             Store, and growing your ecommerce business.
           </p>
         </Reveal>
 
         <Reveal delay={0.08}>
-          <Accordion type="single" collapsible className="mt-10">
+          <Accordion type="single" collapsible className="mt-8 sm:mt-10">
             {FAQS.map((item, i) => (
               <AccordionItem key={item.q} value={`item-${i}`}>
                 <AccordionTrigger className="text-left font-display text-base font-semibold text-foreground sm:text-lg">

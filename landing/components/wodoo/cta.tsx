@@ -7,8 +7,8 @@ import { useRegistration } from "@/components/wodoo/registration-provider"
 export function Cta() {
   const { openRegistration } = useRegistration()
   return (
-    <section id="start" className="px-4 py-24">
-      <div className="relative mx-auto max-w-4xl overflow-hidden rounded-[2rem] border border-ink bg-ink px-6 py-20 text-center">
+    <section id="start" className="px-4 py-14 sm:py-16 lg:py-20">
+      <div className="relative mx-auto max-w-4xl overflow-hidden rounded-[1.75rem] border border-ink bg-ink px-5 py-12 text-center sm:rounded-[2rem] sm:px-8 sm:py-16">
         <div className="pointer-events-none absolute inset-0 -z-0">
           <motion.div
             animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
@@ -24,19 +24,19 @@ export function Cta() {
 
         <div className="relative z-10">
           <Reveal>
-            <h2 className="mx-auto max-w-2xl font-display text-4xl font-extrabold leading-tight text-ink-foreground text-balance sm:text-5xl">
+            <h2 className="mx-auto max-w-2xl font-display text-3xl font-extrabold leading-tight text-ink-foreground text-balance sm:text-4xl lg:text-5xl">
               Ready to start selling? Open your Woodo Store today.
             </h2>
           </Reveal>
           <Reveal delay={0.1}>
-            <p className="mx-auto mt-4 max-w-md leading-relaxed text-ink-foreground/70">
+            <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink-foreground/70 sm:mt-4 sm:text-base">
               Sign in to your dashboard and have a live store in minutes. No code,
               no commitment, no catch.
             </p>
           </Reveal>
 
           <Reveal delay={0.2}>
-            <div className="mt-8 flex justify-center">
+            <div className="mt-6 flex justify-center sm:mt-8">
               <motion.button
                 type="button"
                 onClick={openRegistration}

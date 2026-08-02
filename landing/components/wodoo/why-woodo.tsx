@@ -42,36 +42,38 @@ export function WhyWoodo() {
   const dashboard = LANDING_IMAGES.adminDashboard
 
   return (
-    <section className="px-4 py-20">
+    <section className="px-4 py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <div className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-sm">
+          <div className="overflow-hidden rounded-[1.5rem] sm:rounded-[2rem]">
             <Image
               src={dashboard.src}
               alt={dashboard.alt}
               title={dashboard.title}
               width={dashboard.width}
               height={dashboard.height}
+              sizes="(max-width: 768px) 100vw, 1152px"
+              loading="lazy"
               className="h-auto w-full object-cover"
             />
           </div>
         </Reveal>
 
         <Reveal delay={0.08}>
-          <h2 className="mt-12 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:text-4xl">
+          <h2 className="mt-8 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:mt-10 sm:text-4xl">
             Whether you&apos;re just starting out or already running a growing
             business.
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-10 md:grid-cols-3 md:gap-8">
+        <div className="mt-8 grid gap-8 sm:mt-10 md:grid-cols-3 md:gap-8">
           {COLUMNS.map((column, i) => (
             <Reveal key={column.title} delay={i * 0.1}>
               <div>
                 <h3 className="font-display text-xl font-bold tracking-tight text-foreground">
                   {column.title}
                 </h3>
-                <ul className="mt-5 space-y-3.5">
+                <ul className="mt-4 space-y-3 sm:mt-5 sm:space-y-3.5">
                   {column.items.map((item, j) => (
                     <motion.li
                       key={item}

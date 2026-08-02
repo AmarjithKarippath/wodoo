@@ -35,14 +35,14 @@ export function Hero() {
   const { openRegistration } = useRegistration()
 
   return (
-    <section className="relative overflow-hidden px-4 pb-24 pt-32 md:pt-40">
+    <section className="relative overflow-hidden px-4 pb-14 pt-24 sm:pb-20 sm:pt-28 lg:pb-24 lg:pt-36">
       {/* soft background blobs */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-0 h-[480px] w-[820px] -translate-x-1/2 rounded-full bg-primary/10 blur-3xl" />
         <div className="absolute right-10 top-40 h-72 w-72 rounded-full bg-accent/20 blur-3xl" />
       </div>
 
-      <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-6xl items-center gap-8 sm:gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
         <div>
           <motion.span
             initial={{ opacity: 0, y: 16 }}
@@ -54,7 +54,7 @@ export function Hero() {
             Launch &amp; grow your store online effortlessly
           </motion.span>
 
-          <h1 className="mt-6 font-display text-5xl font-extrabold leading-[0.95] tracking-tight text-foreground text-balance sm:text-6xl lg:text-7xl">
+          <h1 className="mt-5 font-display text-5xl font-extrabold leading-[0.95] tracking-tight text-foreground text-balance sm:mt-6 sm:text-6xl lg:text-7xl">
             Open your shop in 10 minutes and{" "}
             <span className="relative inline-block">
               <span className="relative z-10 text-primary">be selling</span>
@@ -68,13 +68,13 @@ export function Hero() {
             by today.
           </h1>
 
-          <p className="mt-6 max-w-md text-lg leading-relaxed text-muted-foreground text-pretty">
+          <p className="mt-4 max-w-md text-lg leading-relaxed text-muted-foreground text-pretty sm:mt-6">
             Woodo Store gives you everything to start an online business — a
             beautiful storefront, smart product pages, and a checkout shoppers
             trust. No code, no hassle.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-3 sm:mt-8">
             <motion.button
               type="button"
               onClick={openRegistration}
@@ -127,6 +127,8 @@ export function Hero() {
                       alt={p.name}
                       width={200}
                       height={200}
+                      sizes="(max-width: 1024px) 40vw, 180px"
+                      priority={i === 0}
                       className="aspect-square w-full object-cover"
                     />
                     <p className="px-3 py-2 text-sm font-medium text-foreground">{p.name}</p>

@@ -39,9 +39,9 @@ export function TopBar() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4"
+      className="fixed inset-x-0 top-0 z-50 flex justify-center px-3 pt-3 sm:px-4 sm:pt-4"
     >
-      <div className="flex w-full max-w-6xl items-center justify-between rounded-full border border-border/70 bg-background/80 px-5 py-2.5 shadow-sm backdrop-blur-md">
+      <div className="flex w-full max-w-6xl items-center justify-between rounded-full border border-border/70 bg-background/80 px-4 py-2 shadow-sm backdrop-blur-md sm:px-5 sm:py-2.5">
         <Link href="/" className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight text-foreground">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
             <StoreMark />

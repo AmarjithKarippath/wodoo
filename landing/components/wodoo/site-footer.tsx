@@ -5,9 +5,9 @@ export function SiteFooter() {
   const tools = liveTools()
 
   return (
-    <footer className="border-t border-border bg-secondary/25">
-      <div className="mx-auto max-w-6xl px-6 py-16">
-        <div className="grid gap-12 lg:grid-cols-[0.9fr_1.4fr]">
+    <footer className="border-t border-border bg-white">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
+        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.4fr] lg:gap-12">
           <div>
             <Link
               href="/"
@@ -60,7 +60,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-10 flex flex-col gap-2 border-t border-border pt-5 text-xs text-muted-foreground sm:mt-14 sm:flex-row sm:items-center sm:justify-between sm:pt-6">
           <p>© {new Date().getFullYear()} Woodo Store. All rights reserved.</p>
           <p>
             <Link href="/tools" className="hover:text-foreground">

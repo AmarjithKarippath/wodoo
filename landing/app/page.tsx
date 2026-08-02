@@ -11,7 +11,7 @@ import { LandingMediaSchema } from "@/components/wodoo/landing-media-schema"
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-white">
       <LandingMediaSchema />
       <TopBar />
       <Hero />

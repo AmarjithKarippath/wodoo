@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import { LANDING_IMAGES, LANDING_VIDEOS } from "@/lib/landing-media"
+import { LazyVideo } from "./lazy-video"
 import { Reveal } from "./reveal"
 
 const OVERLAY_PHASES = [
@@ -69,7 +70,9 @@ function DesignVisual() {
         title={image.title}
         width={image.width}
         height={image.height}
-        className="h-44 w-full object-cover"
+        sizes="(max-width: 768px) 100vw, 360px"
+        loading="lazy"
+        className="h-40 w-full object-cover sm:h-44"
       />
     </motion.div>
   )
@@ -88,7 +91,9 @@ function ProductVisual() {
         title={image.title}
         width={image.width}
         height={image.height}
-        className="h-44 w-full object-cover"
+        sizes="(max-width: 768px) 100vw, 360px"
+        loading="lazy"
+        className="h-40 w-full object-cover sm:h-44"
       />
     </motion.div>
   )
@@ -107,7 +112,9 @@ function PayVisual() {
         title={image.title}
         width={image.width}
         height={image.height}
-        className="h-44 w-full object-cover"
+        sizes="(max-width: 768px) 100vw, 360px"
+        loading="lazy"
+        className="h-40 w-full object-cover sm:h-44"
       />
     </motion.div>
   )
@@ -138,19 +145,14 @@ export function Steps() {
   const hero = LANDING_VIDEOS.stepsHero
 
   return (
-    <section id="product" className="px-4 py-24">
+    <section id="product" className="px-4 py-14 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <div className="relative overflow-hidden rounded-[2rem] border border-border bg-secondary/30 shadow-sm">
-            <video
+          <div className="relative overflow-hidden rounded-[1.5rem] border border-border bg-secondary/30 shadow-sm sm:rounded-[2rem]">
+            <LazyVideo
               src={hero.src}
               poster={hero.thumbnailSrc}
               title={hero.title}
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
               aria-label={hero.ariaLabel}
               className="aspect-video h-auto w-full object-cover"
             />
@@ -159,27 +161,27 @@ export function Steps() {
         </Reveal>
 
         <Reveal delay={0.08}>
-          <h2 className="mt-12 max-w-2xl font-display text-4xl font-extrabold tracking-tight text-foreground text-balance sm:text-5xl">
+          <h2 className="mt-8 max-w-2xl font-display text-3xl font-extrabold tracking-tight text-foreground text-balance sm:mt-10 sm:text-4xl lg:text-5xl">
             You&apos;re three easy steps away from launching your ecommerce store
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-8 grid gap-5 sm:mt-10 md:grid-cols-3 md:gap-6">
           {STEPS.map((s, i) => (
             <Reveal key={s.n} delay={i * 0.12}>
               <motion.article
                 whileHover={{ y: -8 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className="flex h-full flex-col gap-6 rounded-3xl border border-border bg-card p-7 shadow-sm"
+                className="flex h-full flex-col gap-4 rounded-3xl border border-border bg-card p-5 shadow-sm sm:gap-5 sm:p-6"
               >
                 <div className="flex items-center gap-3">
                   <span className="font-display text-sm font-bold text-primary">{s.n}</span>
                   <span className="h-px flex-1 bg-border" />
                 </div>
-                <div className="min-h-[180px]">{s.visual}</div>
+                <div>{s.visual}</div>
                 <div>
-                  <h3 className="font-display text-2xl font-bold text-foreground">{s.title}</h3>
-                  <p className="mt-2 leading-relaxed text-muted-foreground">{s.body}</p>
+                  <h3 className="font-display text-xl font-bold text-foreground sm:text-2xl">{s.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground sm:text-base">{s.body}</p>
                 </div>
               </motion.article>
             </Reveal>

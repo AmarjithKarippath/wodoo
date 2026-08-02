@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion"
 import { useEffect, useState } from "react"
 import { LANDING_VIDEOS } from "@/lib/landing-media"
+import { LazyVideo } from "./lazy-video"
 import { Reveal } from "./reveal"
 
 const FADE_MS = 1200
@@ -26,7 +27,7 @@ function VideoCardOverlay({
   }, [visible])
 
   return (
-    <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-6">
+    <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-5 sm:px-6">
       <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/20" />
       <AnimatePresence mode="wait">
         {visible ? (
@@ -38,10 +39,10 @@ function VideoCardOverlay({
             transition={{ duration: FADE_MS / 1000, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 max-w-md text-center"
           >
-            <p className="font-display text-3xl font-extrabold leading-tight tracking-tight text-white text-balance drop-shadow-md sm:text-4xl lg:text-5xl">
+            <p className="font-display text-2xl font-extrabold leading-tight tracking-tight text-white text-balance drop-shadow-md sm:text-4xl lg:text-5xl">
               {title}
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/85 text-pretty sm:text-base">
+            <p className="mt-2 text-sm leading-relaxed text-white/85 text-pretty sm:mt-3 sm:text-base">
               {description}
             </p>
           </motion.div>
@@ -75,17 +76,12 @@ function GrowVideoCard({
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className="relative h-full min-h-[28rem] overflow-hidden rounded-3xl border border-border bg-ink shadow-sm sm:min-h-[32rem]"
+        className="relative h-full min-h-[20rem] overflow-hidden rounded-3xl border border-border bg-ink shadow-sm sm:min-h-[28rem] lg:min-h-[32rem]"
       >
-        <video
+        <LazyVideo
           src={src}
           poster={poster}
           title={title}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
           aria-label={ariaLabel}
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -99,7 +95,7 @@ export function Grow() {
   const { socialShopping, retention } = LANDING_VIDEOS
 
   return (
-    <section className="px-4 py-12">
+    <section className="px-4 py-10 sm:py-12">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="font-display text-sm font-bold uppercase tracking-widest text-primary">
@@ -107,7 +103,7 @@ export function Grow() {
           </p>
         </Reveal>
 
-        <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        <div className="mt-5 grid gap-4 sm:mt-6 sm:gap-6 lg:grid-cols-2">
           <GrowVideoCard
             src={socialShopping.src}
             poster={socialShopping.thumbnailSrc}
