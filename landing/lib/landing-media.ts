@@ -26,12 +26,12 @@ export type LandingVideo = {
 export const LANDING_IMAGES = {
   adminDashboard: {
     src: "/images/admin-dashboard.jpg",
-    alt: "Woodo Store ecommerce admin dashboard showing sales analytics, promotions, and product tools",
-    title: "Woodo Store admin dashboard",
+    alt: "Woodo Store ecommerce platform collage with sales analytics, product editing, shipping tools, promotions, and a mobile shipped-order notification",
+    title: "Woodo Store ecommerce platform overview",
     caption:
-      "Manage products, promotions, revenue, and store operations from the Woodo Store dashboard",
+      "Run sales analytics, product pages, shipping, promotions, and order notifications from the Woodo Store ecommerce platform",
     width: 1024,
-    height: 379,
+    height: 570,
     encodingFormat: "image/jpeg",
   },
   chooseDesign: {
@@ -64,6 +64,24 @@ export const LANDING_IMAGES = {
     height: 833,
     encodingFormat: "image/jpeg",
   },
+  productSneaker: {
+    src: "/images/product-sneaker.png",
+    alt: "Cloud Runner sneaker product photo on a Woodo Store demo storefront",
+    title: "Cloud Runner product — Woodo Store",
+    caption: "Example product listing for sneakers in a Woodo Store online shop",
+    width: 1024,
+    height: 1024,
+    encodingFormat: "image/png",
+  },
+  productBag: {
+    src: "/images/product-bag.png",
+    alt: "Everyday Tote bag product photo on a Woodo Store demo storefront",
+    title: "Everyday Tote product — Woodo Store",
+    caption: "Example product listing for a tote bag in a Woodo Store online shop",
+    width: 1024,
+    height: 1024,
+    encodingFormat: "image/png",
+  },
 } as const satisfies Record<string, LandingImage>
 
 export const LANDING_VIDEOS = {
@@ -74,9 +92,9 @@ export const LANDING_VIDEOS = {
       "Woodo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.",
     ariaLabel:
       "Woodo Store storefront preview — trusted and growing ecommerce platform",
-    thumbnailSrc: "/og.png",
-    width: 1920,
-    height: 1080,
+    thumbnailSrc: "/images/steps-hero-poster.jpg",
+    width: 1280,
+    height: 720,
     uploadDate: "2026-08-02",
     encodingFormat: "video/mp4",
   },
@@ -87,9 +105,9 @@ export const LANDING_VIDEOS = {
       "Put your products in every feed, inbox, reel and marketplace your shoppers already live in.",
     ariaLabel:
       "Sell where they're scrolling — shopper browsing a shoppable Woodo Store storefront",
-    thumbnailSrc: "/images/choose-design.jpg",
-    width: 1080,
-    height: 1920,
+    thumbnailSrc: "/images/social-shopping-poster.jpg",
+    width: 720,
+    height: 1280,
     uploadDate: "2026-08-02",
     encodingFormat: "video/mp4",
   },
@@ -100,9 +118,9 @@ export const LANDING_VIDEOS = {
       "Re-engage shoppers with a steady drumbeat of offers, updates, and automations that run while you sleep.",
     ariaLabel:
       "Keep them coming back — ecommerce retention and customer re-engagement with Woodo Store",
-    thumbnailSrc: "/images/admin-dashboard.jpg",
-    width: 1920,
-    height: 1080,
+    thumbnailSrc: "/images/retention-poster.jpg",
+    width: 1280,
+    height: 720,
     uploadDate: "2026-08-02",
     encodingFormat: "video/mp4",
   },
@@ -110,6 +128,15 @@ export const LANDING_VIDEOS = {
 
 function abs(path: string) {
   return path.startsWith("http") ? path : `${SITE_URL}${path}`
+}
+
+function escapeXml(value: string) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&apos;")
 }
 
 export function landingImageObjects() {
@@ -123,7 +150,10 @@ export function landingImageObjects() {
     width: image.width,
     height: image.height,
     encodingFormat: image.encodingFormat,
+    inLanguage: "en",
     acquireLicensePage: SITE_URL,
+    creditText: "Woodo Store",
+    copyrightNotice: "Woodo Store",
   }))
 }
 
@@ -138,13 +168,62 @@ export function landingVideoObjects() {
     width: video.width,
     height: video.height,
     encodingFormat: video.encodingFormat,
+    inLanguage: "en",
     isFamilyFriendly: true,
+    publisher: {
+      "@type": "Organization" as const,
+      name: "Woodo Store",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject" as const,
+        url: abs("/og.png"),
+      },
+    },
   }))
 }
 
 export function landingMediaJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@graph": [...landingImageObjects(), ...landingVideoObjects()],
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${SITE_URL}/#webpage`,
+        url: SITE_URL,
+        name: "Woodo Store — launch your ecommerce store",
+        image: Object.values(LANDING_IMAGES).map((image) => abs(image.src)),
+        video: Object.values(LANDING_VIDEOS).map((video) => abs(video.src)),
+      },
+      ...landingImageObjects(),
+      ...landingVideoObjects(),
+    ],
   }
+}
+
+/** Homepage image + video sitemap fragments (Google image/video extensions). */
+export function landingSitemapMediaXml() {
+  const images = Object.values(LANDING_IMAGES)
+    .map(
+      (image) => `    <image:image>
+      <image:loc>${escapeXml(abs(image.src))}</image:loc>
+      <image:title>${escapeXml(image.title)}</image:title>
+      <image:caption>${escapeXml(image.caption)}</image:caption>
+    </image:image>`
+    )
+    .join("\n")
+
+  const videos = Object.values(LANDING_VIDEOS)
+    .map(
+      (video) => `    <video:video>
+      <video:thumbnail_loc>${escapeXml(abs(video.thumbnailSrc))}</video:thumbnail_loc>
+      <video:title>${escapeXml(video.title)}</video:title>
+      <video:description>${escapeXml(video.description)}</video:description>
+      <video:content_loc>${escapeXml(abs(video.src))}</video:content_loc>
+      <video:publication_date>${video.uploadDate}</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>`
+    )
+    .join("\n")
+
+  return `${images}\n${videos}`
 }

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { useRegistration } from "@/components/wodoo/registration-provider"
+import { LANDING_IMAGES } from "@/lib/landing-media"
 
 function FloatingChip({
   children,
@@ -112,8 +113,8 @@ export function Hero() {
               </div>
               <div className="mt-4 grid grid-cols-2 gap-3">
                 {[
-                  { src: "/images/product-sneaker.png", name: "Cloud Runner" },
-                  { src: "/images/product-bag.png", name: "Everyday Tote" },
+                  { image: LANDING_IMAGES.productSneaker, name: "Cloud Runner" },
+                  { image: LANDING_IMAGES.productBag, name: "Everyday Tote" },
                 ].map((p, i) => (
                   <motion.div
                     key={p.name}
@@ -123,10 +124,11 @@ export function Hero() {
                     className="overflow-hidden rounded-xl border border-border bg-secondary/40"
                   >
                     <Image
-                      src={p.src || "/placeholder.svg"}
-                      alt={p.name}
-                      width={200}
-                      height={200}
+                      src={p.image.src}
+                      alt={p.image.alt}
+                      title={p.image.title}
+                      width={p.image.width}
+                      height={p.image.height}
                       sizes="(max-width: 1024px) 40vw, 180px"
                       priority={i === 0}
                       className="aspect-square w-full object-cover"
