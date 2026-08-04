@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react"
 type LazyVideoProps = {
   src: string
   poster?: string
-  title?: string
   "aria-label"?: string
   className?: string
   /** How far before entering the viewport to start loading. */
@@ -33,7 +32,6 @@ function prefersReducedData() {
 export function LazyVideo({
   src,
   poster,
-  title,
   "aria-label": ariaLabel,
   className,
   rootMargin = "200px 0px",
@@ -82,7 +80,6 @@ export function LazyVideo({
       ref={ref}
       src={activeSrc}
       poster={poster}
-      title={title}
       aria-label={ariaLabel}
       autoPlay={shouldAutoplay && Boolean(activeSrc)}
       muted

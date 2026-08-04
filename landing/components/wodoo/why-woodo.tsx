@@ -56,7 +56,6 @@ export function WhyWoodo() {
             <Image
               src={dashboard.src}
               alt={dashboard.alt}
-              title={dashboard.title}
               width={dashboard.width}
               height={dashboard.height}
               sizes="(max-width: 768px) 100vw, 1152px"

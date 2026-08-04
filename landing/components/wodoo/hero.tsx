@@ -126,7 +126,6 @@ export function Hero() {
                     <Image
                       src={p.image.src}
                       alt={p.image.alt}
-                      title={p.image.title}
                       width={p.image.width}
                       height={p.image.height}
                       sizes="(max-width: 1024px) 40vw, 180px"

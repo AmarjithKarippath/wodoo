@@ -54,7 +54,6 @@ function VideoCardOverlay({
 
 function GrowVideoCard({
   src,
-  title,
   description,
   ariaLabel,
   poster,
@@ -62,7 +61,6 @@ function GrowVideoCard({
   delay = 0,
 }: {
   src: string
-  title: string
   description: string
   ariaLabel: string
   poster: string
@@ -81,7 +79,6 @@ function GrowVideoCard({
         <LazyVideo
           src={src}
           poster={poster}
-          title={title}
           aria-label={ariaLabel}
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -107,7 +104,6 @@ export function Grow() {
           <GrowVideoCard
             src={socialShopping.src}
             poster={socialShopping.thumbnailSrc}
-            title={socialShopping.title}
             description={socialShopping.description}
             ariaLabel={socialShopping.ariaLabel}
             overlayTitle="Sell where they're scrolling"
@@ -115,7 +111,6 @@ export function Grow() {
           <GrowVideoCard
             src={retention.src}
             poster={retention.thumbnailSrc}
-            title={retention.title}
             description={retention.description}
             ariaLabel={retention.ariaLabel}
             overlayTitle="Keep them coming back"

@@ -67,7 +67,6 @@ function DesignVisual() {
       <Image
         src={image.src}
         alt={image.alt}
-        title={image.title}
         width={image.width}
         height={image.height}
         sizes="(max-width: 768px) 100vw, 360px"
@@ -88,7 +87,6 @@ function ProductVisual() {
       <Image
         src={image.src}
         alt={image.alt}
-        title={image.title}
         width={image.width}
         height={image.height}
         sizes="(max-width: 768px) 100vw, 360px"
@@ -109,7 +107,6 @@ function PayVisual() {
       <Image
         src={image.src}
         alt={image.alt}
-        title={image.title}
         width={image.width}
         height={image.height}
         sizes="(max-width: 768px) 100vw, 360px"
@@ -152,7 +149,6 @@ export function Steps() {
             <LazyVideo
               src={hero.src}
               poster={hero.thumbnailSrc}
-              title={hero.title}
               aria-label={hero.ariaLabel}
               className="aspect-video h-auto w-full object-cover"
             />

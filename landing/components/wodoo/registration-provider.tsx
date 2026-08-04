@@ -24,6 +24,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { COUNTRIES } from "@/lib/countries"
 import { cn } from "@/lib/utils"
+import { isValidWebsite, normalizeWebsite } from "@/lib/website"
 
 const registrationSchema = z.object({
   name: z.string().trim().min(1, "Name is required"),
@@ -34,10 +35,8 @@ const registrationSchema = z.object({
     .string()
     .trim()
     .optional()
-    .refine(
-      (value) => !value || /^https?:\/\/.+/i.test(value),
-      "Enter a valid URL (include https://)",
-    ),
+    .transform((value) => normalizeWebsite(value))
+    .refine(isValidWebsite, "Enter a valid website"),
 })
 
 type RegistrationForm = z.infer<typeof registrationSchema>
@@ -103,7 +102,7 @@ function RegistrationDialog({
         email: values.email,
         storeName: values.storeName,
         country: values.country,
-        website: values.website?.trim() || undefined,
+        website: values.website || undefined,
       }),
     })
 
@@ -221,9 +220,10 @@ function RegistrationDialog({
                 </Label>
                 <Input
                   id="website"
-                  type="url"
+                  type="text"
+                  inputMode="url"
                   autoComplete="url"
-                  placeholder="https://yourbrand.com"
+                  placeholder="yourbrand.com"
                   className={fieldClassName}
                   aria-invalid={!!form.formState.errors.website}
                   {...form.register("website")}

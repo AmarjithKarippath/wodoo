@@ -2,6 +2,7 @@ import { NextResponse } from "next/server"
 import { z } from "zod"
 import { isCountry } from "@/lib/countries"
 import { getPool } from "@/lib/db"
+import { isValidWebsite, normalizeWebsite } from "@/lib/website"
 
 const waitlistSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(255),
@@ -17,11 +18,8 @@ const waitlistSchema = z.object({
     .trim()
     .max(500)
     .optional()
-    .transform((value) => value || undefined)
-    .refine(
-      (value) => !value || /^https?:\/\/.+/i.test(value),
-      "Enter a valid website URL (include https://)",
-    ),
+    .transform((value) => normalizeWebsite(value))
+    .refine(isValidWebsite, "Enter a valid website"),
 })
 
 export async function POST(request: Request) {

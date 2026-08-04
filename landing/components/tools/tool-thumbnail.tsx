@@ -19,7 +19,6 @@ export function ToolThumbnail({
       srcSet={toolImageSrcSet(tool.slug)}
       sizes={SIZES}
       alt={tool.imageAlt}
-      title={tool.title}
       width={1200}
       height={630}
       loading={priority ? "eager" : "lazy"}
