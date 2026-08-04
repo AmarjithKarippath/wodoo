@@ -590,6 +590,171 @@ export const TOOLS: Tool[] = [
       "Free online store name generator for ecommerce brand and shop name ideas",
     status: "live",
   },
+  {
+    slug: "bmi-calculator",
+    title: "BMI calculator",
+    description:
+      "Free BMI calculator to check body mass index, weight category, and healthy weight range.",
+    href: "/tools/bmi-calculator",
+    image: "/tools/bmi-calculator.webp",
+    imageAlt:
+      "Free online BMI calculator for body mass index and healthy weight range",
+    status: "live",
+  },
+  {
+    slug: "age-calculator",
+    title: "Age calculator",
+    description:
+      "Free age calculator for exact age in years, months, days, and next birthday countdown.",
+    href: "/tools/age-calculator",
+    image: "/tools/age-calculator.webp",
+    imageAlt:
+      "Free online age calculator for years months days from date of birth",
+    status: "live",
+  },
+  {
+    slug: "percentage-calculator",
+    title: "Percentage calculator",
+    description:
+      "Free percentage calculator for percent of a number, reverse percent, and percentage change.",
+    href: "/tools/percentage-calculator",
+    image: "/tools/percentage-calculator.webp",
+    imageAlt:
+      "Free online percentage calculator for percent of value and percentage change",
+    status: "live",
+  },
+  {
+    slug: "emi-calculator",
+    title: "EMI calculator",
+    description:
+      "Free EMI calculator for monthly installment, total interest, and total loan payment.",
+    href: "/tools/emi-calculator",
+    image: "/tools/emi-calculator.webp",
+    imageAlt:
+      "Free online EMI calculator for monthly loan installment and total interest",
+    status: "live",
+  },
+  {
+    slug: "calorie-bmr-calculator",
+    title: "Calorie & BMR calculator",
+    description:
+      "Free calorie and BMR calculator for daily energy needs, weight loss, and weight gain targets.",
+    href: "/tools/calorie-bmr-calculator",
+    image: "/tools/calorie-bmr-calculator.webp",
+    imageAlt:
+      "Free online calorie and BMR calculator for daily calorie needs and TDEE",
+    status: "live",
+  },
+  {
+    slug: "compound-interest-calculator",
+    title: "Compound interest calculator",
+    description:
+      "Free compound interest calculator for future value, contributions, and interest earned.",
+    href: "/tools/compound-interest-calculator",
+    image: "/tools/compound-interest-calculator.webp",
+    imageAlt:
+      "Free online compound interest calculator for investment future value growth",
+    status: "live",
+  },
+  {
+    slug: "fd-calculator",
+    title: "FD calculator",
+    description:
+      "Free fixed deposit FD calculator for maturity amount and interest earned.",
+    href: "/tools/fd-calculator",
+    image: "/tools/fd-calculator.webp",
+    imageAlt:
+      "Free online FD calculator for fixed deposit maturity amount and interest",
+    status: "live",
+  },
+  {
+    slug: "rd-calculator",
+    title: "RD calculator",
+    description:
+      "Free recurring deposit RD calculator for maturity value and interest earned.",
+    href: "/tools/rd-calculator",
+    image: "/tools/rd-calculator.webp",
+    imageAlt:
+      "Free online RD calculator for recurring deposit maturity and interest",
+    status: "live",
+  },
+  {
+    slug: "home-personal-loan-emi-calculator",
+    title: "Home & personal loan EMI calculator",
+    description:
+      "Free home loan and personal loan EMI calculator for monthly payment and total interest.",
+    href: "/tools/home-personal-loan-emi-calculator",
+    image: "/tools/home-personal-loan-emi-calculator.webp",
+    imageAlt:
+      "Free online home loan and personal loan EMI calculator",
+    status: "live",
+  },
+  {
+    slug: "gst-calculator",
+    title: "GST calculator",
+    description:
+      "Free India GST calculator for exclusive/inclusive tax, CGST, SGST, and invoice total.",
+    href: "/tools/gst-calculator",
+    image: "/tools/gst-calculator.webp",
+    imageAlt:
+      "Free online GST calculator India for CGST SGST and invoice total",
+    status: "live",
+  },
+  {
+    slug: "income-tax-calculator",
+    title: "Income tax calculator",
+    description:
+      "Free India income tax calculator for new/old regime tax, cess, and take-home estimate.",
+    href: "/tools/income-tax-calculator",
+    image: "/tools/income-tax-calculator.webp",
+    imageAlt:
+      "Free online income tax calculator India for new and old regime",
+    status: "live",
+  },
+  {
+    slug: "date-days-calculator",
+    title: "Date / days calculator",
+    description:
+      "Free date calculator for days between dates and adding or subtracting days.",
+    href: "/tools/date-days-calculator",
+    image: "/tools/date-days-calculator.webp",
+    imageAlt:
+      "Free online date days calculator for difference between dates",
+    status: "live",
+  },
+  {
+    slug: "maths-solver",
+    title: "Maths solver",
+    description:
+      "Free maths solver for arithmetic expressions with parentheses, powers, and percentages.",
+    href: "/tools/maths-solver",
+    image: "/tools/maths-solver.webp",
+    imageAlt:
+      "Free online maths solver calculator for arithmetic expressions",
+    status: "live",
+  },
+  {
+    slug: "gpa-calculator",
+    title: "GPA calculator",
+    description:
+      "Free GPA calculator for weighted grade point average from credits and grade points.",
+    href: "/tools/gpa-calculator",
+    image: "/tools/gpa-calculator.webp",
+    imageAlt:
+      "Free online GPA calculator for college grade point average",
+    status: "live",
+  },
+  {
+    slug: "body-fat-ideal-weight-calculator",
+    title: "Body fat & ideal weight calculator",
+    description:
+      "Free body fat and ideal weight calculator using US Navy method plus Devine ideal weight.",
+    href: "/tools/body-fat-ideal-weight-calculator",
+    image: "/tools/body-fat-ideal-weight-calculator.webp",
+    imageAlt:
+      "Free online body fat percentage and ideal weight calculator",
+    status: "live",
+  },
 ]
 
 export function getTool(slug: string): Tool | undefined {

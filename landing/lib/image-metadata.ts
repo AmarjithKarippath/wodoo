@@ -14,3 +14,32 @@ export function imageAttribution(year = new Date().getFullYear()) {
     acquireLicensePage: SITE_URL,
   }
 }
+
+type ToolImageSource = {
+  title: string
+  image: string
+  imageAlt: string
+  href: string
+}
+
+/** Full ImageObject for tool thumbnails (Search Console image metadata). */
+export function toolImageObject(
+  tool: ToolImageSource,
+  options?: { representativeOfPage?: boolean },
+) {
+  return {
+    "@type": "ImageObject" as const,
+    contentUrl: `${SITE_URL}${tool.image}`,
+    url: `${SITE_URL}${tool.image}`,
+    name: tool.title,
+    description: tool.imageAlt,
+    caption: tool.imageAlt,
+    width: 1200,
+    height: 630,
+    encodingFormat: "image/webp" as const,
+    inLanguage: "en",
+    representativeOfPage: options?.representativeOfPage ?? false,
+    ...imageAttribution(),
+    acquireLicensePage: `${SITE_URL}${tool.href}`,
+  }
+}

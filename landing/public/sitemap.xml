@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.wodoo.store/</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -69,18 +69,18 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://www.wodoo.store/og.png</image:loc>
-      <image:title>Free ecommerce tools — Woodo Store</image:title>
-      <image:caption>Suite of free online ecommerce tools for shipping, SEO, margins, and store ops</image:caption>
+      <image:title>Free online tools &amp; calculators — Woodo Store</image:title>
+      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Woodo Store</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/free-shipping-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/shipping-policy-generator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/courier-carrier-finder</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -113,7 +113,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/tax-duty-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -124,7 +124,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/hs-tariff-code-lookup</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/postcode-address-finder</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/seo-audit</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -157,7 +157,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/seo-keyword-explorer</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -168,7 +168,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/fba-fee-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -179,7 +179,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/ecommerce-profit-margin-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -190,7 +190,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/dimensional-weight-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -201,7 +201,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/break-even-units-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/landed-product-cost-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -223,7 +223,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/cac-payback-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -234,7 +234,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/marketplace-fee-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -245,7 +245,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/volume-discount-planner</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -256,7 +256,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/influencer-engagement-rate-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -267,7 +267,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/social-media-earning-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -278,7 +278,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/follower-to-buyer-conversion-estimator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -289,7 +289,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/print-on-demand-profit-planner</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -300,7 +300,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/merchandise-mockup-generator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -311,7 +311,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/link-in-bio-store-integrator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -322,7 +322,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/wholesale-private-label-catalog</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -333,7 +333,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/digital-product-course-profit-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -344,7 +344,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/affiliate-vs-owned-store-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -355,7 +355,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/domain-name-availability-checker</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -366,7 +366,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/qr-code-generator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -377,7 +377,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/trademark-registry-search</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -388,7 +388,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/offsite-ads-margin-checker</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -399,7 +399,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/marketplace-vs-standalone-break-even</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -410,7 +410,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/company-name-availability-checker</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -421,7 +421,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/uspto-tess-trademark-search</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -432,7 +432,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/startup-legal-document-generator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -443,7 +443,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/llc-vs-scorp-tax-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -454,7 +454,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/state-filing-fee-comparison</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -465,7 +465,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/irs-ein-assistant</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -476,7 +476,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/fincen-boi-filing-helper</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -487,7 +487,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/startup-business-plan-builder</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -498,7 +498,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/duns-number-request-helper</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -509,7 +509,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/dropshipping-profit-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -520,7 +520,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/aliexpress-supplier-profit-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -531,7 +531,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/roas-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -542,7 +542,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/shopify-fee-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -553,7 +553,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/paypal-stripe-fee-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -564,7 +564,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/facebook-ads-budget-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -575,7 +575,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/winning-product-score-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -586,7 +586,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/discount-impact-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -597,7 +597,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/cpa-ad-cost-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -608,7 +608,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/conversion-rate-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -619,7 +619,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/traffic-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -630,7 +630,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/ltv-calculator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -641,7 +641,7 @@
   </url>
   <url>
     <loc>https://www.wodoo.store/tools/store-name-generator</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -651,100 +651,344 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.wodoo.store/tools/bmi-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/bmi-calculator.webp</image:loc>
+      <image:title>BMI calculator</image:title>
+      <image:caption>Free online BMI calculator for body mass index and healthy weight range</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/age-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/age-calculator.webp</image:loc>
+      <image:title>Age calculator</image:title>
+      <image:caption>Free online age calculator for years months days from date of birth</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/percentage-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/percentage-calculator.webp</image:loc>
+      <image:title>Percentage calculator</image:title>
+      <image:caption>Free online percentage calculator for percent of value and percentage change</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/emi-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/emi-calculator.webp</image:loc>
+      <image:title>EMI calculator</image:title>
+      <image:caption>Free online EMI calculator for monthly loan installment and total interest</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/calorie-bmr-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/calorie-bmr-calculator.webp</image:loc>
+      <image:title>Calorie &amp; BMR calculator</image:title>
+      <image:caption>Free online calorie and BMR calculator for daily calorie needs and TDEE</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/compound-interest-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/compound-interest-calculator.webp</image:loc>
+      <image:title>Compound interest calculator</image:title>
+      <image:caption>Free online compound interest calculator for investment future value growth</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/fd-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/fd-calculator.webp</image:loc>
+      <image:title>FD calculator</image:title>
+      <image:caption>Free online FD calculator for fixed deposit maturity amount and interest</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/rd-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/rd-calculator.webp</image:loc>
+      <image:title>RD calculator</image:title>
+      <image:caption>Free online RD calculator for recurring deposit maturity and interest</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/home-personal-loan-emi-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/home-personal-loan-emi-calculator.webp</image:loc>
+      <image:title>Home &amp; personal loan EMI calculator</image:title>
+      <image:caption>Free online home loan and personal loan EMI calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/gst-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/gst-calculator.webp</image:loc>
+      <image:title>GST calculator</image:title>
+      <image:caption>Free online GST calculator India for CGST SGST and invoice total</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/income-tax-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/income-tax-calculator.webp</image:loc>
+      <image:title>Income tax calculator</image:title>
+      <image:caption>Free online income tax calculator India for new and old regime</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/date-days-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/date-days-calculator.webp</image:loc>
+      <image:title>Date / days calculator</image:title>
+      <image:caption>Free online date days calculator for difference between dates</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/maths-solver</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/maths-solver.webp</image:loc>
+      <image:title>Maths solver</image:title>
+      <image:caption>Free online maths solver calculator for arithmetic expressions</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/gpa-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/gpa-calculator.webp</image:loc>
+      <image:title>GPA calculator</image:title>
+      <image:caption>Free online GPA calculator for college grade point average</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/body-fat-ideal-weight-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/body-fat-ideal-weight-calculator.webp</image:loc>
+      <image:title>Body fat &amp; ideal weight calculator</image:title>
+      <image:caption>Free online body fat percentage and ideal weight calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.wodoo.store/blog</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/how-to-start-a-single-product-store</loc>
-    <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/cash-on-delivery-vs-online-payment-india</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/10-conversion-tactics-one-product-stores</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/quantity-discounts-vs-bogo</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/launch-online-store-in-10-minutes</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-guide</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-tips</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-examples</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-2026</loc>
-    <lastmod>2026-06-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-cost</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-pricing</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-software</loc>
-    <lastmod>2026-07-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-app</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wodoo.store/blog/ecommerce-platform-for-small-business</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Woodo Store blog</image:title>
+      <image:caption>Ecommerce tips, store-building guides, and selling advice from Woodo Store</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.wodoo.store/blog/how-to-choose-ecommerce-platform</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>How to Choose an Ecommerce Platform Without Getting Overwhelmed</image:title>
+      <image:caption>A step-by-step process to choose an ecommerce platform — score features, fees, speed, and support — then pick a winner and launch.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-for-small-business</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Best Ecommerce Platform for Small Business: A Practical Framework</image:title>
+      <image:caption>How small businesses should pick an ecommerce platform — budget, skills, local payments, and a launch plan that doesn’t require a developer.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-app</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform App Ecosystem: Which Apps Are Worth Installing?</image:title>
+      <image:caption>How to choose ecommerce platform apps without slowing your store — reviews, upsells, email, and the plugins you can usually skip.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-software</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform Software: Core Features Every Store Needs</image:title>
+      <image:caption>What ecommerce platform software should include in 2026 — catalog, checkout, payments, shipping, analytics, and apps — without drowning you in complexity.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-pricing</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform Pricing Explained: Plans, Fees, and Fine Print</image:title>
+      <image:caption>Understand ecommerce platform pricing models — freemium, flat monthly, transaction fees, and usage tiers — and how to pick a plan that won’t punish growth.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-cost</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform Cost: What You’ll Really Pay to Run a Store</image:title>
+      <image:caption>Break down ecommerce platform cost — subscriptions, transaction fees, apps, themes, and hidden expenses — so you can budget before you build.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-2026</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform Trends in 2026: What’s Changing for Online Stores</image:title>
+      <image:caption>Ecommerce platform 2026 trends — AI product pages, faster checkout, marketplace sync, and why simplicity beats bloated app stacks for growing brands.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-examples</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform Examples: Store Setups That Actually Work</image:title>
+      <image:caption>Real-world ecommerce platform examples — single-product stores, niche catalogs, and service-plus-product hybrids — and what you can copy from each.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-tips</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>12 Ecommerce Platform Tips to Launch Faster and Convert Better</image:title>
+      <image:caption>Actionable ecommerce platform tips for setup, product pages, checkout, apps, and operations — so your store converts instead of collecting dust.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/ecommerce-platform-guide</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Ecommerce Platform Guide: How to Choose the Right One for Your Store</image:title>
+      <image:caption>A practical ecommerce platform guide covering storefronts, checkout, payments, shipping, fees, and the checklist to pick software that fits your product and growth stage.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/launch-online-store-in-10-minutes</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Launch an Online Store in 10 Minutes: The 2026 Quickstart</image:title>
+      <image:caption>From zero to live URL in 10 minutes — no developer, no theme to customise. Here&apos;s the actual sequence: sign up, add product, take your first order.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/quantity-discounts-vs-bogo</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Quantity Discounts vs BOGO: Which Drives More Revenue?</image:title>
+      <image:caption>Buy-One-Get-One feels exciting, but tiered quantity discounts almost always net more profit on single-product stores. Here&apos;s the math, with real examples.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/10-conversion-tactics-one-product-stores</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>10 Conversion Tactics That Actually Move the Needle for One-Product Stores</image:title>
+      <image:caption>Skip the 50-item Shopify checklists. Here are 10 specific, proven tactics for single-product stores — what to add, what to remove, and what to test first.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/cash-on-delivery-vs-online-payment-india</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Cash on Delivery vs Online Payment in India: Which Converts Better in 2026?</image:title>
+      <image:caption>COD still drives the majority of D2C orders in India, but rising RTOs are eating margins. Here&apos;s the data on conversion, return rates, and when to push prepaid vs COD.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/how-to-start-a-single-product-store</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>How to Start a Single-Product Store (and Why It Outsells Big Catalogs)</image:title>
+      <image:caption>A focused store that sells one great thing beats a sprawling catalog for new brands. Here&apos;s how to launch one in a weekend — picking the product, pricing, page design, and the first traffic source.</image:caption>
+    </image:image>
   </url>
 </urlset>
-

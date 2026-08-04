@@ -2,46 +2,38 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import { TopBar } from "@/components/wodoo/top-bar"
 import { ToolThumbnail } from "@/components/tools/tool-thumbnail"
-import { imageAttribution } from "@/lib/image-metadata"
+import { toolImageObject } from "@/lib/image-metadata"
 import { TOOLS } from "@/lib/tools"
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
-
 export const metadata: Metadata = {
-  title: "Free ecommerce tools",
+  title: "Free online tools & calculators",
   description:
-    "Discover a suite of free, powerful ecommerce tools designed to streamline your workflow, cut costs, and boost your productivity.",
+    "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Woodo Store.",
   alternates: { canonical: "/tools" },
   openGraph: {
-    title: "Free ecommerce tools — Woodo Store",
+    title: "Free online tools & calculators — Woodo Store",
     description:
-      "Discover a suite of free, powerful ecommerce tools designed to streamline your workflow, cut costs, and boost your productivity.",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Woodo Store free ecommerce tools" }],
+      "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Woodo Store.",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Woodo Store free online tools and calculators",
+      },
+    ],
   },
 }
 
 export default function ToolsIndexPage() {
-  const attribution = imageAttribution()
   const imageListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Woodo Store free ecommerce tool thumbnails",
+    name: "Woodo Store free online tool thumbnails",
     itemListElement: TOOLS.map((tool, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      item: {
-        "@type": "ImageObject",
-        contentUrl: `${SITE_URL}${tool.image}`,
-        url: `${SITE_URL}${tool.image}`,
-        name: tool.title,
-        description: tool.imageAlt,
-        width: 1200,
-        height: 630,
-        encodingFormat: "image/webp",
-        caption: tool.imageAlt,
-        ...attribution,
-        acquireLicensePage: `${SITE_URL}${tool.href}`,
-      },
+      item: toolImageObject(tool),
     })),
   }
 
@@ -65,11 +57,11 @@ export default function ToolsIndexPage() {
             Free tools
           </p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
-            Free ecommerce tools
+            Free online tools &amp; calculators
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground text-pretty">
-            Discover a suite of free, powerful ecommerce tools designed to
-            streamline your workflow, cut costs, and boost your productivity.
+            Ecommerce, finance, health, and maths calculators — free to use,
+            no signup required.
           </p>
         </div>
 

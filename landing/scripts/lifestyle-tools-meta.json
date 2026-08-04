@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "bmi-calculator",
+    "component": "BmiCalculator",
+    "title": "BMI calculator",
+    "metaDescription": "Free BMI calculator online — check body mass index from height and weight, see category, and healthy weight range.",
+    "intro": "Find your body mass index in seconds and see whether you’re underweight, normal, overweight, or obese.",
+    "description": "Enter height and weight. We’ll calculate BMI, category, and a healthy weight range for your height.",
+    "registryDescription": "Free BMI calculator to check body mass index, weight category, and healthy weight range.",
+    "imageAlt": "Free online BMI calculator for body mass index and healthy weight range",
+    "accent": "#38bdf8"
+  },
+  {
+    "slug": "age-calculator",
+    "component": "AgeCalculator",
+    "title": "Age calculator",
+    "metaDescription": "Free age calculator — find exact age in years, months, and days from date of birth, plus days until next birthday.",
+    "intro": "Calculate your exact age from your date of birth — years, months, days, and total days lived.",
+    "description": "Pick a birth date and an “as of” date. We’ll show precise age and when your next birthday falls.",
+    "registryDescription": "Free age calculator for exact age in years, months, days, and next birthday countdown.",
+    "imageAlt": "Free online age calculator for years months days from date of birth",
+    "accent": "#a78bfa"
+  },
+  {
+    "slug": "percentage-calculator",
+    "component": "PercentageCalculator",
+    "title": "Percentage calculator",
+    "metaDescription": "Free percentage calculator — find X% of Y, what percent one number is of another, and percentage increase or decrease.",
+    "intro": "Solve everyday percentage problems: X% of Y, what percent is X of Y, and percentage change.",
+    "description": "Choose a mode, enter two numbers, and get an instant percentage answer.",
+    "registryDescription": "Free percentage calculator for percent of a number, reverse percent, and percentage change.",
+    "imageAlt": "Free online percentage calculator for percent of value and percentage change",
+    "accent": "#34d399"
+  },
+  {
+    "slug": "emi-calculator",
+    "component": "EmiCalculator",
+    "title": "EMI calculator",
+    "metaDescription": "Free EMI calculator — estimate monthly loan EMI, total interest, and total payment from amount, rate, and tenure.",
+    "intro": "Estimate your monthly EMI for any loan — see EMI, total interest, and total repayment at a glance.",
+    "description": "Enter loan amount, annual interest rate, and tenure in months to calculate EMI and interest cost.",
+    "registryDescription": "Free EMI calculator for monthly installment, total interest, and total loan payment.",
+    "imageAlt": "Free online EMI calculator for monthly loan installment and total interest",
+    "accent": "#fbbf24"
+  },
+  {
+    "slug": "calorie-bmr-calculator",
+    "component": "CalorieBmrCalculator",
+    "title": "Calorie & BMR calculator",
+    "metaDescription": "Free calorie and BMR calculator — estimate basal metabolic rate and daily calories (TDEE) for maintain, lose, or gain weight.",
+    "intro": "Estimate BMR and daily calorie needs with the Mifflin–St Jeor formula — maintain, lose, or gain weight.",
+    "description": "Enter age, sex, height, weight, and activity level. We’ll calculate BMR, TDEE, and calorie targets.",
+    "registryDescription": "Free calorie and BMR calculator for daily energy needs, weight loss, and weight gain targets.",
+    "imageAlt": "Free online calorie and BMR calculator for daily calorie needs and TDEE",
+    "accent": "#fb7185"
+  },
+  {
+    "slug": "compound-interest-calculator",
+    "component": "CompoundInterestCalculator",
+    "title": "Compound interest calculator",
+    "metaDescription": "Free compound interest calculator — project future value with annual rate, compounding frequency, and optional monthly contributions.",
+    "intro": "See how compound interest grows your money over time — with optional monthly contributions.",
+    "description": "Enter principal, rate, years, compounding frequency, and optional monthly deposits to get future value.",
+    "registryDescription": "Free compound interest calculator for future value, contributions, and interest earned.",
+    "imageAlt": "Free online compound interest calculator for investment future value growth",
+    "accent": "#60a5fa"
+  },
+  {
+    "slug": "fd-calculator",
+    "component": "FdCalculator",
+    "title": "FD calculator",
+    "metaDescription": "Free FD calculator — estimate fixed deposit maturity amount and interest earned for bank FD tenure and compounding.",
+    "intro": "Calculate fixed deposit maturity value and interest for your bank FD rate and tenure.",
+    "description": "Enter deposit amount, interest rate, tenure in months, and compounding frequency to see maturity amount.",
+    "registryDescription": "Free fixed deposit FD calculator for maturity amount and interest earned.",
+    "imageAlt": "Free online FD calculator for fixed deposit maturity amount and interest",
+    "accent": "#4ade80"
+  },
+  {
+    "slug": "rd-calculator",
+    "component": "RdCalculator",
+    "title": "RD calculator",
+    "metaDescription": "Free RD calculator — estimate recurring deposit maturity value, total deposited, and interest for monthly RD plans.",
+    "intro": "Plan a recurring deposit — see maturity amount, total deposits, and interest earned.",
+    "description": "Enter monthly deposit, interest rate, and tenure in months to calculate RD maturity.",
+    "registryDescription": "Free recurring deposit RD calculator for maturity value and interest earned.",
+    "imageAlt": "Free online RD calculator for recurring deposit maturity and interest",
+    "accent": "#2dd4bf"
+  },
+  {
+    "slug": "home-personal-loan-emi-calculator",
+    "component": "HomePersonalLoanEmiCalculator",
+    "title": "Home & personal loan EMI calculator",
+    "metaDescription": "Free home loan and personal loan EMI calculator — compare monthly EMI, total interest, and repayment for loan tenure in years.",
+    "intro": "Compare home loan vs personal loan EMI — monthly payment, total interest, and full repayment.",
+    "description": "Choose loan type, then enter amount, rate, and tenure in years to estimate EMI and interest cost.",
+    "registryDescription": "Free home loan and personal loan EMI calculator for monthly payment and total interest.",
+    "imageAlt": "Free online home loan and personal loan EMI calculator",
+    "accent": "#c084fc"
+  },
+  {
+    "slug": "gst-calculator",
+    "component": "GstCalculator",
+    "title": "GST calculator",
+    "metaDescription": "Free GST calculator India — add or remove GST at 5%, 12%, 18%, or 28% with CGST/SGST split and invoice total.",
+    "intro": "Add or remove GST instantly — taxable value, GST amount, CGST/SGST, and invoice total.",
+    "description": "Choose exclusive or inclusive amount, pick a GST rate, and enter the amount to calculate tax breakup.",
+    "registryDescription": "Free India GST calculator for exclusive/inclusive tax, CGST, SGST, and invoice total.",
+    "imageAlt": "Free online GST calculator India for CGST SGST and invoice total",
+    "accent": "#f472b6"
+  },
+  {
+    "slug": "income-tax-calculator",
+    "component": "IncomeTaxCalculator",
+    "title": "Income tax calculator",
+    "metaDescription": "Free income tax calculator India — estimate tax under new or old regime with standard deduction, cess, and take-home pay.",
+    "intro": "Estimate India income tax under the new or old regime — taxable income, tax, cess, and take-home.",
+    "description": "Enter gross annual income and regime. Old regime also accepts deductions. Results are illustrative estimates.",
+    "registryDescription": "Free India income tax calculator for new/old regime tax, cess, and take-home estimate.",
+    "imageAlt": "Free online income tax calculator India for new and old regime",
+    "accent": "#f59e0b"
+  },
+  {
+    "slug": "date-days-calculator",
+    "component": "DateDaysCalculator",
+    "title": "Date / days calculator",
+    "metaDescription": "Free date and days calculator — find days between two dates or add/subtract days from a date with weeks and months.",
+    "intro": "Count days between dates or jump forward/back by any number of days.",
+    "description": "Choose difference mode or add/subtract days. We’ll show days, weeks, and approximate months.",
+    "registryDescription": "Free date calculator for days between dates and adding or subtracting days.",
+    "imageAlt": "Free online date days calculator for difference between dates",
+    "accent": "#22d3ee"
+  },
+  {
+    "slug": "maths-solver",
+    "component": "MathsSolver",
+    "title": "Maths solver",
+    "metaDescription": "Free maths solver / arithmetic calculator — solve expressions with +, −, ×, ÷, %, powers, and parentheses online.",
+    "intro": "Solve arithmetic expressions instantly — parentheses, powers, and the basic operators.",
+    "description": "Type an expression like (12 + 8) * 3 / 2 or 2^8. We’ll evaluate it safely and show the answer.",
+    "registryDescription": "Free maths solver for arithmetic expressions with parentheses, powers, and percentages.",
+    "imageAlt": "Free online maths solver calculator for arithmetic expressions",
+    "accent": "#818cf8"
+  },
+  {
+    "slug": "gpa-calculator",
+    "component": "GpaCalculator",
+    "title": "GPA calculator",
+    "metaDescription": "Free GPA calculator — compute grade point average from course credits and grade points on a 10-point scale.",
+    "intro": "Calculate GPA from your courses — credits × grade points, weighted across the semester.",
+    "description": "Add each course’s credits and grade points (0–10). We’ll compute GPA, total credits, and quality points.",
+    "registryDescription": "Free GPA calculator for weighted grade point average from credits and grade points.",
+    "imageAlt": "Free online GPA calculator for college grade point average",
+    "accent": "#e879f9"
+  },
+  {
+    "slug": "body-fat-ideal-weight-calculator",
+    "component": "BodyFatIdealWeightCalculator",
+    "title": "Body fat & ideal weight calculator",
+    "metaDescription": "Free body fat and ideal weight calculator — US Navy body fat %, category, Devine ideal weight, and BMI from measurements.",
+    "intro": "Estimate body fat percentage (US Navy method), ideal weight, and BMI from simple measurements.",
+    "description": "Enter sex, age, height, weight, waist, neck (and hip for women). We’ll estimate body fat %, category, and ideal weight.",
+    "registryDescription": "Free body fat and ideal weight calculator using US Navy method plus Devine ideal weight.",
+    "imageAlt": "Free online body fat percentage and ideal weight calculator",
+    "accent": "#fb923c"
+  }
+]

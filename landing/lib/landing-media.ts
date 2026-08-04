@@ -177,7 +177,13 @@ export function landingVideoObjects() {
       url: SITE_URL,
       logo: {
         "@type": "ImageObject" as const,
+        contentUrl: abs("/og.png"),
         url: abs("/og.png"),
+        name: "Woodo Store",
+        description: "Woodo Store logo",
+        width: 1200,
+        height: 630,
+        encodingFormat: "image/png",
         ...imageAttribution(),
       },
     },

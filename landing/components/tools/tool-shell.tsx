@@ -1,10 +1,8 @@
 import Link from "next/link"
 import { TopBar } from "@/components/wodoo/top-bar"
 import { StartStoreButton } from "@/components/wodoo/start-store-button"
-import { imageAttribution } from "@/lib/image-metadata"
+import { toolImageObject } from "@/lib/image-metadata"
 import { getTool } from "@/lib/tools"
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store"
 
 export function ToolShell({
   children,
@@ -28,18 +26,7 @@ export function ToolShell({
   const imageObject = tool
     ? {
         "@context": "https://schema.org",
-        "@type": "ImageObject",
-        contentUrl: `${SITE_URL}${tool.image}`,
-        url: `${SITE_URL}${tool.image}`,
-        name: tool.title,
-        description: tool.imageAlt,
-        width: 1200,
-        height: 630,
-        encodingFormat: "image/webp",
-        caption: tool.imageAlt,
-        representativeOfPage: true,
-        ...imageAttribution(),
-        acquireLicensePage: `${SITE_URL}${tool.href}`,
+        ...toolImageObject(tool, { representativeOfPage: true }),
       }
     : null
 

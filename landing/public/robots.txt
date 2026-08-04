@@ -8,7 +8,7 @@ Allow: /tools/
 Allow: /blog
 Allow: /blog/
 
-# Block app APIs and private endpoints
+# Block private app surfaces
 Disallow: /api/
 Disallow: /api/*
 Disallow: /admin
@@ -17,5 +17,5 @@ Disallow: /admin/
 # Prefer the canonical host
 Host: www.wodoo.store
 
-# Sitemap index
+# Sitemap
 Sitemap: https://www.wodoo.store/sitemap.xml
