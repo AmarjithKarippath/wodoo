@@ -931,6 +931,83 @@ export const TOOLS: Tool[] = [
       "Free online stamp duty calculator India for property purchase",
     status: "live",
   },
+  {
+    slug: "us-mortgage-calculator",
+    title: "US mortgage calculator",
+    description:
+      "Free US mortgage calculator for monthly PITI, loan amount, and total interest.",
+    href: "/tools/us-mortgage-calculator",
+    image: "/tools/us-mortgage-calculator.webp",
+    imageAlt:
+      "Free online US mortgage calculator for monthly home loan payments",
+    status: "live",
+  },
+  {
+    slug: "uk-salary-calculator",
+    title: "UK salary / take-home calculator",
+    description:
+      "Free UK salary take-home calculator for income tax, NI, student loan, and pension.",
+    href: "/tools/uk-salary-calculator",
+    image: "/tools/uk-salary-calculator.webp",
+    imageAlt:
+      "Free online UK salary take-home pay calculator",
+    status: "live",
+  },
+  {
+    slug: "pdf-converter",
+    title: "PDF converter",
+    description:
+      "Free PDF converter for text and images to PDF in the browser.",
+    href: "/tools/pdf-converter",
+    image: "/tools/pdf-converter.webp",
+    imageAlt:
+      "Free online PDF converter for text and images",
+    status: "live",
+  },
+  {
+    slug: "pdf-to-pdf-converter",
+    title: "PDF to PDF converter",
+    description:
+      "Free PDF to PDF converter to merge PDFs or rotate pages locally.",
+    href: "/tools/pdf-to-pdf-converter",
+    image: "/tools/pdf-to-pdf-converter.webp",
+    imageAlt:
+      "Free online PDF merge and rotate converter",
+    status: "live",
+  },
+  {
+    slug: "word-to-pdf-converter",
+    title: "Word to PDF converter",
+    description:
+      "Free Word to PDF converter for .docx documents in the browser.",
+    href: "/tools/word-to-pdf-converter",
+    image: "/tools/word-to-pdf-converter.webp",
+    imageAlt:
+      "Free online Word DOCX to PDF converter",
+    status: "live",
+  },
+  {
+    slug: "images-to-pdf-converter",
+    title: "Images to PDF converter",
+    description:
+      "Free images to PDF converter for JPG and PNG to multi-page PDF.",
+    href: "/tools/images-to-pdf-converter",
+    image: "/tools/images-to-pdf-converter.webp",
+    imageAlt:
+      "Free online images to PDF converter for JPG and PNG",
+    status: "live",
+  },
+  {
+    slug: "youtube-to-mp3-converter",
+    title: "YouTube audio player",
+    description:
+      "Free YouTube audio player via official embed — no MP3 downloading.",
+    href: "/tools/youtube-to-mp3-converter",
+    image: "/tools/youtube-to-mp3-converter.webp",
+    imageAlt:
+      "Free online YouTube audio player with official embed",
+    status: "live",
+  },
 ]
 
 export function getTool(slug: string): Tool | undefined {

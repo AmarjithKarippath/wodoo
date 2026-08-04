@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "us-mortgage-calculator",
+    "component": "UsMortgageCalculator",
+    "title": "US mortgage calculator",
+    "metaDescription": "Free US mortgage calculator — monthly PITI payment from home price, down payment, rate, taxes, insurance, HOA, and PMI.",
+    "intro": "Estimate your US mortgage payment including principal, interest, taxes, insurance, HOA, and PMI.",
+    "description": "Enter home price, down payment, rate, and term. Optional tax, insurance, HOA, and PMI refine the total monthly payment.",
+    "registryDescription": "Free US mortgage calculator for monthly PITI, loan amount, and total interest.",
+    "imageAlt": "Free online US mortgage calculator for monthly home loan payments",
+    "accent": "#38bdf8"
+  },
+  {
+    "slug": "uk-salary-calculator",
+    "component": "UkSalaryCalculator",
+    "title": "UK salary / take-home calculator",
+    "metaDescription": "Free UK take-home pay calculator — estimate net salary after income tax, National Insurance, student loan, and pension (2025/26 illustrative).",
+    "intro": "Estimate UK take-home pay after tax, National Insurance, student loan, and pension contributions.",
+    "description": "Illustrative 2025/26 figures for England/Wales/NI or approximate Scottish bands. Not official tax advice.",
+    "registryDescription": "Free UK salary take-home calculator for income tax, NI, student loan, and pension.",
+    "imageAlt": "Free online UK salary take-home pay calculator",
+    "accent": "#a78bfa"
+  },
+  {
+    "slug": "pdf-converter",
+    "component": "PdfConverter",
+    "title": "PDF converter",
+    "metaDescription": "Free PDF converter — turn text or images into PDF in your browser. Links to Word, images, and PDF merge tools.",
+    "intro": "Convert text or images to PDF instantly in your browser — no upload to a server.",
+    "description": "Choose text or images, then download a PDF. Use the linked tools for Word documents or merging PDFs.",
+    "registryDescription": "Free PDF converter for text and images to PDF in the browser.",
+    "imageAlt": "Free online PDF converter for text and images",
+    "accent": "#34d399"
+  },
+  {
+    "slug": "pdf-to-pdf-converter",
+    "component": "PdfToPdfConverter",
+    "title": "PDF to PDF converter",
+    "metaDescription": "Free PDF to PDF tool — merge multiple PDFs or rotate pages in your browser without uploading files.",
+    "intro": "Merge several PDFs into one file, or rotate every page — processed locally in your browser.",
+    "description": "Select PDFs, choose merge or rotate, and download the result. Files never leave your device.",
+    "registryDescription": "Free PDF to PDF converter to merge PDFs or rotate pages locally.",
+    "imageAlt": "Free online PDF merge and rotate converter",
+    "accent": "#fbbf24"
+  },
+  {
+    "slug": "word-to-pdf-converter",
+    "component": "WordToPdfConverter",
+    "title": "Word to PDF converter",
+    "metaDescription": "Free Word to PDF converter — convert .docx documents to PDF in your browser (text-focused).",
+    "intro": "Convert a .docx Word document to PDF without uploading it to a server.",
+    "description": "Upload a .docx file. Text is extracted and written into a simple multi-page PDF you can download.",
+    "registryDescription": "Free Word to PDF converter for .docx documents in the browser.",
+    "imageAlt": "Free online Word DOCX to PDF converter",
+    "accent": "#fb7185"
+  },
+  {
+    "slug": "images-to-pdf-converter",
+    "component": "ImagesToPdfConverter",
+    "title": "Images to PDF converter",
+    "metaDescription": "Free images to PDF converter — combine JPG and PNG files into one PDF with fit, A4, or Letter pages.",
+    "intro": "Combine JPG or PNG images into a single PDF, with optional A4 or Letter page sizes.",
+    "description": "Select images in order, pick a page size, and download the PDF. Conversion runs in your browser.",
+    "registryDescription": "Free images to PDF converter for JPG and PNG to multi-page PDF.",
+    "imageAlt": "Free online images to PDF converter for JPG and PNG",
+    "accent": "#60a5fa"
+  },
+  {
+    "slug": "youtube-to-mp3-converter",
+    "component": "YoutubeToMp3Converter",
+    "title": "YouTube audio player",
+    "metaDescription": "Free YouTube audio player — paste a YouTube URL to listen via the official embed. No MP3 downloading.",
+    "intro": "Paste a YouTube link to listen in an official player. We don’t download or rip MP3 files.",
+    "description": "Uses YouTube’s embed and Music links only. File downloads aren’t offered — that would violate YouTube’s terms and copyright.",
+    "registryDescription": "Free YouTube audio player via official embed — no MP3 downloading.",
+    "imageAlt": "Free online YouTube audio player with official embed",
+    "accent": "#ef4444"
+  }
+]

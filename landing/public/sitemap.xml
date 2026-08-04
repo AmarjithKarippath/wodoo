@@ -992,6 +992,83 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.wodoo.store/tools/us-mortgage-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/us-mortgage-calculator.webp</image:loc>
+      <image:title>US mortgage calculator</image:title>
+      <image:caption>Free online US mortgage calculator for monthly home loan payments</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/uk-salary-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/uk-salary-calculator.webp</image:loc>
+      <image:title>UK salary / take-home calculator</image:title>
+      <image:caption>Free online UK salary take-home pay calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/pdf-converter</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/pdf-converter.webp</image:loc>
+      <image:title>PDF converter</image:title>
+      <image:caption>Free online PDF converter for text and images</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/pdf-to-pdf-converter</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/pdf-to-pdf-converter.webp</image:loc>
+      <image:title>PDF to PDF converter</image:title>
+      <image:caption>Free online PDF merge and rotate converter</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/word-to-pdf-converter</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/word-to-pdf-converter.webp</image:loc>
+      <image:title>Word to PDF converter</image:title>
+      <image:caption>Free online Word DOCX to PDF converter</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/images-to-pdf-converter</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/images-to-pdf-converter.webp</image:loc>
+      <image:title>Images to PDF converter</image:title>
+      <image:caption>Free online images to PDF converter for JPG and PNG</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/youtube-to-mp3-converter</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/youtube-to-mp3-converter.webp</image:loc>
+      <image:title>YouTube audio player</image:title>
+      <image:caption>Free online YouTube audio player with official embed</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.wodoo.store/blog</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1000,6 +1077,17 @@
       <image:loc>https://www.wodoo.store/og.png</image:loc>
       <image:title>Wodoo Store blog</image:title>
       <image:caption>Ecommerce tips, store-building guides, and selling advice from Wodoo Store</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/blog/best-productivity-tools-books-2026</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/og.png</image:loc>
+      <image:title>Best Productivity Tools &amp; Books to Master in 2026</image:title>
+      <image:caption>A practical 2026 guide to productivity tools and books that reduce friction — task apps, workspaces, calendars, AI assistants, and the reading list that still compounds.</image:caption>
     </image:image>
   </url>
   <url>

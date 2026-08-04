@@ -635,6 +635,86 @@ export const POSTS: Post[] = [
       { type: "callout", text: "How to choose an ecommerce platform: constrain, score, test-order, then commit. Decision speed is a competitive advantage." },
     ],
   },
+
+  {
+    slug: "best-productivity-tools-books-2026",
+    title: "Best Productivity Tools & Books to Master in 2026",
+    description:
+      "A practical 2026 guide to productivity tools and books that reduce friction — task apps, workspaces, calendars, AI assistants, and the reading list that still compounds.",
+    publishedAt: "2026-08-05",
+    author: "Wodoo Store Team",
+    readingMinutes: 8,
+    tags: ["productivity", "tools", "books", "2026"],
+    body: [
+      { type: "p", text: "Productivity in 2026 isn’t about doing more. It’s about reducing friction and focusing on what actually matters." },
+      { type: "p", text: "Here’s a practical guide to the tools and books that deliver real results." },
+
+      { type: "h2", text: "Essential productivity tools", id: "essential-tools" },
+
+      { type: "h3", text: "Task management", id: "task-management" },
+      { type: "ul", items: [
+        "Todoist — Clean, fast, and reliable for personal and light team use.",
+        "TickTick — Great if you want tasks, calendar, and Pomodoro in one place.",
+        "Things 3 — Excellent for Apple users who prefer simplicity.",
+      ]},
+
+      { type: "h3", text: "All-in-one workspaces", id: "workspaces" },
+      { type: "ul", items: [
+        "Notion — Notes, databases, and light project management with strong AI features.",
+        "ClickUp — Tasks, docs, chat, and dashboards in a single workspace.",
+        "Asana — Strong for structured team projects and visibility.",
+      ]},
+
+      { type: "h3", text: "Calendar & time planning", id: "calendar" },
+      { type: "ul", items: [
+        "Motion or Reclaim.ai — AI scheduling that protects focus time.",
+        "Sunsama — Intentional daily planning and time-blocking.",
+        "Google Calendar or Fantastical — Solid foundations that integrate well.",
+      ]},
+
+      { type: "h3", text: "Notes & knowledge", id: "notes" },
+      { type: "ul", items: [
+        "Notion or Obsidian — Best long-term knowledge systems.",
+        "Apple Notes or OneNote — Low-friction capture options.",
+      ]},
+
+      { type: "h3", text: "Automation & focus", id: "automation" },
+      { type: "ul", items: [
+        "Zapier or Make — Automate repetitive work between apps.",
+        "Freedom — Block distractions during deep work.",
+        "Grammarly — Fast writing polish.",
+      ]},
+
+      { type: "h3", text: "AI assistants (the real multiplier)", id: "ai-assistants" },
+      { type: "ul", items: [
+        "ChatGPT or Claude — Daily drivers for drafting, research, and analysis.",
+        "Microsoft 365 Copilot or Google Gemini — Best if you already live in those ecosystems.",
+        "Cursor — Transformative for coding.",
+      ]},
+
+      { type: "callout", text: "Most people get the best results from 3–5 tools max: one task system + one notes tool + one calendar approach + one AI assistant." },
+
+      { type: "h2", text: "Best productivity books for 2026", id: "books" },
+      { type: "ol", items: [
+        "Atomic Habits — James Clear. How small, consistent changes compound over time.",
+        "Deep Work — Cal Newport. How to protect focused attention in a distracted world.",
+        "Getting Things Done — David Allen. The classic system for capturing everything and staying clear-headed.",
+        "The 7 Habits of Highly Effective People — Stephen R. Covey. Timeless principles of prioritisation and personal effectiveness.",
+        "The Power of Habit — Charles Duhigg. The science behind habit loops and how to change them.",
+        "Essentialism — Greg McKeown. The disciplined pursuit of less.",
+        "Four Thousand Weeks — Oliver Burkeman. A clear-eyed look at limited time and better prioritisation.",
+        "Slow Productivity — Cal Newport. Do fewer things, work at a natural pace, obsess over quality.",
+      ]},
+
+      { type: "h2", text: "How to combine them", id: "combine" },
+      { type: "p", text: "Start with one book. Apply one principle immediately. Then build a simple tool stack around it." },
+      { type: "p", text: "Review your setup every few months. Remove anything that creates more friction than it removes." },
+      { type: "p", text: "Measure success by outcomes — completed important work and lower stress — not by how many apps you use." },
+      { type: "p", text: "A lean tool stack plus principles from these books is still one of the highest-leverage combinations available in 2026." },
+
+      { type: "callout", text: "Which tool or book has made the biggest difference for you?" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {

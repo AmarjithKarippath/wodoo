@@ -7,7 +7,7 @@ import { toolsIndexListSchema } from "@/lib/tool-schema"
 import { TOOLS, liveTools } from "@/lib/tools"
 
 const TOOLS_DESCRIPTION =
-  "Free ecommerce, finance, health, and maths tools — EMI, car loan, XIRR, SWP, TDEE, retirement, stamp duty, GST, BMI, GPA, and more from Wodoo Store."
+  "Free ecommerce, finance, health, and maths tools — EMI, US mortgage, UK take-home, PDF converters, XIRR, TDEE, GST, BMI, GPA, and more from Wodoo Store."
 
 export const metadata: Metadata = {
   title: "Free online tools & calculators",
