@@ -14,8 +14,16 @@ Disallow: /api/*
 Disallow: /admin
 Disallow: /admin/
 
+# Googlebot — same rules, explicit allow for tools & blog
+User-agent: Googlebot
+Allow: /
+Allow: /tools
+Allow: /blog
+Disallow: /api/
+Disallow: /admin
+
 # Prefer the canonical host
 Host: www.wodoo.store
 
-# Sitemap
+# Sitemap (101 URLs — home, tools index + 83 calculators, blog + posts)
 Sitemap: https://www.wodoo.store/sitemap.xml

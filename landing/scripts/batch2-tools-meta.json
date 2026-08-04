@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "car-loan-emi-calculator",
+    "component": "CarLoanEmiCalculator",
+    "title": "Car loan EMI calculator",
+    "metaDescription": "Free car loan EMI calculator — estimate monthly EMI, loan amount after down payment, total interest, and repayment.",
+    "intro": "Plan your car loan with down payment, interest rate, and tenure — see EMI and total interest instantly.",
+    "description": "Enter car price, down payment, rate, and years. We’ll calculate loan principal, monthly EMI, and interest cost.",
+    "registryDescription": "Free car loan EMI calculator for monthly installment after down payment, total interest, and repayment.",
+    "imageAlt": "Free online car loan EMI calculator for vehicle financing",
+    "accent": "#38bdf8"
+  },
+  {
+    "slug": "interest-calculator",
+    "component": "InterestCalculator",
+    "title": "Interest calculator",
+    "metaDescription": "Free interest calculator for simple and compound interest — principal, rate, years, and total amount.",
+    "intro": "Compare simple vs compound interest and see how your principal grows over time.",
+    "description": "Choose interest type, enter principal, rate, and tenure. Optional compounding frequency for compound interest.",
+    "registryDescription": "Free simple and compound interest calculator for principal, rate, years, and maturity amount.",
+    "imageAlt": "Free online interest calculator for simple and compound interest",
+    "accent": "#a78bfa"
+  },
+  {
+    "slug": "lumpsum-calculator",
+    "component": "LumpsumCalculator",
+    "title": "Lumpsum calculator",
+    "metaDescription": "Free lumpsum mutual fund calculator — project future value, invested amount, and wealth gained from expected returns.",
+    "intro": "Estimate the future value of a one-time mutual fund or investment lumpsum.",
+    "description": "Enter investment amount, expected annual return, and years to see maturity value and gains.",
+    "registryDescription": "Free lumpsum investment calculator for future value and wealth gained from expected returns.",
+    "imageAlt": "Free online lumpsum mutual fund calculator",
+    "accent": "#34d399"
+  },
+  {
+    "slug": "swp-calculator",
+    "component": "SwpCalculator",
+    "title": "SWP calculator",
+    "metaDescription": "Free SWP calculator — systematic withdrawal plan ending corpus, total withdrawn, and months the corpus lasts.",
+    "intro": "Model monthly withdrawals from a corpus and see how long your money lasts.",
+    "description": "Enter starting corpus, monthly withdrawal, expected return, and years to project ending balance.",
+    "registryDescription": "Free SWP calculator for systematic withdrawals, ending corpus, and sustainability of drawdowns.",
+    "imageAlt": "Free online SWP systematic withdrawal plan calculator",
+    "accent": "#fbbf24"
+  },
+  {
+    "slug": "sukanya-samriddhi-calculator",
+    "component": "SukanyaSamriddhiCalculator",
+    "title": "Sukanya Samriddhi Yojana calculator",
+    "metaDescription": "Free Sukanya Samriddhi Yojana (SSY) calculator — estimate maturity amount, deposits, and interest (illustrative).",
+    "intro": "Project Sukanya Samriddhi maturity with yearly deposits, deposit years, and the current scheme rate.",
+    "description": "Illustrative SSY estimate — enter deposit, years, and rate. Confirm final figures with your bank or post office.",
+    "registryDescription": "Free Sukanya Samriddhi Yojana calculator for maturity value, deposits, and interest earned.",
+    "imageAlt": "Free online Sukanya Samriddhi Yojana SSY calculator India",
+    "accent": "#fb7185"
+  },
+  {
+    "slug": "xirr-calculator",
+    "component": "XirrCalculator",
+    "title": "XIRR calculator",
+    "metaDescription": "Free XIRR calculator — annualized return from dated cash flows for SIPs, lumpsums, and redemptions.",
+    "intro": "Calculate XIRR from irregular investments and redemptions with dates.",
+    "description": "Add cash flows (negative = invest, positive = redeem) with dates to get annualized XIRR.",
+    "registryDescription": "Free XIRR calculator for annualized returns from dated investment cash flows.",
+    "imageAlt": "Free online XIRR calculator for mutual fund and investment returns",
+    "accent": "#60a5fa"
+  },
+  {
+    "slug": "tdee-calculator",
+    "component": "TdeeCalculator",
+    "title": "TDEE calculator",
+    "metaDescription": "Free TDEE calculator — total daily energy expenditure from BMR and activity level for maintain, cut, or bulk calories.",
+    "intro": "Find your total daily energy expenditure (TDEE) to set maintain, cut, or bulk calorie targets.",
+    "description": "Enter sex, age, weight, height, and activity. We use Mifflin–St Jeor BMR × activity multiplier.",
+    "registryDescription": "Free TDEE calculator for daily calorie needs from BMR and activity level.",
+    "imageAlt": "Free online TDEE calculator for total daily energy expenditure",
+    "accent": "#4ade80"
+  },
+  {
+    "slug": "calorie-deficit-calculator",
+    "component": "CalorieDeficitCalculator",
+    "title": "Calorie deficit calculator",
+    "metaDescription": "Free calorie deficit calculator — daily/weekly deficit, kg per week, and estimated weeks to your target weight.",
+    "intro": "Turn a calorie deficit (or surplus) into an estimated weight-change timeline.",
+    "description": "Enter maintenance calories, intake, current weight, and target weight to estimate pace and time to goal.",
+    "registryDescription": "Free calorie deficit calculator for weight-loss pace and time to target weight.",
+    "imageAlt": "Free online calorie deficit calculator for weight loss timeline",
+    "accent": "#2dd4bf"
+  },
+  {
+    "slug": "metabolic-rate-calculator",
+    "component": "MetabolicRateCalculator",
+    "title": "Metabolic rate calculator",
+    "metaDescription": "Free metabolic rate calculator comparing Mifflin–St Jeor, Harris–Benedict, and Katch–McArdle BMR plus TDEE.",
+    "intro": "Compare popular BMR formulas side by side, then see TDEE for your activity level.",
+    "description": "Optional body fat % unlocks Katch–McArdle. Useful when refining calorie targets beyond a single formula.",
+    "registryDescription": "Free metabolic rate calculator comparing Mifflin, Harris–Benedict, and Katch–McArdle BMR/TDEE.",
+    "imageAlt": "Free online metabolic rate BMR calculator with multiple formulas",
+    "accent": "#c084fc"
+  },
+  {
+    "slug": "retirement-calculator",
+    "component": "RetirementCalculator",
+    "title": "Retirement calculator",
+    "metaDescription": "Free retirement calculator — corpus needed, projected savings, and shortfall or surplus with inflation and returns.",
+    "intro": "Estimate the retirement corpus you need and whether your savings plan gets you there.",
+    "description": "Uses inflation-adjusted expenses and a 25× annual expense rule of thumb, plus projected investments.",
+    "registryDescription": "Free retirement planning calculator for corpus needed, projected savings, and shortfall.",
+    "imageAlt": "Free online retirement corpus planning calculator",
+    "accent": "#f472b6"
+  },
+  {
+    "slug": "pension-calculator",
+    "component": "PensionCalculator",
+    "title": "Pension calculator",
+    "metaDescription": "Free pension calculator — monthly pension from corpus, or corpus needed for a target pension over years.",
+    "intro": "Plan pension drawdowns from a corpus, or reverse-calculate how much corpus you need.",
+    "description": "Choose a mode, enter corpus or desired monthly pension, return rate, and years of drawdown.",
+    "registryDescription": "Free pension calculator for monthly pension from corpus or corpus required for target pension.",
+    "imageAlt": "Free online pension and annuity drawdown calculator",
+    "accent": "#f59e0b"
+  },
+  {
+    "slug": "electricity-bill-calculator",
+    "component": "ElectricityBillCalculator",
+    "title": "Electricity bill calculator",
+    "metaDescription": "Free electricity bill calculator with progressive unit slabs, fixed charge, and effective rate per kWh.",
+    "intro": "Estimate your power bill from units consumed and slab rates (editable for your DISCOM).",
+    "description": "Default slabs are illustrative domestic rates — adjust ₹/unit to match your local tariff.",
+    "registryDescription": "Free electricity bill calculator for slab-based energy charges and fixed charges.",
+    "imageAlt": "Free online electricity bill calculator with unit slabs",
+    "accent": "#22d3ee"
+  },
+  {
+    "slug": "net-worth-calculator",
+    "component": "NetWorthCalculator",
+    "title": "Net worth calculator",
+    "metaDescription": "Free net worth calculator — total assets minus liabilities across cash, investments, property, and debts.",
+    "intro": "Add up assets and liabilities to see your net worth at a glance.",
+    "description": "Enter cash, investments, property, other assets, loans, credit cards, and other liabilities.",
+    "registryDescription": "Free net worth calculator for assets, liabilities, and overall financial position.",
+    "imageAlt": "Free online net worth calculator for assets and liabilities",
+    "accent": "#818cf8"
+  },
+  {
+    "slug": "irr-calculator",
+    "component": "IrrCalculator",
+    "title": "IRR calculator",
+    "metaDescription": "Free IRR calculator for periodic cash flows — internal rate of return per period for projects and investments.",
+    "intro": "Compute internal rate of return from a sequence of equal-period cash flows.",
+    "description": "Paste comma-separated cash flows (first usually negative). For dated irregular flows, use the XIRR calculator.",
+    "registryDescription": "Free IRR calculator for internal rate of return from periodic investment cash flows.",
+    "imageAlt": "Free online IRR internal rate of return calculator",
+    "accent": "#e879f9"
+  },
+  {
+    "slug": "present-value-calculator",
+    "component": "PresentValueCalculator",
+    "title": "Present value calculator",
+    "metaDescription": "Free present value, future value, and NPV calculator — discount rates, periods, annuities, and cash flows.",
+    "intro": "Calculate present value, future value, or NPV of cash flows with a discount rate.",
+    "description": "Switch modes for PV of a future sum, FV of a present sum (plus optional payments), or NPV.",
+    "registryDescription": "Free PV, FV, and NPV calculator for time value of money and project cash flows.",
+    "imageAlt": "Free online present value NPV and future value calculator",
+    "accent": "#fb923c"
+  },
+  {
+    "slug": "stamp-duty-calculator",
+    "component": "StampDutyCalculator",
+    "title": "Stamp duty calculator",
+    "metaDescription": "Free India stamp duty calculator — estimate stamp duty and registration charges by state (illustrative rates).",
+    "intro": "Estimate stamp duty and registration on a property purchase for major Indian states.",
+    "description": "Rates are illustrative defaults and may differ by locality. Confirm with your registrar before buying.",
+    "registryDescription": "Free stamp duty calculator India for property stamp duty and registration estimates by state.",
+    "imageAlt": "Free online stamp duty calculator India for property purchase",
+    "accent": "#38bdf8"
+  }
+]

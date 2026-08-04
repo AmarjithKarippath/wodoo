@@ -143,7 +143,7 @@ ${LANDING_VIDEOS.map(
     <image:image>
       <image:loc>${SITE}/og.png</image:loc>
       <image:title>Free online tools &amp; calculators — Wodoo Store</image:title>
-      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Wodoo Store</image:caption>
+      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Wodoo Store — EMI, XIRR, TDEE, retirement, stamp duty, and more</image:caption>
     </image:image>
   </url>
 `

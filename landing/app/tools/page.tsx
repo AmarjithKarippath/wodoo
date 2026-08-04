@@ -3,17 +3,34 @@ import type { Metadata } from "next"
 import { TopBar } from "@/components/wodoo/top-bar"
 import { ToolThumbnail } from "@/components/tools/tool-thumbnail"
 import { toolImageObject } from "@/lib/image-metadata"
-import { TOOLS } from "@/lib/tools"
+import { toolsIndexListSchema } from "@/lib/tool-schema"
+import { TOOLS, liveTools } from "@/lib/tools"
+
+const TOOLS_DESCRIPTION =
+  "Free ecommerce, finance, health, and maths tools — EMI, car loan, XIRR, SWP, TDEE, retirement, stamp duty, GST, BMI, GPA, and more from Wodoo Store."
 
 export const metadata: Metadata = {
   title: "Free online tools & calculators",
-  description:
-    "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Wodoo Store.",
+  description: TOOLS_DESCRIPTION,
+  keywords: [
+    "free online calculators",
+    "EMI calculator",
+    "car loan EMI calculator",
+    "XIRR calculator",
+    "SWP calculator",
+    "TDEE calculator",
+    "retirement calculator",
+    "stamp duty calculator",
+    "Sukanya Samriddhi calculator",
+    "GST calculator",
+    "BMI calculator",
+    "Wodoo Store tools",
+  ],
   alternates: { canonical: "/tools" },
   openGraph: {
     title: "Free online tools & calculators — Wodoo Store",
-    description:
-      "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Wodoo Store.",
+    description: TOOLS_DESCRIPTION,
+    url: "/tools",
     images: [
       {
         url: "/og.png",
@@ -23,25 +40,48 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free online tools & calculators — Wodoo Store",
+    description: TOOLS_DESCRIPTION,
+    images: ["/og.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 }
 
 export default function ToolsIndexPage() {
+  const live = liveTools()
   const imageListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Wodoo Store free online tool thumbnails",
-    itemListElement: TOOLS.map((tool, index) => ({
+    numberOfItems: live.length,
+    itemListElement: live.map((tool, index) => ({
       "@type": "ListItem",
       position: index + 1,
       item: toolImageObject(tool),
     })),
   }
+  const toolsListSchema = toolsIndexListSchema(TOOLS)
 
   return (
     <main className="min-h-screen bg-background">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(imageListSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(toolsListSchema) }}
       />
       <TopBar />
       <div className="mx-auto max-w-6xl px-6 pb-20 pt-32">

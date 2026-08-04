@@ -75,7 +75,7 @@
     <image:image>
       <image:loc>https://www.wodoo.store/og.png</image:loc>
       <image:title>Free online tools &amp; calculators — Wodoo Store</image:title>
-      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Wodoo Store</image:caption>
+      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Wodoo Store — EMI, XIRR, TDEE, retirement, stamp duty, and more</image:caption>
     </image:image>
   </url>
   <url>
@@ -813,6 +813,182 @@
       <image:loc>https://www.wodoo.store/tools/body-fat-ideal-weight-calculator.webp</image:loc>
       <image:title>Body fat &amp; ideal weight calculator</image:title>
       <image:caption>Free online body fat percentage and ideal weight calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/car-loan-emi-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/car-loan-emi-calculator.webp</image:loc>
+      <image:title>Car loan EMI calculator</image:title>
+      <image:caption>Free online car loan EMI calculator for vehicle financing</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/interest-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/interest-calculator.webp</image:loc>
+      <image:title>Interest calculator</image:title>
+      <image:caption>Free online interest calculator for simple and compound interest</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/lumpsum-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/lumpsum-calculator.webp</image:loc>
+      <image:title>Lumpsum calculator</image:title>
+      <image:caption>Free online lumpsum mutual fund calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/swp-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/swp-calculator.webp</image:loc>
+      <image:title>SWP calculator</image:title>
+      <image:caption>Free online SWP systematic withdrawal plan calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/sukanya-samriddhi-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/sukanya-samriddhi-calculator.webp</image:loc>
+      <image:title>Sukanya Samriddhi Yojana calculator</image:title>
+      <image:caption>Free online Sukanya Samriddhi Yojana SSY calculator India</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/xirr-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/xirr-calculator.webp</image:loc>
+      <image:title>XIRR calculator</image:title>
+      <image:caption>Free online XIRR calculator for mutual fund and investment returns</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/tdee-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/tdee-calculator.webp</image:loc>
+      <image:title>TDEE calculator</image:title>
+      <image:caption>Free online TDEE calculator for total daily energy expenditure</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/calorie-deficit-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/calorie-deficit-calculator.webp</image:loc>
+      <image:title>Calorie deficit calculator</image:title>
+      <image:caption>Free online calorie deficit calculator for weight loss timeline</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/metabolic-rate-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/metabolic-rate-calculator.webp</image:loc>
+      <image:title>Metabolic rate calculator</image:title>
+      <image:caption>Free online metabolic rate BMR calculator with multiple formulas</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/retirement-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/retirement-calculator.webp</image:loc>
+      <image:title>Retirement calculator</image:title>
+      <image:caption>Free online retirement corpus planning calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/pension-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/pension-calculator.webp</image:loc>
+      <image:title>Pension calculator</image:title>
+      <image:caption>Free online pension and annuity drawdown calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/electricity-bill-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/electricity-bill-calculator.webp</image:loc>
+      <image:title>Electricity bill calculator</image:title>
+      <image:caption>Free online electricity bill calculator with unit slabs</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/net-worth-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/net-worth-calculator.webp</image:loc>
+      <image:title>Net worth calculator</image:title>
+      <image:caption>Free online net worth calculator for assets and liabilities</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/irr-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/irr-calculator.webp</image:loc>
+      <image:title>IRR calculator</image:title>
+      <image:caption>Free online IRR internal rate of return calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/present-value-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/present-value-calculator.webp</image:loc>
+      <image:title>Present value calculator</image:title>
+      <image:caption>Free online present value NPV and future value calculator</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wodoo.store/tools/stamp-duty-calculator</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.wodoo.store/tools/stamp-duty-calculator.webp</image:loc>
+      <image:title>Stamp duty calculator</image:title>
+      <image:caption>Free online stamp duty calculator India for property purchase</image:caption>
     </image:image>
   </url>
   <url>

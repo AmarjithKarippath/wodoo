@@ -2,6 +2,7 @@ import Link from "next/link"
 import { TopBar } from "@/components/wodoo/top-bar"
 import { StartStoreButton } from "@/components/wodoo/start-store-button"
 import { toolImageObject } from "@/lib/image-metadata"
+import { toolPageSchemas } from "@/lib/tool-schema"
 import { getTool } from "@/lib/tools"
 
 export function ToolShell({
@@ -19,25 +20,29 @@ export function ToolShell({
   intro: string
   /** How-to / instruction paragraph shown after the intro */
   description: string
-  /** Registry slug — enables ImageObject structured data */
+  /** Registry slug — enables ImageObject + WebApplication structured data */
   toolSlug?: string
 }) {
   const tool = toolSlug ? getTool(toolSlug) : undefined
-  const imageObject = tool
-    ? {
-        "@context": "https://schema.org",
-        ...toolImageObject(tool, { representativeOfPage: true }),
-      }
-    : null
+  const schemas = tool
+    ? [
+        {
+          "@context": "https://schema.org",
+          ...toolImageObject(tool, { representativeOfPage: true }),
+        },
+        ...toolPageSchemas(tool),
+      ]
+    : []
 
   return (
     <main className="min-h-screen bg-background">
-      {imageObject ? (
+      {schemas.map((schema, i) => (
         <script
+          key={i}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObject) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-      ) : null}
+      ))}
       <TopBar />
       <div className="mx-auto max-w-3xl px-6 pb-20 pt-32">
         <Link

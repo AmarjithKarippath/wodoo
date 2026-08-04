@@ -33,6 +33,11 @@ export const metadata: Metadata = {
     'sell online',
     'launch a store',
     'Wodoo Store',
+    'free online calculators',
+    'EMI calculator',
+    'XIRR calculator',
+    'TDEE calculator',
+    'retirement calculator',
   ],
   authors: [{ name: 'Wodoo Store' }],
   creator: 'Wodoo Store',
@@ -40,6 +45,9 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   referrer: 'origin-when-cross-origin',
   category: 'ecommerce',
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
   alternates: {
     canonical: '/',
   },
@@ -117,6 +125,24 @@ const WEBSITE_JSONLD = {
   '@type': 'WebSite',
   name: 'Wodoo Store',
   url: SITE_URL,
+  description: DESCRIPTION,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Wodoo Store',
+    url: SITE_URL,
+  },
+  hasPart: [
+    {
+      '@type': 'CollectionPage',
+      name: 'Free online tools & calculators',
+      url: `${SITE_URL}/tools`,
+    },
+    {
+      '@type': 'Blog',
+      name: 'Wodoo Store blog',
+      url: `${SITE_URL}/blog`,
+    },
+  ],
 }
 
 export default function RootLayout({

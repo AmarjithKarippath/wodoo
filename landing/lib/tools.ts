@@ -755,6 +755,182 @@ export const TOOLS: Tool[] = [
       "Free online body fat percentage and ideal weight calculator",
     status: "live",
   },
+  {
+    slug: "car-loan-emi-calculator",
+    title: "Car loan EMI calculator",
+    description:
+      "Free car loan EMI calculator for monthly installment after down payment, total interest, and repayment.",
+    href: "/tools/car-loan-emi-calculator",
+    image: "/tools/car-loan-emi-calculator.webp",
+    imageAlt:
+      "Free online car loan EMI calculator for vehicle financing",
+    status: "live",
+  },
+  {
+    slug: "interest-calculator",
+    title: "Interest calculator",
+    description:
+      "Free simple and compound interest calculator for principal, rate, years, and maturity amount.",
+    href: "/tools/interest-calculator",
+    image: "/tools/interest-calculator.webp",
+    imageAlt:
+      "Free online interest calculator for simple and compound interest",
+    status: "live",
+  },
+  {
+    slug: "lumpsum-calculator",
+    title: "Lumpsum calculator",
+    description:
+      "Free lumpsum investment calculator for future value and wealth gained from expected returns.",
+    href: "/tools/lumpsum-calculator",
+    image: "/tools/lumpsum-calculator.webp",
+    imageAlt:
+      "Free online lumpsum mutual fund calculator",
+    status: "live",
+  },
+  {
+    slug: "swp-calculator",
+    title: "SWP calculator",
+    description:
+      "Free SWP calculator for systematic withdrawals, ending corpus, and sustainability of drawdowns.",
+    href: "/tools/swp-calculator",
+    image: "/tools/swp-calculator.webp",
+    imageAlt:
+      "Free online SWP systematic withdrawal plan calculator",
+    status: "live",
+  },
+  {
+    slug: "sukanya-samriddhi-calculator",
+    title: "Sukanya Samriddhi Yojana calculator",
+    description:
+      "Free Sukanya Samriddhi Yojana calculator for maturity value, deposits, and interest earned.",
+    href: "/tools/sukanya-samriddhi-calculator",
+    image: "/tools/sukanya-samriddhi-calculator.webp",
+    imageAlt:
+      "Free online Sukanya Samriddhi Yojana SSY calculator India",
+    status: "live",
+  },
+  {
+    slug: "xirr-calculator",
+    title: "XIRR calculator",
+    description:
+      "Free XIRR calculator for annualized returns from dated investment cash flows.",
+    href: "/tools/xirr-calculator",
+    image: "/tools/xirr-calculator.webp",
+    imageAlt:
+      "Free online XIRR calculator for mutual fund and investment returns",
+    status: "live",
+  },
+  {
+    slug: "tdee-calculator",
+    title: "TDEE calculator",
+    description:
+      "Free TDEE calculator for daily calorie needs from BMR and activity level.",
+    href: "/tools/tdee-calculator",
+    image: "/tools/tdee-calculator.webp",
+    imageAlt:
+      "Free online TDEE calculator for total daily energy expenditure",
+    status: "live",
+  },
+  {
+    slug: "calorie-deficit-calculator",
+    title: "Calorie deficit calculator",
+    description:
+      "Free calorie deficit calculator for weight-loss pace and time to target weight.",
+    href: "/tools/calorie-deficit-calculator",
+    image: "/tools/calorie-deficit-calculator.webp",
+    imageAlt:
+      "Free online calorie deficit calculator for weight loss timeline",
+    status: "live",
+  },
+  {
+    slug: "metabolic-rate-calculator",
+    title: "Metabolic rate calculator",
+    description:
+      "Free metabolic rate calculator comparing Mifflin, Harris–Benedict, and Katch–McArdle BMR/TDEE.",
+    href: "/tools/metabolic-rate-calculator",
+    image: "/tools/metabolic-rate-calculator.webp",
+    imageAlt:
+      "Free online metabolic rate BMR calculator with multiple formulas",
+    status: "live",
+  },
+  {
+    slug: "retirement-calculator",
+    title: "Retirement calculator",
+    description:
+      "Free retirement planning calculator for corpus needed, projected savings, and shortfall.",
+    href: "/tools/retirement-calculator",
+    image: "/tools/retirement-calculator.webp",
+    imageAlt:
+      "Free online retirement corpus planning calculator",
+    status: "live",
+  },
+  {
+    slug: "pension-calculator",
+    title: "Pension calculator",
+    description:
+      "Free pension calculator for monthly pension from corpus or corpus required for target pension.",
+    href: "/tools/pension-calculator",
+    image: "/tools/pension-calculator.webp",
+    imageAlt:
+      "Free online pension and annuity drawdown calculator",
+    status: "live",
+  },
+  {
+    slug: "electricity-bill-calculator",
+    title: "Electricity bill calculator",
+    description:
+      "Free electricity bill calculator for slab-based energy charges and fixed charges.",
+    href: "/tools/electricity-bill-calculator",
+    image: "/tools/electricity-bill-calculator.webp",
+    imageAlt:
+      "Free online electricity bill calculator with unit slabs",
+    status: "live",
+  },
+  {
+    slug: "net-worth-calculator",
+    title: "Net worth calculator",
+    description:
+      "Free net worth calculator for assets, liabilities, and overall financial position.",
+    href: "/tools/net-worth-calculator",
+    image: "/tools/net-worth-calculator.webp",
+    imageAlt:
+      "Free online net worth calculator for assets and liabilities",
+    status: "live",
+  },
+  {
+    slug: "irr-calculator",
+    title: "IRR calculator",
+    description:
+      "Free IRR calculator for internal rate of return from periodic investment cash flows.",
+    href: "/tools/irr-calculator",
+    image: "/tools/irr-calculator.webp",
+    imageAlt:
+      "Free online IRR internal rate of return calculator",
+    status: "live",
+  },
+  {
+    slug: "present-value-calculator",
+    title: "Present value calculator",
+    description:
+      "Free PV, FV, and NPV calculator for time value of money and project cash flows.",
+    href: "/tools/present-value-calculator",
+    image: "/tools/present-value-calculator.webp",
+    imageAlt:
+      "Free online present value NPV and future value calculator",
+    status: "live",
+  },
+  {
+    slug: "stamp-duty-calculator",
+    title: "Stamp duty calculator",
+    description:
+      "Free stamp duty calculator India for property stamp duty and registration estimates by state.",
+    href: "/tools/stamp-duty-calculator",
+    image: "/tools/stamp-duty-calculator.webp",
+    imageAlt:
+      "Free online stamp duty calculator India for property purchase",
+    status: "live",
+  },
 ]
 
 export function getTool(slug: string): Tool | undefined {
