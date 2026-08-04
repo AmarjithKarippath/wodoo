@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free influencer engagement rate calculator — compute Instagram, TikTok, and YouTube engagement rate from likes, comments, shares, followers, and reach.",
   alternates: { canonical: "/tools/influencer-engagement-rate-calculator" },
   openGraph: {
-    title: "Influencer engagement rate calculator — Woodo Store",
+    title: "Influencer engagement rate calculator — Wodoo Store",
     images: [
       {
         url: "/tools/influencer-engagement-rate-calculator.webp",

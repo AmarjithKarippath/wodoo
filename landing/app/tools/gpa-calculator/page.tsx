@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free GPA calculator — compute grade point average from course credits and grade points on a 10-point scale.",
   alternates: { canonical: "/tools/gpa-calculator" },
   openGraph: {
-    title: "GPA calculator — Woodo Store",
+    title: "GPA calculator — Wodoo Store",
     images: [
       {
         url: "/tools/gpa-calculator.webp",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free FinCEN BOI e-filing helper — prepare beneficial ownership information for your LLC or corporation and open the official FinCEN BOI portal.",
   alternates: { canonical: "/tools/fincen-boi-filing-helper" },
   openGraph: {
-    title: "FinCEN BOI filing helper — Woodo Store",
+    title: "FinCEN BOI filing helper — Wodoo Store",
     images: [
       {
         url: "/tools/fincen-boi-filing-helper.webp",

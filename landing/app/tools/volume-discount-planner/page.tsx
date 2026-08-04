@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free volume discount calculator — compare discount tiers against unit margin, revenue, and total profit to plan bulk pricing.",
   alternates: { canonical: "/tools/volume-discount-planner" },
   openGraph: {
-    title: "Volume discount vs unit margin planner — Woodo Store",
+    title: "Volume discount vs unit margin planner — Wodoo Store",
     images: [
       {
         url: "/tools/volume-discount-planner.webp",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free calorie and BMR calculator — estimate basal metabolic rate and daily calories (TDEE) for maintain, lose, or gain weight.",
   alternates: { canonical: "/tools/calorie-bmr-calculator" },
   openGraph: {
-    title: "Calorie & BMR calculator — Woodo Store",
+    title: "Calorie & BMR calculator — Wodoo Store",
     images: [
       {
         url: "/tools/calorie-bmr-calculator.webp",

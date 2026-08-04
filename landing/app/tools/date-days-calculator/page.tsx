@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free date and days calculator — find days between two dates or add/subtract days from a date with weeks and months.",
   alternates: { canonical: "/tools/date-days-calculator" },
   openGraph: {
-    title: "Date / days calculator — Woodo Store",
+    title: "Date / days calculator — Wodoo Store",
     images: [
       {
         url: "/tools/date-days-calculator.webp",

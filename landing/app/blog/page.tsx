@@ -5,14 +5,14 @@ import { allPosts } from "@/lib/posts";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store";
 
 export const metadata: Metadata = {
-  title: "Blog — Woodo Store",
+  title: "Blog — Wodoo Store",
   description:
     "Conversion playbooks, single-product store tactics, India D2C payments, and quickstart guides for new ecommerce founders.",
   alternates: { canonical: "/blog" },
   openGraph: {
     type: "website",
     url: `${SITE_URL}/blog`,
-    title: "Woodo Store Blog — single-product store playbooks",
+    title: "Wodoo Store Blog — single-product store playbooks",
     description:
       "Conversion playbooks, single-product store tactics, India D2C payments, and quickstart guides for new ecommerce founders.",
   },

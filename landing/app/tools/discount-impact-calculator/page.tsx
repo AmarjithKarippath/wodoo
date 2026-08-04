@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free discount impact calculator — see how a sale affects margin and how many extra units you need to keep the same profit.",
   alternates: { canonical: "/tools/discount-impact-calculator" },
   openGraph: {
-    title: "Discount impact calculator — Woodo Store",
+    title: "Discount impact calculator — Wodoo Store",
     images: [
       {
         url: "/tools/discount-impact-calculator.webp",

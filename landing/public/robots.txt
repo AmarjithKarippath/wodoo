@@ -1,5 +1,5 @@
 # https://www.wodoo.store/robots.txt
-# Woodo Store — crawl rules for search engines
+# Wodoo Store — crawl rules for search engines
 
 User-agent: *
 Allow: /

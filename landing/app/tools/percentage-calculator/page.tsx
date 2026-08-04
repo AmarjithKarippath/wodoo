@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free percentage calculator — find X% of Y, what percent one number is of another, and percentage increase or decrease.",
   alternates: { canonical: "/tools/percentage-calculator" },
   openGraph: {
-    title: "Percentage calculator — Woodo Store",
+    title: "Percentage calculator — Wodoo Store",
     images: [
       {
         url: "/tools/percentage-calculator.webp",

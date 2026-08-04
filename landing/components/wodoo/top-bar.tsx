@@ -46,7 +46,7 @@ export function TopBar() {
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
             <StoreMark />
           </span>
-          Woodo
+          Wodoo
         </Link>
         <div className="flex items-center gap-4">
           <Link

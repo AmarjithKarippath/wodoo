@@ -29,7 +29,7 @@ export default function AdminLayout({
               href="/admin/registrations"
               className="font-display text-lg font-extrabold tracking-tight"
             >
-              Woodo Admin
+              Wodoo Admin
             </Link>
             <nav className="flex items-center gap-4 text-sm font-medium">
               <Link

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free ecommerce store name generator — get brandable online store name ideas from a niche or keyword.",
   alternates: { canonical: "/tools/store-name-generator" },
   openGraph: {
-    title: "Store name generator — Woodo Store",
+    title: "Store name generator — Wodoo Store",
     images: [
       {
         url: "/tools/store-name-generator.webp",

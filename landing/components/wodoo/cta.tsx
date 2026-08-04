@@ -25,7 +25,7 @@ export function Cta() {
         <div className="relative z-10">
           <Reveal>
             <h2 className="mx-auto max-w-2xl font-display text-3xl font-extrabold leading-tight text-ink-foreground text-balance sm:text-4xl lg:text-5xl">
-              Ready to start selling? Open your Woodo Store today.
+              Ready to start selling? Open your Wodoo Store today.
             </h2>
           </Reveal>
           <Reveal delay={0.1}>
@@ -50,7 +50,7 @@ export function Cta() {
           </Reveal>
 
           <p className="mt-4 text-xs text-ink-foreground/50">
-            By continuing, you agree to receive Woodo Store product updates.
+            By continuing, you agree to receive Wodoo Store product updates.
           </p>
         </div>
       </div>

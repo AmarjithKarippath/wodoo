@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free PayPal and Stripe fee calculator — estimate processing fees and net payout for domestic or international payments.",
   alternates: { canonical: "/tools/paypal-stripe-fee-calculator" },
   openGraph: {
-    title: "PayPal / Stripe fee calculator — Woodo Store",
+    title: "PayPal / Stripe fee calculator — Wodoo Store",
     images: [
       {
         url: "/tools/paypal-stripe-fee-calculator.webp",

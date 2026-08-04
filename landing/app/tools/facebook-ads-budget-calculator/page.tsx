@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free Facebook ads budget calculator — project clicks, orders, CPA, ROAS, and revenue from daily Meta ad spend.",
   alternates: { canonical: "/tools/facebook-ads-budget-calculator" },
   openGraph: {
-    title: "Facebook ads budget calculator — Woodo Store",
+    title: "Facebook ads budget calculator — Wodoo Store",
     images: [
       {
         url: "/tools/facebook-ads-budget-calculator.webp",

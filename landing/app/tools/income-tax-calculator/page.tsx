@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free income tax calculator India — estimate tax under new or old regime with standard deduction, cess, and take-home pay.",
   alternates: { canonical: "/tools/income-tax-calculator" },
   openGraph: {
-    title: "Income tax calculator — Woodo Store",
+    title: "Income tax calculator — Wodoo Store",
     images: [
       {
         url: "/tools/income-tax-calculator.webp",

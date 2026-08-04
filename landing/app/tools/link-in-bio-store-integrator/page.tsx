@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free link-in-bio store tool — build an Instagram and TikTok bio page that links to your ecommerce store, products, and offers.",
   alternates: { canonical: "/tools/link-in-bio-store-integrator" },
   openGraph: {
-    title: "Link-in-bio store integrator — Woodo Store",
+    title: "Link-in-bio store integrator — Wodoo Store",
     images: [
       {
         url: "/tools/link-in-bio-store-integrator.webp",

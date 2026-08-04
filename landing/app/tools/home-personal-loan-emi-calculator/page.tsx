@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free home loan and personal loan EMI calculator — compare monthly EMI, total interest, and repayment for loan tenure in years.",
   alternates: { canonical: "/tools/home-personal-loan-emi-calculator" },
   openGraph: {
-    title: "Home & personal loan EMI calculator — Woodo Store",
+    title: "Home & personal loan EMI calculator — Wodoo Store",
     images: [
       {
         url: "/tools/home-personal-loan-emi-calculator.webp",

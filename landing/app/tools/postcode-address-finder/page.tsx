@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/postcode-address-finder" },
   openGraph: {
     images: [{ url: "/tools/postcode-address-finder.webp", width: 1200, height: 630, alt: "Online ZIP and postcode address finder for ecommerce shipping zone planning" }],
-    title: "Address by ZIP / postcode finder — Woodo Store",
+    title: "Address by ZIP / postcode finder — Wodoo Store",
     description:
       "Look up city and region from a ZIP or postcode for ecommerce shipping zones.",
   },

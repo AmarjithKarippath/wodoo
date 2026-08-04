@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free eBay final value fee calculator and Etsy fee calculator — estimate marketplace fees, payment processing, net payout, and profit.",
   alternates: { canonical: "/tools/marketplace-fee-calculator" },
   openGraph: {
-    title: "Marketplace fee calculator (eBay & Etsy) — Woodo Store",
+    title: "Marketplace fee calculator (eBay & Etsy) — Wodoo Store",
     images: [
       {
         url: "/tools/marketplace-fee-calculator.webp",

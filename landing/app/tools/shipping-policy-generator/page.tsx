@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/shipping-policy-generator" },
   openGraph: {
     images: [{ url: "/tools/shipping-policy-generator.webp", width: 1200, height: 630, alt: "Free online shipping policy generator for ecommerce store delivery terms and rates" }],
-    title: "Shipping policy generator — Woodo Store",
+    title: "Shipping policy generator — Wodoo Store",
     description:
       "Create a ready-to-publish shipping policy for your ecommerce store in minutes.",
   },

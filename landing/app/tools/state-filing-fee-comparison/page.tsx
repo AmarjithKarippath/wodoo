@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free state filing fee comparison — compare LLC and corporation formation costs and annual report fees across Wyoming, Delaware, Nevada, and more.",
   alternates: { canonical: "/tools/state-filing-fee-comparison" },
   openGraph: {
-    title: "State filing fee comparison — Woodo Store",
+    title: "State filing fee comparison — Wodoo Store",
     images: [
       {
         url: "/tools/state-filing-fee-comparison.webp",

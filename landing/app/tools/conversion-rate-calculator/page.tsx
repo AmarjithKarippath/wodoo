@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free conversion rate calculator — measure store conversion rate and visitors needed to hit a sales goal.",
   alternates: { canonical: "/tools/conversion-rate-calculator" },
   openGraph: {
-    title: "Conversion rate calculator — Woodo Store",
+    title: "Conversion rate calculator — Wodoo Store",
     images: [
       {
         url: "/tools/conversion-rate-calculator.webp",

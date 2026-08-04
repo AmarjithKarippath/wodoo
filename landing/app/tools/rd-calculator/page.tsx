@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free RD calculator — estimate recurring deposit maturity value, total deposited, and interest for monthly RD plans.",
   alternates: { canonical: "/tools/rd-calculator" },
   openGraph: {
-    title: "RD calculator — Woodo Store",
+    title: "RD calculator — Wodoo Store",
     images: [
       {
         url: "/tools/rd-calculator.webp",

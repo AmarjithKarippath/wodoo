@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free winning product score calculator — score dropshipping and ecommerce product ideas on demand, competition, margin, and trend.",
   alternates: { canonical: "/tools/winning-product-score-calculator" },
   openGraph: {
-    title: "Winning product score calculator — Woodo Store",
+    title: "Winning product score calculator — Wodoo Store",
     images: [
       {
         url: "/tools/winning-product-score-calculator.webp",

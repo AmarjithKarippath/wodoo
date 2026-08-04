@@ -13,7 +13,7 @@ export function SiteFooter() {
               href="/"
               className="font-display text-xl font-extrabold tracking-tight text-foreground"
             >
-              Woodo Store
+              Wodoo Store
             </Link>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted-foreground">
               Launch your store and use free ecommerce tools — shipping,
@@ -61,7 +61,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t border-border pt-5 text-xs text-muted-foreground sm:mt-14 sm:flex-row sm:items-center sm:justify-between sm:pt-6">
-          <p>© {new Date().getFullYear()} Woodo Store. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Wodoo Store. All rights reserved.</p>
           <p>
             <Link href="/tools" className="hover:text-foreground">
               Free ecommerce tools

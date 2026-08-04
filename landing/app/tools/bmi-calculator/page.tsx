@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free BMI calculator online — check body mass index from height and weight, see category, and healthy weight range.",
   alternates: { canonical: "/tools/bmi-calculator" },
   openGraph: {
-    title: "BMI calculator — Woodo Store",
+    title: "BMI calculator — Wodoo Store",
     images: [
       {
         url: "/tools/bmi-calculator.webp",

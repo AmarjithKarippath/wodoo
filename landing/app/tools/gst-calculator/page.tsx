@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free GST calculator India — add or remove GST at 5%, 12%, 18%, or 28% with CGST/SGST split and invoice total.",
   alternates: { canonical: "/tools/gst-calculator" },
   openGraph: {
-    title: "GST calculator — Woodo Store",
+    title: "GST calculator — Wodoo Store",
     images: [
       {
         url: "/tools/gst-calculator.webp",

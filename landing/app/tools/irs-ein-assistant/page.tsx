@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free IRS EIN application checklist — prepare your LLC or corporation details and open the official IRS Employer Identification Number online assistant.",
   alternates: { canonical: "/tools/irs-ein-assistant" },
   openGraph: {
-    title: "IRS EIN online assistant — Woodo Store",
+    title: "IRS EIN online assistant — Wodoo Store",
     images: [
       {
         url: "/tools/irs-ein-assistant.webp",

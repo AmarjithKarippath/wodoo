@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free EMI calculator — estimate monthly loan EMI, total interest, and total payment from amount, rate, and tenure.",
   alternates: { canonical: "/tools/emi-calculator" },
   openGraph: {
-    title: "EMI calculator — Woodo Store",
+    title: "EMI calculator — Wodoo Store",
     images: [
       {
         url: "/tools/emi-calculator.webp",

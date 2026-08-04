@@ -3,7 +3,7 @@ import { Hero } from "@/components/wodoo/hero"
 import { Steps } from "@/components/wodoo/steps"
 import { Grow } from "@/components/wodoo/grow"
 import { StatBand } from "@/components/wodoo/stat-band"
-import { WhyWoodo } from "@/components/wodoo/why-woodo"
+import { WhyWodoo } from "@/components/wodoo/why-wodoo"
 import { Faq } from "@/components/wodoo/faq"
 import { Cta } from "@/components/wodoo/cta"
 import { SiteFooter } from "@/components/wodoo/site-footer"
@@ -18,7 +18,7 @@ export default function Page() {
       <Steps />
       <Grow />
       <StatBand />
-      <WhyWoodo />
+      <WhyWodoo />
       <Faq />
       <Cta />
       <SiteFooter />

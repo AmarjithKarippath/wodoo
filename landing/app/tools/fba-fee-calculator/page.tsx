@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free Amazon FBA fee calculator — estimate referral fees, fulfillment fees, storage, net revenue, and profit margin per unit.",
   alternates: { canonical: "/tools/fba-fee-calculator" },
   openGraph: {
-    title: "FBA fee & revenue calculator — Woodo Store",
+    title: "FBA fee & revenue calculator — Wodoo Store",
     images: [
       {
         url: "/tools/fba-fee-calculator.webp",

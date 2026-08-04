@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free AliExpress supplier profit calculator — estimate landed cost, duties, fees, and profit for imported ecommerce products.",
   alternates: { canonical: "/tools/aliexpress-supplier-profit-calculator" },
   openGraph: {
-    title: "AliExpress / supplier profit calculator — Woodo Store",
+    title: "AliExpress / supplier profit calculator — Wodoo Store",
     images: [
       {
         url: "/tools/aliexpress-supplier-profit-calculator.webp",

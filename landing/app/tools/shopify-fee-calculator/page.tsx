@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free Shopify fee calculator — estimate payment processing fees, plan fees, and net per order for Shopify stores.",
   alternates: { canonical: "/tools/shopify-fee-calculator" },
   openGraph: {
-    title: "Shopify fee calculator — Woodo Store",
+    title: "Shopify fee calculator — Wodoo Store",
     images: [
       {
         url: "/tools/shopify-fee-calculator.webp",

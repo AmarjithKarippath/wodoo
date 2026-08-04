@@ -36,7 +36,7 @@ export async function GET(request: Request) {
       signal: controller.signal,
       headers: {
         "User-Agent":
-          "WoodoStoreSeoAudit/1.0 (+https://www.wodoo.store/tools/seo-audit)",
+          "WodooStoreSeoAudit/1.0 (+https://www.wodoo.store/tools/seo-audit)",
         Accept: "text/html,application/xhtml+xml",
       },
     })

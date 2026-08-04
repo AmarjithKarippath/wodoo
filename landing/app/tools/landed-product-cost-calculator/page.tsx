@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free landed cost calculator — estimate true product cost including factory price, inbound shipping, duties, taxes, insurance, and handling.",
   alternates: { canonical: "/tools/landed-product-cost-calculator" },
   openGraph: {
-    title: "Landed product cost calculator — Woodo Store",
+    title: "Landed product cost calculator — Wodoo Store",
     images: [
       {
         url: "/tools/landed-product-cost-calculator.webp",

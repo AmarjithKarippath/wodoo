@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/tax-duty-calculator" },
   openGraph: {
     images: [{ url: "/tools/tax-duty-calculator.webp", width: 1200, height: 630, alt: "Free online import tax and duty calculator for cross-border ecommerce landed cost" }],
-    title: "Tax & duty calculator — Woodo Store",
+    title: "Tax & duty calculator — Wodoo Store",
     description:
       "Calculate customs duty, tax, and landed cost for cross-border orders in minutes.",
   },

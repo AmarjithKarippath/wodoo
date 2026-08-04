@@ -8,18 +8,18 @@ import { TOOLS } from "@/lib/tools"
 export const metadata: Metadata = {
   title: "Free online tools & calculators",
   description:
-    "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Woodo Store.",
+    "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Wodoo Store.",
   alternates: { canonical: "/tools" },
   openGraph: {
-    title: "Free online tools & calculators — Woodo Store",
+    title: "Free online tools & calculators — Wodoo Store",
     description:
-      "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Woodo Store.",
+      "Free ecommerce, finance, health, and maths tools — shipping calculators, EMI, GST, BMI, GPA, and more from Wodoo Store.",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Woodo Store free online tools and calculators",
+        alt: "Wodoo Store free online tools and calculators",
       },
     ],
   },
@@ -29,7 +29,7 @@ export default function ToolsIndexPage() {
   const imageListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Woodo Store free online tool thumbnails",
+    name: "Wodoo Store free online tool thumbnails",
     itemListElement: TOOLS.map((tool, index) => ({
       "@type": "ListItem",
       position: index + 1,

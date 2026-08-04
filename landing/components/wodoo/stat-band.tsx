@@ -39,7 +39,7 @@ export function StatBand() {
           viewport={{ once: true }}
           className="mx-auto max-w-3xl font-display text-2xl font-extrabold leading-tight text-balance sm:text-3xl lg:text-4xl"
         >
-          Every few seconds, somebody opens their very first shop with Woodo
+          Every few seconds, somebody opens their very first shop with Wodoo
           Store.
         </motion.p>
 

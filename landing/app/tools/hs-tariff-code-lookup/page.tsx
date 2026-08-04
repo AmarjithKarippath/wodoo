@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/hs-tariff-code-lookup" },
   openGraph: {
     images: [{ url: "/tools/hs-tariff-code-lookup.webp", width: 1200, height: 630, alt: "Free online HS tariff code lookup tool for customs product classification" }],
-    title: "HS tariff code lookup — Woodo Store",
+    title: "HS tariff code lookup — Wodoo Store",
     description:
       "Find HS tariff codes for apparel, electronics, cosmetics, and more with a free product search.",
   },

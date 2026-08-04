@@ -51,7 +51,7 @@ async function makeThumb(tool) {
   <rect width="${W}" height="${H}" fill="url(#g)"/>
   <circle cx="1040" cy="120" r="180" fill="${tool.accent}" fill-opacity="0.25"/>
   <circle cx="980" cy="520" r="220" fill="${tool.accent}" fill-opacity="0.18"/>
-  <text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="${tool.accent}" letter-spacing="3">WOODO STORE TOOLS</text>
+  <text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="${tool.accent}" letter-spacing="3">WODOO STORE TOOLS</text>
   ${textSvg}
   <text x="72" y="560" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#64748b">Free online calculator</text>
 </svg>`
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
   description: ${JSON.stringify(tool.metaDescription)},
   alternates: { canonical: "/tools/${tool.slug}" },
   openGraph: {
-    title: ${JSON.stringify(`${tool.title} — Woodo Store`)},
+    title: ${JSON.stringify(`${tool.title} — Wodoo Store`)},
     images: [
       {
         url: "/tools/${tool.slug}.webp",

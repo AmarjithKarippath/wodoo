@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free customer LTV calculator — estimate lifetime value from AOV, purchase frequency, lifespan, and margin.",
   alternates: { canonical: "/tools/ltv-calculator" },
   openGraph: {
-    title: "LTV calculator — Woodo Store",
+    title: "LTV calculator — Wodoo Store",
     images: [
       {
         url: "/tools/ltv-calculator.webp",

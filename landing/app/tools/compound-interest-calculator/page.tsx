@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free compound interest calculator — project future value with annual rate, compounding frequency, and optional monthly contributions.",
   alternates: { canonical: "/tools/compound-interest-calculator" },
   openGraph: {
-    title: "Compound interest calculator — Woodo Store",
+    title: "Compound interest calculator — Wodoo Store",
     images: [
       {
         url: "/tools/compound-interest-calculator.webp",

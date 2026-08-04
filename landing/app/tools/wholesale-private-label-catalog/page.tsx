@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free wholesale vs private label calculator — compare MOQ, landed cost, setup fees, margins, and monthly profit for sourcing decisions.",
   alternates: { canonical: "/tools/wholesale-private-label-catalog" },
   openGraph: {
-    title: "Wholesale sourcing & private label catalog tool — Woodo Store",
+    title: "Wholesale sourcing & private label catalog tool — Wodoo Store",
     images: [
       {
         url: "/tools/wholesale-private-label-catalog.webp",

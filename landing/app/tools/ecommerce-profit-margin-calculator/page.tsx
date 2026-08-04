@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free ecommerce profit margin calculator — compute gross margin, net margin, and profit per unit including COGS, shipping, fees, and ads.",
   alternates: { canonical: "/tools/ecommerce-profit-margin-calculator" },
   openGraph: {
-    title: "Ecommerce profit margin calculator — Woodo Store",
+    title: "Ecommerce profit margin calculator — Wodoo Store",
     images: [
       {
         url: "/tools/ecommerce-profit-margin-calculator.webp",

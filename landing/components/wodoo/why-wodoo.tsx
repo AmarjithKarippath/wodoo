@@ -38,7 +38,7 @@ const COLUMNS = [
   },
 ] as const
 
-export function WhyWoodo() {
+export function WhyWodoo() {
   const dashboard = LANDING_IMAGES.adminDashboard
 
   return (

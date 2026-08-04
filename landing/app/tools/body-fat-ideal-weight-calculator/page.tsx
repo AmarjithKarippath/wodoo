@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free body fat and ideal weight calculator — US Navy body fat %, category, Devine ideal weight, and BMI from measurements.",
   alternates: { canonical: "/tools/body-fat-ideal-weight-calculator" },
   openGraph: {
-    title: "Body fat & ideal weight calculator — Woodo Store",
+    title: "Body fat & ideal weight calculator — Wodoo Store",
     images: [
       {
         url: "/tools/body-fat-ideal-weight-calculator.webp",

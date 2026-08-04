@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free trademark search tool — check brand name strength and open USPTO, EUIPO, UK IPO, and WIPO registry searches plus matching domains.",
   alternates: { canonical: "/tools/trademark-registry-search" },
   openGraph: {
-    title: "Trademark & registry search — Woodo Store",
+    title: "Trademark & registry search — Wodoo Store",
     images: [
       {
         url: "/tools/trademark-registry-search.webp",

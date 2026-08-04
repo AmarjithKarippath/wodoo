@@ -121,13 +121,13 @@ const STEPS = [
   {
     n: "01",
     title: "Choose design",
-    body: "Start from a stunning prebuilt theme, or describe your vibe and let Woodo Store generate a store that looks built just for your brand.",
+    body: "Start from a stunning prebuilt theme, or describe your vibe and let Wodoo Store generate a store that looks built just for your brand.",
     visual: <DesignVisual />,
   },
   {
     n: "02",
     title: "List products",
-    body: "Drop in your photos and Woodo Store polishes them, writes descriptions, and lays out product pages that turn browsers into buyers.",
+    body: "Drop in your photos and Wodoo Store polishes them, writes descriptions, and lays out product pages that turn browsers into buyers.",
     visual: <ProductVisual />,
   },
   {

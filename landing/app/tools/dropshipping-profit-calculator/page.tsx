@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free dropshipping profit calculator — estimate profit, margin, fees, and break-even price per order for ecommerce stores.",
   alternates: { canonical: "/tools/dropshipping-profit-calculator" },
   openGraph: {
-    title: "Dropshipping profit calculator — Woodo Store",
+    title: "Dropshipping profit calculator — Wodoo Store",
     images: [
       {
         url: "/tools/dropshipping-profit-calculator.webp",

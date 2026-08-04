@@ -9,50 +9,50 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.wodoo.store/og.png</image:loc>
-      <image:title>Woodo Store</image:title>
-      <image:caption>Woodo Store — launch a single-product ecommerce store fast</image:caption>
+      <image:title>Wodoo Store</image:title>
+      <image:caption>Wodoo Store — launch a single-product ecommerce store fast</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.wodoo.store/images/admin-dashboard.jpg</image:loc>
-      <image:title>Woodo Store ecommerce platform overview</image:title>
-      <image:caption>Run sales analytics, product pages, shipping, promotions, and order notifications from the Woodo Store ecommerce platform</image:caption>
+      <image:title>Wodoo Store ecommerce platform overview</image:title>
+      <image:caption>Run sales analytics, product pages, shipping, promotions, and order notifications from the Wodoo Store ecommerce platform</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.wodoo.store/images/choose-design.jpg</image:loc>
       <image:title>Choose your store design</image:title>
-      <image:caption>Customize your online store design and product gallery in the Woodo Store editor</image:caption>
+      <image:caption>Customize your online store design and product gallery in the Wodoo Store editor</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.wodoo.store/images/products-shine.jpg</image:loc>
       <image:title>Make your products shine</image:title>
-      <image:caption>Product photography and presentation for high-converting Woodo Store product pages</image:caption>
+      <image:caption>Product photography and presentation for high-converting Wodoo Store product pages</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.wodoo.store/images/get-paid.jpg</image:loc>
       <image:title>Get paid with secure checkout</image:title>
-      <image:caption>Accept modern contactless and digital wallet payments with Woodo Store checkout</image:caption>
+      <image:caption>Accept modern contactless and digital wallet payments with Wodoo Store checkout</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.wodoo.store/images/product-sneaker.png</image:loc>
-      <image:title>Cloud Runner product — Woodo Store</image:title>
-      <image:caption>Example product listing for sneakers in a Woodo Store online shop</image:caption>
+      <image:title>Cloud Runner product — Wodoo Store</image:title>
+      <image:caption>Example product listing for sneakers in a Wodoo Store online shop</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.wodoo.store/images/product-bag.png</image:loc>
-      <image:title>Everyday Tote product — Woodo Store</image:title>
-      <image:caption>Example product listing for a tote bag in a Woodo Store online shop</image:caption>
+      <image:title>Everyday Tote product — Wodoo Store</image:title>
+      <image:caption>Example product listing for a tote bag in a Wodoo Store online shop</image:caption>
     </image:image>
     <video:video>
       <video:thumbnail_loc>https://www.wodoo.store/images/steps-hero-poster.jpg</video:thumbnail_loc>
-      <video:title>Trusted and growing ecommerce platform — Woodo Store</video:title>
-      <video:description>Woodo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.</video:description>
+      <video:title>Trusted and growing ecommerce platform — Wodoo Store</video:title>
+      <video:description>Wodoo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.</video:description>
       <video:content_loc>https://www.wodoo.store/images/steps-hero.mp4</video:content_loc>
       <video:publication_date>2026-08-02T00:00:00Z</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
       <video:thumbnail_loc>https://www.wodoo.store/images/social-shopping-poster.jpg</video:thumbnail_loc>
-      <video:title>Sell where they&apos;re scrolling — Woodo Store</video:title>
+      <video:title>Sell where they&apos;re scrolling — Wodoo Store</video:title>
       <video:description>Put your products in every feed, inbox, reel and marketplace your shoppers already live in.</video:description>
       <video:content_loc>https://www.wodoo.store/images/social-shopping.mp4</video:content_loc>
       <video:publication_date>2026-08-02T00:00:00Z</video:publication_date>
@@ -60,7 +60,7 @@
     </video:video>
     <video:video>
       <video:thumbnail_loc>https://www.wodoo.store/images/retention-poster.jpg</video:thumbnail_loc>
-      <video:title>Keep them coming back — Woodo Store</video:title>
+      <video:title>Keep them coming back — Wodoo Store</video:title>
       <video:description>Re-engage shoppers with a steady drumbeat of offers, updates, and automations that run while you sleep.</video:description>
       <video:content_loc>https://www.wodoo.store/images/retention.mp4</video:content_loc>
       <video:publication_date>2026-08-02T00:00:00Z</video:publication_date>
@@ -74,8 +74,8 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://www.wodoo.store/og.png</image:loc>
-      <image:title>Free online tools &amp; calculators — Woodo Store</image:title>
-      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Woodo Store</image:caption>
+      <image:title>Free online tools &amp; calculators — Wodoo Store</image:title>
+      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Wodoo Store</image:caption>
     </image:image>
   </url>
   <url>
@@ -822,8 +822,8 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://www.wodoo.store/og.png</image:loc>
-      <image:title>Woodo Store blog</image:title>
-      <image:caption>Ecommerce tips, store-building guides, and selling advice from Woodo Store</image:caption>
+      <image:title>Wodoo Store blog</image:title>
+      <image:caption>Ecommerce tips, store-building guides, and selling advice from Wodoo Store</image:caption>
     </image:image>
   </url>
   <url>

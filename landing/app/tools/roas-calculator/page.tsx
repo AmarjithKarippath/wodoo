@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free ROAS calculator — measure return on ad spend, contribution profit, and break-even ROAS for ecommerce ads.",
   alternates: { canonical: "/tools/roas-calculator" },
   openGraph: {
-    title: "ROAS calculator — Woodo Store",
+    title: "ROAS calculator — Wodoo Store",
     images: [
       {
         url: "/tools/roas-calculator.webp",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free startup business plan cash flow builder — project monthly revenue, costs, and ending cash for bank accounts, loans, and formation planning.",
   alternates: { canonical: "/tools/startup-business-plan-builder" },
   openGraph: {
-    title: "Startup business plan & cash flow builder — Woodo Store",
+    title: "Startup business plan & cash flow builder — Wodoo Store",
     images: [
       {
         url: "/tools/startup-business-plan-builder.webp",

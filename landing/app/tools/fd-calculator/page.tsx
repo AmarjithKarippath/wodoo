@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free FD calculator — estimate fixed deposit maturity amount and interest earned for bank FD tenure and compounding.",
   alternates: { canonical: "/tools/fd-calculator" },
   openGraph: {
-    title: "FD calculator — Woodo Store",
+    title: "FD calculator — Wodoo Store",
     images: [
       {
         url: "/tools/fd-calculator.webp",

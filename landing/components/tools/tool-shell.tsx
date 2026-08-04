@@ -62,7 +62,7 @@ export function ToolShell({
 
         <div className="mt-14 rounded-2xl border border-border bg-secondary/30 px-6 py-8 text-center sm:px-8">
           <p className="font-display text-xl font-bold tracking-tight text-foreground text-balance sm:text-2xl">
-            Ready to sell? Open your Woodo Store.
+            Ready to sell? Open your Wodoo Store.
           </p>
           <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground text-pretty">
             Launch a live storefront in minutes — no code, no hassle.

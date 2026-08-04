@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free company name availability checker — open Companies House and US Secretary of State entity searches to verify if your LLC or corporation name is taken.",
   alternates: { canonical: "/tools/company-name-availability-checker" },
   openGraph: {
-    title: "Company name availability checker — Woodo Store",
+    title: "Company name availability checker — Wodoo Store",
     images: [
       {
         url: "/tools/company-name-availability-checker.webp",

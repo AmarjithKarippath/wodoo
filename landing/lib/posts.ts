@@ -35,7 +35,7 @@ export const POSTS: Post[] = [
     description:
       "A focused store that sells one great thing beats a sprawling catalog for new brands. Here's how to launch one in a weekend — picking the product, pricing, page design, and the first traffic source.",
     publishedAt: "2026-04-12",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 7,
     tags: ["getting-started", "strategy", "single-product"],
     body: [
@@ -95,7 +95,7 @@ export const POSTS: Post[] = [
     description:
       "COD still drives the majority of D2C orders in India, but rising RTOs are eating margins. Here's the data on conversion, return rates, and when to push prepaid vs COD.",
     publishedAt: "2026-04-22",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 6,
     tags: ["india", "payments", "cod", "conversion"],
     body: [
@@ -139,7 +139,7 @@ export const POSTS: Post[] = [
     description:
       "Skip the 50-item Shopify checklists. Here are 10 specific, proven tactics for single-product stores — what to add, what to remove, and what to test first.",
     publishedAt: "2026-05-03",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 8,
     tags: ["conversion", "cro", "single-product", "playbook"],
     body: [
@@ -185,7 +185,7 @@ export const POSTS: Post[] = [
     description:
       "Buy-One-Get-One feels exciting, but tiered quantity discounts almost always net more profit on single-product stores. Here's the math, with real examples.",
     publishedAt: "2026-05-15",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 5,
     tags: ["pricing", "promotions", "aov", "bogo"],
     body: [
@@ -239,12 +239,12 @@ export const POSTS: Post[] = [
     description:
       "From zero to live URL in 10 minutes — no developer, no theme to customise. Here's the actual sequence: sign up, add product, take your first order.",
     publishedAt: "2026-05-28",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 4,
     tags: ["getting-started", "quickstart", "tutorial"],
     body: [
       { type: "p", text: "The hardest part of starting an online store is the part nobody talks about: getting from 'I have an idea' to 'I have a URL I can send people'. Most platforms make this take a week. It doesn't have to." },
-      { type: "p", text: "Here's the actual 10-minute path with Woodo Store — single product, cash on delivery, live URL you can post on Instagram before lunch." },
+      { type: "p", text: "Here's the actual 10-minute path with Wodoo Store — single product, cash on delivery, live URL you can post on Instagram before lunch." },
 
       { type: "h2", text: "Minute 0–2: Sign up", id: "signup" },
       { type: "p", text: "Email, password, store name. Your store URL (wodoo.store/s/your-name) is created automatically on signup — no DNS to configure, no domain to buy, no SSL to wait for." },
@@ -289,7 +289,7 @@ export const POSTS: Post[] = [
     description:
       "A practical ecommerce platform guide covering storefronts, checkout, payments, shipping, fees, and the checklist to pick software that fits your product and growth stage.",
     publishedAt: "2026-06-05",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 8,
     tags: ["ecommerce platform", "guide", "getting-started"],
     body: [
@@ -326,7 +326,7 @@ export const POSTS: Post[] = [
     description:
       "Actionable ecommerce platform tips for setup, product pages, checkout, apps, and operations — so your store converts instead of collecting dust.",
     publishedAt: "2026-06-12",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 7,
     tags: ["ecommerce platform", "tips", "conversion"],
     body: [
@@ -366,7 +366,7 @@ export const POSTS: Post[] = [
     description:
       "Real-world ecommerce platform examples — single-product stores, niche catalogs, and service-plus-product hybrids — and what you can copy from each.",
     publishedAt: "2026-06-19",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 7,
     tags: ["ecommerce platform", "examples", "strategy"],
     body: [
@@ -394,7 +394,7 @@ export const POSTS: Post[] = [
     description:
       "Ecommerce platform 2026 trends — AI product pages, faster checkout, marketplace sync, and why simplicity beats bloated app stacks for growing brands.",
     publishedAt: "2026-06-26",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 6,
     tags: ["ecommerce platform", "2026", "trends"],
     body: [
@@ -427,7 +427,7 @@ export const POSTS: Post[] = [
     description:
       "Break down ecommerce platform cost — subscriptions, transaction fees, apps, themes, and hidden expenses — so you can budget before you build.",
     publishedAt: "2026-07-03",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 7,
     tags: ["ecommerce platform", "cost", "pricing"],
     body: [
@@ -462,7 +462,7 @@ export const POSTS: Post[] = [
     description:
       "Understand ecommerce platform pricing models — freemium, flat monthly, transaction fees, and usage tiers — and how to pick a plan that won’t punish growth.",
     publishedAt: "2026-07-10",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 6,
     tags: ["ecommerce platform", "pricing", "fees"],
     body: [
@@ -497,7 +497,7 @@ export const POSTS: Post[] = [
     description:
       "What ecommerce platform software should include in 2026 — catalog, checkout, payments, shipping, analytics, and apps — without drowning you in complexity.",
     publishedAt: "2026-07-17",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 7,
     tags: ["ecommerce platform", "software", "features"],
     body: [
@@ -534,7 +534,7 @@ export const POSTS: Post[] = [
     description:
       "How to choose ecommerce platform apps without slowing your store — reviews, upsells, email, and the plugins you can usually skip.",
     publishedAt: "2026-07-24",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 6,
     tags: ["ecommerce platform", "apps", "tools"],
     body: [
@@ -573,7 +573,7 @@ export const POSTS: Post[] = [
     description:
       "How small businesses should pick an ecommerce platform — budget, skills, local payments, and a launch plan that doesn’t require a developer.",
     publishedAt: "2026-07-31",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 7,
     tags: ["ecommerce platform", "small-business", "getting-started"],
     body: [
@@ -609,7 +609,7 @@ export const POSTS: Post[] = [
     description:
       "A step-by-step process to choose an ecommerce platform — score features, fees, speed, and support — then pick a winner and launch.",
     publishedAt: "2026-08-01",
-    author: "Woodo Store Team",
+    author: "Wodoo Store Team",
     readingMinutes: 8,
     tags: ["ecommerce platform", "guide", "decision"],
     body: [

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/courier-carrier-finder" },
   openGraph: {
     images: [{ url: "/tools/courier-carrier-finder.webp", width: 1200, height: 630, alt: "Online courier comparison tool to find the cheapest or fastest shipping carrier" }],
-    title: "Cheapest & fastest courier carrier finder — Woodo Store",
+    title: "Cheapest & fastest courier carrier finder — Wodoo Store",
     description:
       "Find the cheapest and fastest shipping carrier for your parcel with a quick multi-carrier comparison.",
   },

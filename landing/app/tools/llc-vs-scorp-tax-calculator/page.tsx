@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free LLC vs S-Corp tax calculator — compare self-employment tax vs reasonable salary payroll tax using projected profit and salary.",
   alternates: { canonical: "/tools/llc-vs-scorp-tax-calculator" },
   openGraph: {
-    title: "LLC vs. S-Corp tax calculator — Woodo Store",
+    title: "LLC vs. S-Corp tax calculator — Wodoo Store",
     images: [
       {
         url: "/tools/llc-vs-scorp-tax-calculator.webp",

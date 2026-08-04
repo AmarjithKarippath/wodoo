@@ -5,11 +5,11 @@ export function imageAttribution(year = new Date().getFullYear()) {
   return {
     creator: {
       "@type": "Organization" as const,
-      name: "Woodo Store",
+      name: "Wodoo Store",
       url: SITE_URL,
     },
-    creditText: "Woodo Store",
-    copyrightNotice: `© ${year} Woodo Store`,
+    creditText: "Wodoo Store",
+    copyrightNotice: `© ${year} Wodoo Store`,
     license: SITE_URL,
     acquireLicensePage: SITE_URL,
   }

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free affiliate vs DTC calculator — compare affiliate commission profit versus owned ecommerce store margins per order and period.",
   alternates: { canonical: "/tools/affiliate-vs-owned-store-calculator" },
   openGraph: {
-    title: "Affiliate vs. owned store commission calculator — Woodo Store",
+    title: "Affiliate vs. owned store commission calculator — Wodoo Store",
     images: [
       {
         url: "/tools/affiliate-vs-owned-store-calculator.webp",

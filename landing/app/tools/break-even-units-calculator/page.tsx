@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free break-even calculator for ecommerce — find how many units you must sell to cover fixed costs based on price and variable cost.",
   alternates: { canonical: "/tools/break-even-units-calculator" },
   openGraph: {
-    title: "Break-even units calculator — Woodo Store",
+    title: "Break-even units calculator — Wodoo Store",
     images: [
       {
         url: "/tools/break-even-units-calculator.webp",

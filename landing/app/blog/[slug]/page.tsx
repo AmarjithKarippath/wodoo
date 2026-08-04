@@ -109,13 +109,13 @@ export default async function BlogPost(
     author: { "@type": "Organization", name: post.author },
     publisher: {
       "@type": "Organization",
-      name: "Woodo Store",
+      name: "Wodoo Store",
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/logo.png`,
         contentUrl: `${SITE_URL}/logo.png`,
-        name: "Woodo Store",
-        description: "Woodo Store logo",
+        name: "Wodoo Store",
+        description: "Wodoo Store logo",
         encodingFormat: "image/png",
         ...imageAttribution(),
       },

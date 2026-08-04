@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free digital product profit calculator — estimate course margins, ebook profit, platform fees, refunds, and break-even sales.",
   alternates: { canonical: "/tools/digital-product-course-profit-calculator" },
   openGraph: {
-    title: "Digital product & course profit margin calculator — Woodo Store",
+    title: "Digital product & course profit margin calculator — Wodoo Store",
     images: [
       {
         url: "/tools/digital-product-course-profit-calculator.webp",

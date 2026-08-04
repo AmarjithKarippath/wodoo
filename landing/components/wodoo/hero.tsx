@@ -70,7 +70,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-4 max-w-md text-lg leading-relaxed text-muted-foreground text-pretty sm:mt-6">
-            Woodo Store gives you everything to start an online business — a
+            Wodoo Store gives you everything to start an online business — a
             beautiful storefront, smart product pages, and a checkout shoppers
             trust. No code, no hassle.
           </p>

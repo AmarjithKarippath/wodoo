@@ -32,52 +32,52 @@ const posts = allPosts()
 const LANDING_IMAGES = [
   {
     src: "/images/admin-dashboard.jpg",
-    title: "Woodo Store ecommerce platform overview",
+    title: "Wodoo Store ecommerce platform overview",
     caption:
-      "Run sales analytics, product pages, shipping, promotions, and order notifications from the Woodo Store ecommerce platform",
+      "Run sales analytics, product pages, shipping, promotions, and order notifications from the Wodoo Store ecommerce platform",
   },
   {
     src: "/images/choose-design.jpg",
     title: "Choose your store design",
     caption:
-      "Customize your online store design and product gallery in the Woodo Store editor",
+      "Customize your online store design and product gallery in the Wodoo Store editor",
   },
   {
     src: "/images/products-shine.jpg",
     title: "Make your products shine",
     caption:
-      "Product photography and presentation for high-converting Woodo Store product pages",
+      "Product photography and presentation for high-converting Wodoo Store product pages",
   },
   {
     src: "/images/get-paid.jpg",
     title: "Get paid with secure checkout",
     caption:
-      "Accept modern contactless and digital wallet payments with Woodo Store checkout",
+      "Accept modern contactless and digital wallet payments with Wodoo Store checkout",
   },
   {
     src: "/images/product-sneaker.png",
-    title: "Cloud Runner product — Woodo Store",
-    caption: "Example product listing for sneakers in a Woodo Store online shop",
+    title: "Cloud Runner product — Wodoo Store",
+    caption: "Example product listing for sneakers in a Wodoo Store online shop",
   },
   {
     src: "/images/product-bag.png",
-    title: "Everyday Tote product — Woodo Store",
-    caption: "Example product listing for a tote bag in a Woodo Store online shop",
+    title: "Everyday Tote product — Wodoo Store",
+    caption: "Example product listing for a tote bag in a Wodoo Store online shop",
   },
 ]
 
 const LANDING_VIDEOS = [
   {
     src: "/images/steps-hero.mp4",
-    title: "Trusted and growing ecommerce platform — Woodo Store",
+    title: "Trusted and growing ecommerce platform — Wodoo Store",
     description:
-      "Woodo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.",
+      "Wodoo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.",
     thumbnailSrc: "/images/steps-hero-poster.jpg",
     uploadDate: "2026-08-02T00:00:00Z",
   },
   {
     src: "/images/social-shopping.mp4",
-    title: "Sell where they're scrolling — Woodo Store",
+    title: "Sell where they're scrolling — Wodoo Store",
     description:
       "Put your products in every feed, inbox, reel and marketplace your shoppers already live in.",
     thumbnailSrc: "/images/social-shopping-poster.jpg",
@@ -85,7 +85,7 @@ const LANDING_VIDEOS = [
   },
   {
     src: "/images/retention.mp4",
-    title: "Keep them coming back — Woodo Store",
+    title: "Keep them coming back — Wodoo Store",
     description:
       "Re-engage shoppers with a steady drumbeat of offers, updates, and automations that run while you sleep.",
     thumbnailSrc: "/images/retention-poster.jpg",
@@ -96,8 +96,8 @@ const LANDING_VIDEOS = [
 const homeImages = [
   {
     loc: `${SITE}/og.png`,
-    title: "Woodo Store",
-    caption: "Woodo Store — launch a single-product ecommerce store fast",
+    title: "Wodoo Store",
+    caption: "Wodoo Store — launch a single-product ecommerce store fast",
   },
   ...LANDING_IMAGES.map((image) => ({
     loc: abs(image.src),
@@ -142,8 +142,8 @@ ${LANDING_VIDEOS.map(
     <priority>0.9</priority>
     <image:image>
       <image:loc>${SITE}/og.png</image:loc>
-      <image:title>Free online tools &amp; calculators — Woodo Store</image:title>
-      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Woodo Store</image:caption>
+      <image:title>Free online tools &amp; calculators — Wodoo Store</image:title>
+      <image:caption>Suite of free online ecommerce, finance, health, and maths tools from Wodoo Store</image:caption>
     </image:image>
   </url>
 `
@@ -170,8 +170,8 @@ xml += `  <url>
     <priority>0.8</priority>
     <image:image>
       <image:loc>${SITE}/og.png</image:loc>
-      <image:title>Woodo Store blog</image:title>
-      <image:caption>Ecommerce tips, store-building guides, and selling advice from Woodo Store</image:caption>
+      <image:title>Wodoo Store blog</image:title>
+      <image:caption>Ecommerce tips, store-building guides, and selling advice from Wodoo Store</image:caption>
     </image:image>
   </url>
 `

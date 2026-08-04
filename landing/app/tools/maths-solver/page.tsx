@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free maths solver / arithmetic calculator — solve expressions with +, −, ×, ÷, %, powers, and parentheses online.",
   alternates: { canonical: "/tools/maths-solver" },
   openGraph: {
-    title: "Maths solver — Woodo Store",
+    title: "Maths solver — Wodoo Store",
     images: [
       {
         url: "/tools/maths-solver.webp",

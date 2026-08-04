@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/free-shipping-calculator" },
   openGraph: {
     images: [{ url: "/tools/free-shipping-calculator.webp", width: 1200, height: 630, alt: "Free online shipping threshold calculator to set profitable free shipping for ecommerce stores" }],
-    title: "Free shipping rate calculator — Woodo Store",
+    title: "Free shipping rate calculator — Wodoo Store",
     description:
       "Find a free-shipping threshold that covers your shipping cost and protects margin.",
   },

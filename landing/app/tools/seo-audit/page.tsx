@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/seo-audit" },
   openGraph: {
     images: [{ url: "/tools/seo-audit.webp", width: 1200, height: 630, alt: "Free online SEO audit tool to check on-page titles, metas, and technical signals" }],
-    title: "Free SEO audit tool — Woodo Store",
+    title: "Free SEO audit tool — Wodoo Store",
     description:
       "Analyze any public webpage for common SEO issues and get a clear pass/warn/fail report.",
   },

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free ecommerce traffic calculator — estimate monthly and daily visitors needed to hit a profit goal.",
   alternates: { canonical: "/tools/traffic-calculator" },
   openGraph: {
-    title: "Traffic calculator — Woodo Store",
+    title: "Traffic calculator — Wodoo Store",
     images: [
       {
         url: "/tools/traffic-calculator.webp",

@@ -1,6 +1,6 @@
-# Woodo Store
+# Wodoo Store
 
-Landing page for **Woodo Store** (`www.wodoo.store`) — a Next.js site with a registration waitlist backed by PostgreSQL.
+Landing page for **Wodoo Store** (`www.wodoo.store`) — a Next.js site with a registration waitlist backed by PostgreSQL.
 
 The Medusa store (`store/`) is separate and not part of this Docker stack yet. This setup hosts the landing page only.
 

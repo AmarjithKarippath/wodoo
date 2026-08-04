@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free domain name availability checker — search .com, .store, .shop, .io and more to see if your ecommerce brand domain is available.",
   alternates: { canonical: "/tools/domain-name-availability-checker" },
   openGraph: {
-    title: "Domain name availability checker — Woodo Store",
+    title: "Domain name availability checker — Wodoo Store",
     images: [
       {
         url: "/tools/domain-name-availability-checker.webp",

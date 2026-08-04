@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free age calculator — find exact age in years, months, and days from date of birth, plus days until next birthday.",
   alternates: { canonical: "/tools/age-calculator" },
   openGraph: {
-    title: "Age calculator — Woodo Store",
+    title: "Age calculator — Wodoo Store",
     images: [
       {
         url: "/tools/age-calculator.webp",

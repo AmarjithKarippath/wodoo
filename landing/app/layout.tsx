@@ -13,18 +13,18 @@ const inter = Inter({
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wodoo.store'
 
-const TITLE = 'Woodo Store — Start your online store today, sell tomorrow'
+const TITLE = 'Wodoo Store — Start your online store today, sell tomorrow'
 const DESCRIPTION =
-  'Woodo Store is the all-in-one commerce platform to design your store, make your products shine, get paid, and sell everywhere your customers scroll.'
+  'Wodoo Store is the all-in-one commerce platform to design your store, make your products shine, get paid, and sell everywhere your customers scroll.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: '%s · Woodo Store',
+    template: '%s · Wodoo Store',
   },
   description: DESCRIPTION,
-  applicationName: 'Woodo Store',
+  applicationName: 'Wodoo Store',
   keywords: [
     'online store builder',
     'ecommerce platform',
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     'cash on delivery store',
     'sell online',
     'launch a store',
-    'Woodo Store',
+    'Wodoo Store',
   ],
-  authors: [{ name: 'Woodo Store' }],
-  creator: 'Woodo Store',
-  publisher: 'Woodo Store',
+  authors: [{ name: 'Wodoo Store' }],
+  creator: 'Wodoo Store',
+  publisher: 'Wodoo Store',
   generator: 'Next.js',
   referrer: 'origin-when-cross-origin',
   category: 'ecommerce',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: SITE_URL,
-    siteName: 'Woodo Store',
+    siteName: 'Wodoo Store',
     title: TITLE,
     description: DESCRIPTION,
     images: [
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         url: '/og.png',
         width: 1200,
         height: 630,
-        alt: 'Woodo Store — start your online store today',
+        alt: 'Wodoo Store — start your online store today',
       },
     ],
   },
@@ -106,7 +106,7 @@ export const viewport: Viewport = {
 const ORG_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Woodo Store',
+  name: 'Wodoo Store',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
   sameAs: [] as string[],
@@ -115,7 +115,7 @@ const ORG_JSONLD = {
 const WEBSITE_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Woodo Store',
+  name: 'Wodoo Store',
   url: SITE_URL,
 }
 

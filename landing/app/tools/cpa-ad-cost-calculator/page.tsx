@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Free CPA ad cost calculator — calculate cost per acquisition and max profitable CPA from AOV and margin.",
   alternates: { canonical: "/tools/cpa-ad-cost-calculator" },
   openGraph: {
-    title: "CPA / ad cost calculator — Woodo Store",
+    title: "CPA / ad cost calculator — Wodoo Store",
     images: [
       {
         url: "/tools/cpa-ad-cost-calculator.webp",

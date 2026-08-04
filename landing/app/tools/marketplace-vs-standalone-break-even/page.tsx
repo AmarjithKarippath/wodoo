@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free Etsy vs Shopify break-even calculator — find the monthly order volume and GMV where a fixed website plan beats marketplace fees.",
   alternates: { canonical: "/tools/marketplace-vs-standalone-break-even" },
   openGraph: {
-    title: "Marketplace vs. standalone break-even calculator — Woodo Store",
+    title: "Marketplace vs. standalone break-even calculator — Wodoo Store",
     images: [
       {
         url: "/tools/marketplace-vs-standalone-break-even.webp",

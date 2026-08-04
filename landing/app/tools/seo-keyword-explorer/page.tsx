@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/tools/seo-keyword-explorer" },
   openGraph: {
     images: [{ url: "/tools/seo-keyword-explorer.webp", width: 1200, height: 630, alt: "Free online SEO keyword explorer for long-tail ideas and search intent clusters" }],
-    title: "SEO keyword explorer — Woodo Store",
+    title: "SEO keyword explorer — Wodoo Store",
     description:
       "Discover related keywords, long-tail ideas, and search intent groups from any seed keyword.",
   },

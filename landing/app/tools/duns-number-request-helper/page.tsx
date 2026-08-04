@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free DUNS number request checklist — prepare your company details and open the Dun & Bradstreet D-U-N-S number request tool.",
   alternates: { canonical: "/tools/duns-number-request-helper" },
   openGraph: {
-    title: "D-U-N-S number request helper — Woodo Store",
+    title: "D-U-N-S number request helper — Wodoo Store",
     images: [
       {
         url: "/tools/duns-number-request-helper.webp",

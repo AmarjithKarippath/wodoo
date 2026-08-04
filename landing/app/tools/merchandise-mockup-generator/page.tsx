@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free merchandise mockup generator — create t-shirt, hoodie, mug, and tote bag mockups with your brand text and download SVG previews.",
   alternates: { canonical: "/tools/merchandise-mockup-generator" },
   openGraph: {
-    title: "Merchandise mockup generator — Woodo Store",
+    title: "Merchandise mockup generator — Wodoo Store",
     images: [
       {
         url: "/tools/merchandise-mockup-generator.webp",

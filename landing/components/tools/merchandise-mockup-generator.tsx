@@ -17,7 +17,7 @@ const PRODUCTS: { id: ProductType; label: string }[] = [
 
 export function MerchandiseMockupGenerator() {
   const [product, setProduct] = useState<ProductType>("tshirt")
-  const [brandName, setBrandName] = useState("Woodo")
+  const [brandName, setBrandName] = useState("Wodoo")
   const [tagline, setTagline] = useState("Wear the brand")
   const [garmentColor, setGarmentColor] = useState("#1a1a1a")
   const [printColor, setPrintColor] = useState("#f5f5f0")

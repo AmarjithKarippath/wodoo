@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Free follower-to-buyer conversion calculator — estimate social commerce buyers, link-in-bio clicks, and revenue from your follower count.",
   alternates: { canonical: "/tools/follower-to-buyer-conversion-estimator" },
   openGraph: {
-    title: "Follower-to-buyer conversion estimator — Woodo Store",
+    title: "Follower-to-buyer conversion estimator — Wodoo Store",
     images: [
       {
         url: "/tools/follower-to-buyer-conversion-estimator.webp",
