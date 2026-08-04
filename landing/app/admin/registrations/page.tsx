@@ -56,13 +56,14 @@ export default async function AdminRegistrationsPage() {
 
           <div className="mt-10 overflow-hidden rounded-2xl border border-border">
             <div className="overflow-x-auto">
-              <table className="w-full min-w-[640px] text-left text-sm">
+              <table className="w-full min-w-[720px] text-left text-sm">
                 <thead className="border-b border-border bg-secondary/40 text-xs uppercase tracking-wide text-muted-foreground">
                   <tr>
                     <th className="px-4 py-3 font-semibold">Submitted</th>
                     <th className="px-4 py-3 font-semibold">Name</th>
                     <th className="px-4 py-3 font-semibold">Email</th>
                     <th className="px-4 py-3 font-semibold">Store name</th>
+                    <th className="px-4 py-3 font-semibold">Country</th>
                     <th className="px-4 py-3 font-semibold">Website</th>
                   </tr>
                 </thead>
@@ -70,7 +71,7 @@ export default async function AdminRegistrationsPage() {
                   {entries.length === 0 ? (
                     <tr>
                       <td
-                        colSpan={5}
+                        colSpan={6}
                         className="px-4 py-10 text-center text-muted-foreground"
                       >
                         No registrations yet.
@@ -95,6 +96,11 @@ export default async function AdminRegistrationsPage() {
                           </a>
                         </td>
                         <td className="px-4 py-3">{entry.storeName}</td>
+                        <td className="px-4 py-3">
+                          {entry.country ?? (
+                            <span className="text-muted-foreground">—</span>
+                          )}
+                        </td>
                         <td className="px-4 py-3">
                           {entry.website ? (
                             <a

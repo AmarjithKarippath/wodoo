@@ -1,4 +1,5 @@
 .PHONY: help up down build rebuild logs logs-db psql ps stop clean open \
+	migrate migrate-prod \
 	prod-init prod-up prod-down prod-build prod-rebuild prod-logs prod-ps \
 	prod-psql prod-stop prod-pull prod-deploy
 
@@ -38,6 +39,9 @@ logs-db: ## Follow local PostgreSQL logs
 
 psql: ## Open psql shell (local)
 	$(COMPOSE) exec postgres psql -U $${POSTGRES_USER:-wodoo} -d $${POSTGRES_DB:-wodoo}
+
+migrate: ## Apply pending SQL migrations (local)
+	$(COMPOSE) exec -T postgres psql -U $${POSTGRES_USER:-wodoo} -d $${POSTGRES_DB:-wodoo} < db/migrations/002_waitlist_country.sql
 
 ps: ## Show local container status
 	$(COMPOSE) ps
@@ -83,6 +87,11 @@ prod-psql: ## Open psql shell (production)
 	@test -f .env.production || (echo "Missing .env.production — run: make prod-init" && exit 1)
 	@set -a && . ./.env.production && set +a && \
 		$(COMPOSE_PROD) exec postgres psql -U "$$POSTGRES_USER" -d "$${POSTGRES_DB:-wodoo}"
+
+migrate-prod: ## Apply pending SQL migrations (production)
+	@test -f .env.production || (echo "Missing .env.production — run: make prod-init" && exit 1)
+	@set -a && . ./.env.production && set +a && \
+		$(COMPOSE_PROD) exec -T postgres psql -U "$$POSTGRES_USER" -d "$${POSTGRES_DB:-wodoo}" < db/migrations/002_waitlist_country.sql
 
 prod-stop: ## Stop production containers without removing them
 	$(COMPOSE_PROD) stop

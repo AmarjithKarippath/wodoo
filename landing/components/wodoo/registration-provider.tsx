@@ -22,11 +22,14 @@ import {
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { COUNTRIES } from "@/lib/countries"
+import { cn } from "@/lib/utils"
 
 const registrationSchema = z.object({
   name: z.string().trim().min(1, "Name is required"),
   email: z.string().trim().email("Enter a valid email"),
   storeName: z.string().trim().min(1, "Store name is required"),
+  country: z.string().trim().min(1, "Country is required"),
   website: z
     .string()
     .trim()
@@ -70,6 +73,7 @@ function RegistrationDialog({
       name: "",
       email: "",
       storeName: "",
+      country: "",
       website: "",
     },
   })
@@ -98,6 +102,7 @@ function RegistrationDialog({
         name: values.name,
         email: values.email,
         storeName: values.storeName,
+        country: values.country,
         website: values.website?.trim() || undefined,
       }),
     })
@@ -177,6 +182,34 @@ function RegistrationDialog({
                 {form.formState.errors.storeName && (
                   <p className="text-sm text-destructive">
                     {form.formState.errors.storeName.message}
+                  </p>
+                )}
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="country">Country</Label>
+                <select
+                  id="country"
+                  autoComplete="country-name"
+                  className={cn(
+                    "border-input bg-transparent shadow-xs flex h-9 w-full rounded-md border px-3 py-1 text-base outline-none transition-[color,box-shadow] md:text-sm",
+                    "focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50",
+                    "aria-invalid:ring-destructive/20 aria-invalid:border-destructive",
+                    fieldClassName,
+                  )}
+                  aria-invalid={!!form.formState.errors.country}
+                  {...form.register("country")}
+                >
+                  <option value="">Select your country</option>
+                  {COUNTRIES.map((country) => (
+                    <option key={country} value={country}>
+                      {country}
+                    </option>
+                  ))}
+                </select>
+                {form.formState.errors.country && (
+                  <p className="text-sm text-destructive">
+                    {form.formState.errors.country.message}
                   </p>
                 )}
               </div>

@@ -1,11 +1,17 @@
 import { NextResponse } from "next/server"
 import { z } from "zod"
+import { isCountry } from "@/lib/countries"
 import { getPool } from "@/lib/db"
 
 const waitlistSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(255),
   email: z.string().trim().email("Enter a valid email").max(255),
   storeName: z.string().trim().min(1, "Store name is required").max(255),
+  country: z
+    .string()
+    .trim()
+    .min(1, "Country is required")
+    .refine(isCountry, "Select a valid country"),
   website: z
     .string()
     .trim()
@@ -33,14 +39,14 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: message }, { status: 400 })
   }
 
-  const { name, email, storeName, website } = parsed.data
+  const { name, email, storeName, country, website } = parsed.data
 
   try {
     const pool = getPool()
     await pool.query(
-      `INSERT INTO waitlist (name, email, store_name, website)
-       VALUES ($1, $2, $3, $4)`,
-      [name, email.toLowerCase(), storeName, website ?? null],
+      `INSERT INTO waitlist (name, email, store_name, country, website)
+       VALUES ($1, $2, $3, $4, $5)`,
+      [name, email.toLowerCase(), storeName, country, website ?? null],
     )
   } catch (error) {
     const pgError = error as { code?: string }

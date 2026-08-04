@@ -47,7 +47,7 @@
       <video:title>Trusted and growing ecommerce platform — Woodo Store</video:title>
       <video:description>Woodo Store hero video showcasing a trusted ecommerce platform for launching and growing an online store.</video:description>
       <video:content_loc>https://www.wodoo.store/images/steps-hero.mp4</video:content_loc>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-02T00:00:00Z</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
@@ -55,7 +55,7 @@
       <video:title>Sell where they&apos;re scrolling — Woodo Store</video:title>
       <video:description>Put your products in every feed, inbox, reel and marketplace your shoppers already live in.</video:description>
       <video:content_loc>https://www.wodoo.store/images/social-shopping.mp4</video:content_loc>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-02T00:00:00Z</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
@@ -63,7 +63,7 @@
       <video:title>Keep them coming back — Woodo Store</video:title>
       <video:description>Re-engage shoppers with a steady drumbeat of offers, updates, and automations that run while you sleep.</video:description>
       <video:content_loc>https://www.wodoo.store/images/retention.mp4</video:content_loc>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-02T00:00:00Z</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>

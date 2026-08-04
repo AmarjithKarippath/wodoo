@@ -97,7 +97,7 @@ export const LANDING_VIDEOS = {
     thumbnailSrc: "/images/steps-hero-poster.jpg",
     width: 1280,
     height: 720,
-    uploadDate: "2026-08-02",
+    uploadDate: "2026-08-02T00:00:00Z",
     encodingFormat: "video/mp4",
   },
   socialShopping: {
@@ -110,7 +110,7 @@ export const LANDING_VIDEOS = {
     thumbnailSrc: "/images/social-shopping-poster.jpg",
     width: 720,
     height: 1280,
-    uploadDate: "2026-08-02",
+    uploadDate: "2026-08-02T00:00:00Z",
     encodingFormat: "video/mp4",
   },
   retention: {
@@ -123,7 +123,7 @@ export const LANDING_VIDEOS = {
     thumbnailSrc: "/images/retention-poster.jpg",
     width: 1280,
     height: 720,
-    uploadDate: "2026-08-02",
+    uploadDate: "2026-08-02T00:00:00Z",
     encodingFormat: "video/mp4",
   },
 } as const satisfies Record<string, LandingVideo>

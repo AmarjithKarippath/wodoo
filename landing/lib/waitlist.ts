@@ -5,6 +5,7 @@ export type WaitlistEntry = {
   name: string
   email: string
   storeName: string
+  country: string | null
   website: string | null
   createdAt: Date
 }
@@ -38,10 +39,11 @@ export async function listWaitlistEntries(limit = 500): Promise<WaitlistEntry[]>
     name: string
     email: string
     store_name: string
+    country: string | null
     website: string | null
     created_at: Date
   }>(
-    `SELECT id, name, email, store_name, website, created_at
+    `SELECT id, name, email, store_name, country, website, created_at
      FROM waitlist
      ORDER BY created_at DESC
      LIMIT $1`,
@@ -53,6 +55,7 @@ export async function listWaitlistEntries(limit = 500): Promise<WaitlistEntry[]>
     name: row.name,
     email: row.email,
     storeName: row.store_name,
+    country: row.country,
     website: row.website,
     createdAt: row.created_at,
   }))
