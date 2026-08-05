@@ -1549,6 +1549,113 @@ export const POSTS: Post[] = [
       { type: "p", text: "As contenders push for October and rebuilding clubs invest in the future, the trade deadline MLB fans eagerly anticipate each season once again delivers drama across the league. Keep an eye on your favorite team’s standings, watch the latest scores, and follow every transaction as the race to the playoffs intensifies." },
     ],
   },
+
+  {
+    slug: "pakistan-vs-west-indies-sajid-khan-babar-azam-second-test",
+    title:
+      "Pakistan vs West Indies: Sajid Khan, Abdullah Shafique, Ubaid Shah & Babar Azam Lead Pakistan’s Fight in the Second Test",
+    description:
+      "West Indies vs Pakistan second Test scorecard update — Sajid Khan’s four wickets, Abdullah Shafique’s century, Babar Azam, Ubaid Shah’s debut, Ali Usman, Mohammad Ali, and Roston Chase.",
+    publishedAt: "2026-08-05",
+    author: "Wodoo Store Team",
+    readingMinutes: 8,
+    tags: [
+      "pakistan vs west indies",
+      "babar azam",
+      "sajid khan",
+      "test cricket",
+      "ind vs pak",
+    ],
+    body: [
+      { type: "p", text: "The West Indies cricket team vs Pakistan national cricket team match scorecard has become one of the most searched topics among cricket fans as the second Test delivers another gripping contest between two proud cricketing nations. With standout performances from Sajid Khan, Abdullah Shafique, Babar Azam, Ali Usman, Ubaid Shah, and Mohammad Ali, Pakistan has shown resilience against a determined West Indies side led by captain Roston Chase." },
+      { type: "p", text: "As the series unfolds, fans are also discussing how this contest could influence Pakistan’s preparations for future high-profile matches, including the ever-anticipated IND vs PAK rivalry." },
+
+      { type: "h2", text: "West Indies cricket team vs Pakistan national cricket team match scorecard", id: "scorecard" },
+      { type: "p", text: "The latest West Indies cricket team vs Pakistan national cricket team match scorecard reflects a hard-fought Test match featuring strong bowling performances and disciplined batting." },
+      { type: "p", text: "West Indies posted a competitive first-innings total of 344, with captain Roston Chase leading from the front with a crucial half-century. Pakistan’s bowling attack responded well, with Sajid Khan claiming four wickets, while Mohammad Ali, Ali Usman, and debutant Ubaid Shah each contributed with two wickets." },
+      { type: "p", text: "Pakistan’s reply was anchored by a composed century from Abdullah Shafique, supported by captain Babar Azam, putting the visitors in a strong position despite a spirited West Indies bowling attack." },
+
+      { type: "h2", text: "Sajid Khan stars with the ball", id: "sajid-khan" },
+      { type: "p", text: "One of Pakistan’s standout performers has been Sajid Khan." },
+      { type: "p", text: "The experienced off-spinner once again demonstrated why he remains an important part of Pakistan’s Test setup, finishing with four wickets in the West Indies’ first innings. His ability to extract turn and maintain pressure helped prevent the hosts from posting an even larger total." },
+      { type: "p", text: "Sajid’s performance has been widely praised by fans and analysts, especially given the challenging conditions in the Caribbean." },
+
+      { type: "h2", text: "Abdullah Shafique anchors Pakistan’s innings", id: "abdullah-shafique" },
+      { type: "p", text: "Opening batter Abdullah Shafique produced one of the finest innings of the match with a patient century." },
+      { type: "p", text: "His knock provided stability after Pakistan lost early wickets and allowed the middle order to build partnerships. Shafique’s ability to handle both pace and spin was crucial in helping Pakistan move into a competitive position." },
+      { type: "p", text: "The innings reinforced his growing reputation as one of Pakistan’s most dependable Test batters." },
+
+      { type: "h2", text: "Babar Azam continues to lead from the front", id: "babar-azam" },
+      { type: "p", text: "Captain Babar Azam once again demonstrated his class with a composed innings." },
+      { type: "p", text: "Although expectations are always high whenever Babar walks to the crease, his calm approach and partnership with Abdullah Shafique helped Pakistan recover after a cautious start." },
+      { type: "p", text: "His leadership has become especially important as Pakistan integrates younger players into the Test side." },
+
+      { type: "h2", text: "Ubaid Shah impresses on Test debut", id: "ubaid-shah" },
+      { type: "p", text: "Young fast bowler Ubaid Shah enjoyed a memorable introduction to Test cricket." },
+      { type: "p", text: "Making his debut, Ubaid picked up important wickets while maintaining impressive pace and discipline throughout the innings. His performance has given Pakistan another promising fast-bowling option for the future." },
+
+      { type: "h2", text: "Ali Usman provides valuable support", id: "ali-usman" },
+      { type: "p", text: "Left-arm spinner Ali Usman also made an important contribution." },
+      { type: "p", text: "His control in the middle overs complemented Sajid Khan’s attacking spell, while his wickets helped Pakistan maintain pressure on the West Indies batting lineup. Alongside Mohammad Ali and Ubaid Shah, Ali Usman formed part of a balanced bowling attack that consistently challenged the hosts." },
+
+      { type: "h2", text: "Mohammad Ali delivers with the ball", id: "mohammad-ali" },
+      { type: "p", text: "Fast bowler Mohammad Ali once again proved his value in red-ball cricket." },
+      { type: "p", text: "His ability to generate movement with the new ball and maintain disciplined line and length resulted in two important wickets during the West Indies innings. Together with Sajid Khan, Ali Usman, and Ubaid Shah, he helped limit the home side’s scoring opportunities." },
+
+      { type: "h2", text: "Roston Chase leads West Indies", id: "roston-chase" },
+      { type: "p", text: "West Indies captain Roston Chase played one of the most important innings for the hosts." },
+      { type: "p", text: "His fighting half-century rescued West Indies after a difficult period and pushed the team to a respectable first-innings total. Chase has continued to play a vital leadership role throughout the series, both with the bat and in the field." },
+
+      { type: "h2", text: "Pakistan’s new-look Test XI", id: "pakistan-xi" },
+      { type: "p", text: "Pakistan entered the second Test with several changes." },
+      { type: "p", text: "The playing XI included:" },
+      { type: "ul", items: [
+        "Abdullah Shafique",
+        "Babar Azam (captain)",
+        "Mohammad Rizwan",
+        "Salman Ali Agha",
+        "Ali Usman",
+        "Sajid Khan",
+        "Mohammad Ali",
+        "Ubaid Shah",
+      ]},
+      { type: "p", text: "The changes came after injuries and selection decisions ahead of the crucial series decider." },
+
+      { type: "h2", text: "What this means ahead of IND vs PAK", id: "ind-vs-pak" },
+      { type: "p", text: "Although this series is against West Indies, many supporters are already looking ahead to the next IND vs PAK encounter." },
+      { type: "p", text: "Strong performances from players such as Babar Azam, Abdullah Shafique, Sajid Khan, Mohammad Ali, Ali Usman, and Ubaid Shah strengthen Pakistan’s squad depth and provide valuable match experience before future high-profile international fixtures." },
+      { type: "p", text: "Whenever India and Pakistan meet, performances in Test and bilateral series often shape team confidence and selection discussions." },
+
+      { type: "h2", text: "Frequently asked questions", id: "faq" },
+
+      { type: "h3", text: "Who were Pakistan’s standout performers?", id: "faq-standouts" },
+      { type: "p", text: "Pakistan’s key contributors included Abdullah Shafique with the bat and Sajid Khan with the ball, while Babar Azam, Mohammad Ali, Ali Usman, and Ubaid Shah also made important contributions." },
+
+      { type: "h3", text: "How did Roston Chase perform?", id: "faq-chase" },
+      { type: "p", text: "West Indies captain Roston Chase scored a valuable half-century and led his side to a competitive first-innings total." },
+
+      { type: "h3", text: "Why is Ubaid Shah attracting attention?", id: "faq-ubaid" },
+      { type: "p", text: "Ubaid Shah made his Test debut and impressed with disciplined fast bowling, making him one of Pakistan’s promising young talents." },
+
+      { type: "h3", text: "How is Babar Azam performing?", id: "faq-babar" },
+      { type: "p", text: "Captain Babar Azam played an important supporting role with the bat while continuing to lead Pakistan during a period of transition." },
+
+      { type: "h3", text: "Is this series connected to IND vs PAK?", id: "faq-ind-pak" },
+      { type: "p", text: "No. The current series is between Pakistan and West Indies, but strong individual performances may influence Pakistan’s preparations for future international tournaments and the next IND vs PAK contest." },
+
+      { type: "h2", text: "Final thoughts", id: "final-thoughts" },
+      { type: "p", text: "The latest West Indies cricket team vs Pakistan national cricket team match scorecard highlights an entertaining Test match filled with standout individual performances. Abdullah Shafique’s century, Sajid Khan’s four-wicket haul, and valuable contributions from Babar Azam, Ali Usman, Mohammad Ali, and debutant Ubaid Shah have kept Pakistan firmly in the contest, while Roston Chase once again demonstrated his importance for the West Indies." },
+      { type: "p", text: "As the series reaches its decisive stages, cricket fans around the world will be watching closely to see which team finishes on top — and which players continue building momentum for the challenges that lie ahead." },
+
+      { type: "h2", text: "Sources", id: "sources" },
+      { type: "ul", items: [
+        "Arab News — Shafique and Babar Azam put Pakistan on top in 2nd cricket test against West Indies: https://www.arabnews.com/node/2653296",
+        "Dawn — Chase anchors West Indies to 344 against Pakistan: https://www.dawn.com/news/2020455",
+        "The Express Tribune — Pakistan hand Test debuts to Ubaid Shah, Awais Zafar: https://tribune.com.pk/story/2621687/pakistan-hand-test-debuts-to-ubaid-shah-awais-zafar-as-west-indies-bat-in-series-decider",
+        "Geo Super — West Indies win toss, elect to bat first against Pakistan in second Test: https://www.geosuper.tv/latest/58364-west-indies-win-toss-elect-to-bat-first-against-pakistan-in-second-test",
+      ]},
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
