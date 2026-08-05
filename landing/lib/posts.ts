@@ -1803,6 +1803,118 @@ export const POSTS: Post[] = [
       ]},
     ],
   },
+
+  {
+    slug: "copa-do-brasil-juventude-vs-atletico-mg-where-to-watch",
+    title:
+      "Copa do Brasil: Juventude vs Atlético-MG — Where to Watch, Match Preview, Team News & Statistics",
+    description:
+      "Juventude vs Atlético-MG Copa do Brasil preview — where to watch Galo today, Alan Minda, Alan Kardec, Mamady Cissé, statistics, and how fans search Juventude x Atlético Mineiro.",
+    publishedAt: "2026-08-05",
+    author: "Wodoo Store Team",
+    readingMinutes: 7,
+    tags: [
+      "copa do brasil",
+      "juventude",
+      "atletico mineiro",
+      "galo",
+      "football",
+    ],
+    body: [
+      { type: "p", text: "The Copa do Brasil continues with another exciting knockout clash as Juventude vs Atlético-MG takes center stage. The match features Esporte Clube Juventude against Clube Atlético Mineiro, two historic Brazilian clubs looking to secure a place in the next round." },
+      { type: "p", text: "Fans are searching for Juventude x Atlético-MG, Juventude vs Atlético Mineiro, where to watch Juventude and Atlético Mineiro, where to watch Atlético-MG vs Juventude, and game of Galo today as anticipation builds ahead of kickoff." },
+      { type: "p", text: "Here’s everything you need to know about the match, including team news, players to watch, statistics, and broadcast information." },
+      { type: "callout", text: "Broadcast rights and kickoff times vary by region. Confirm where to watch Juventude vs Atlético-MG on official Copa do Brasil partners and your local sports listings." },
+
+      { type: "h2", text: "Juventude vs Atlético-MG in the Copa do Brasil", id: "fixture" },
+      { type: "p", text: "The Juventude vs Atlético-MG fixture is one of the most anticipated matches in this stage of the Copa do Brasil." },
+      { type: "p", text: "Both clubs enter the tie with ambitions of advancing further in Brazil’s premier knockout competition. While Juventude FC hopes to use home advantage to challenge one of the country’s strongest teams, Atlético Mineiro will aim to capitalize on its experience in high-pressure matches." },
+      { type: "p", text: "With knockout football, every goal and every tactical decision could determine which club moves on." },
+
+      { type: "h2", text: "Where to watch Juventude vs Atlético-MG", id: "where-to-watch" },
+      { type: "p", text: "One of the biggest questions from fans is where to watch Juventude and Atlético Mineiro — including searches like Juventude vs Atlético-MG where to watch, where to watch Esporte Clube Juventude vs Atlético-MG, where to watch Atlético-MG vs Juventude, where to watch Atlético Mineiro vs Juventude, where to watch Atlético Mineiro and Juventude, where to watch Atlético Mineiro–Juventude, where to watch Atlético Mineiro vs Juventude in the Copa do Brasil, and where to watch today’s Galo game." },
+      { type: "p", text: "The match will be broadcast by the official television networks and streaming platforms that hold the Copa do Brasil broadcasting rights. Fans should check their local sports listings for the latest schedule and regional availability." },
+
+      { type: "h2", text: "Atlético Mineiro looking for another deep cup run", id: "atletico-mineiro" },
+      { type: "p", text: "Atlético Mineiro, often referred to as Atlético, Atlético-MG, or simply Galo, enters the match as one of the tournament favorites." },
+      { type: "p", text: "The club has built a reputation as one of Brazil’s strongest teams, combining experienced players with talented young stars. Success in the Copa do Brasil remains one of the club’s major objectives this season." },
+
+      { type: "h2", text: "Juventude hoping to cause an upset", id: "juventude" },
+      { type: "p", text: "Esporte Clube Juventude will look to make the most of playing in front of its home supporters." },
+      { type: "p", text: "The club has shown resilience throughout the competition and will be hoping to frustrate Atlético Mineiro with organized defending and quick counterattacks." },
+      { type: "p", text: "Cup competitions frequently produce surprises, making Juventude a dangerous opponent despite Atlético’s status as the favorite." },
+
+      { type: "h2", text: "Players to watch", id: "players" },
+
+      { type: "h3", text: "Alan Minda", id: "alan-minda" },
+      { type: "p", text: "One player attracting significant attention is Alan Minda." },
+      { type: "p", text: "Known for his pace, creativity, and attacking ability, Minda could become a key figure if given the opportunity to influence the match in the final third." },
+
+      { type: "h3", text: "Alan Kardec", id: "alan-kardec" },
+      { type: "p", text: "Veteran striker Alan Kardec remains an experienced option for Atlético Mineiro." },
+      { type: "p", text: "His aerial ability, movement inside the penalty area, and experience in important matches make him a valuable attacking weapon, particularly in knockout competitions." },
+
+      { type: "h3", text: "Mamady Cissé", id: "mamady-cisse" },
+      { type: "p", text: "Another player generating interest is Mamady Cissé." },
+      { type: "p", text: "The young talent has been closely followed by supporters due to his potential and could become an important contributor as the season progresses." },
+
+      { type: "h2", text: "Atlético-MG vs Juventude statistics", id: "statistics" },
+      { type: "p", text: "Fans searching for Esporte Clube Juventude vs Atlético-MG statistics often compare several key metrics before kickoff, including:" },
+      { type: "ul", items: [
+        "Head-to-head record",
+        "Goals scored",
+        "Possession averages",
+        "Shots on target",
+        "Defensive record",
+        "Recent form",
+        "Home and away performance",
+      ]},
+      { type: "p", text: "These statistics provide valuable insight into how both clubs have performed throughout the season." },
+
+      { type: "h2", text: "Different ways fans search for the match", id: "search-terms" },
+      { type: "p", text: "Supporters use many different search terms to find information about this fixture, including:" },
+      { type: "ul", items: [
+        "Juventude x Atlético-MG",
+        "Juventude x Atlético MG",
+        "Juventude x Atlético Mineiro",
+        "Atlético-MG x Juventude",
+        "Atlético MG x Juventude",
+        "Atlético Mineiro vs Juventude",
+        "Atlético x Juventude",
+        "Galo x Juventude",
+        "Atlético and Juventude",
+        "Juventude and Atlético Mineiro",
+      ]},
+      { type: "p", text: "Although the wording varies, all searches refer to the same highly anticipated Copa do Brasil matchup." },
+
+      { type: "h2", text: "Match preview", id: "preview" },
+      { type: "p", text: "The tactical battle should be fascinating." },
+      { type: "p", text: "Atlético Mineiro is expected to dominate possession while using its technical quality to create scoring opportunities." },
+      { type: "p", text: "Meanwhile, Juventude will likely rely on disciplined defending, quick transitions, and the energy of its home crowd to compete with one of Brazil’s strongest squads." },
+      { type: "p", text: "As is often the case in the Copa do Brasil, set pieces, defensive organization, and finishing efficiency could prove decisive." },
+
+      { type: "h2", text: "Frequently asked questions", id: "faq" },
+
+      { type: "h3", text: "Where can I watch Juventude vs Atlético-MG?", id: "faq-watch" },
+      { type: "p", text: "The match will be available through official broadcasters and streaming services with Copa do Brasil rights. Availability depends on your country and region." },
+
+      { type: "h3", text: "Where can I watch today’s Galo game?", id: "faq-galo" },
+      { type: "p", text: "Fans can watch Atlético Mineiro’s match through the competition’s official broadcasting partners." },
+
+      { type: "h3", text: "Who is the favorite?", id: "faq-favorite" },
+      { type: "p", text: "Atlético Mineiro enters the match as the favorite based on squad depth and experience, although Juventude has the ability to challenge at home." },
+
+      { type: "h3", text: "Which players should fans watch?", id: "faq-players" },
+      { type: "p", text: "Key names include Alan Minda, Alan Kardec, and Mamady Cissé, along with several experienced players from both clubs." },
+
+      { type: "h3", text: "Why is this match important?", id: "faq-important" },
+      { type: "p", text: "The winner advances in the Copa do Brasil, bringing them one step closer to one of Brazil’s most prestigious domestic trophies." },
+
+      { type: "h2", text: "Final thoughts", id: "final-thoughts" },
+      { type: "p", text: "The Juventude vs Atlético-MG clash promises to be one of the standout fixtures in the Copa do Brasil. Clube Atlético Mineiro, widely known as Galo, will aim to continue its pursuit of silverware, while Esporte Clube Juventude hopes to produce a memorable upset in front of its supporters." },
+      { type: "p", text: "Whether you’re searching for where to watch Juventude vs Atlético-MG, where to watch Atlético Mineiro vs Juventude, today’s Galo game, Atlético-MG vs Juventude statistics, or simply looking for the latest match preview, this knockout encounter is expected to deliver plenty of excitement for football fans across Brazil and around the world." },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
