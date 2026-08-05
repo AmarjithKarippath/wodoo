@@ -1656,6 +1656,153 @@ export const POSTS: Post[] = [
       ]},
     ],
   },
+
+  {
+    slug: "census-west-bengal-2027-self-enumeration-se-census-gov-in",
+    title:
+      "Census West Bengal 2027: Complete Guide to Self Enumeration, se.census.gov.in Portal & Census of India 2027",
+    description:
+      "Census West Bengal 2027 guide — how self enumeration works, how to use the se.census.gov.in portal, Census of India 2027 phases, benefits, and FAQs for online household registration.",
+    publishedAt: "2026-08-05",
+    author: "Wodoo Store Team",
+    readingMinutes: 8,
+    tags: [
+      "census west bengal",
+      "self enumeration",
+      "census 2027",
+      "se.census.gov.in",
+      "india",
+    ],
+    body: [
+      { type: "p", text: "The Census of India 2027 marks a major milestone as India moves toward its first large-scale digital census with an online self enumeration facility. In West Bengal, residents can now participate through the official se.census.gov.in portal before enumerators begin door-to-door verification. The initiative is designed to make the census process more convenient, accurate, and efficient." },
+      { type: "p", text: "If you’re searching for Census West Bengal, self enumeration West Bengal, se.census.gov.in portal, or Census 2027, here’s everything you need to know." },
+      { type: "callout", text: "Always use the official se.census.gov.in portal and government announcements. Dates and steps can change — verify on censusindia.gov.in or india.gov.in before submitting information." },
+
+      { type: "h2", text: "What is the Census of India 2027?", id: "what-is-census-2027" },
+      { type: "p", text: "The Census of India 2027 is the country’s 16th national census and the first to offer a nationwide digital self-enumeration option. It is being conducted in two phases:" },
+      { type: "ul", items: [
+        "House Listing and Housing Census",
+        "Population Enumeration",
+      ]},
+      { type: "p", text: "The digital initiative allows households to submit their information online before an official census enumerator visits for verification." },
+
+      { type: "h2", text: "Census West Bengal 2027", id: "census-west-bengal" },
+      { type: "p", text: "The Census West Bengal 2027 has attracted significant attention because the state is among the early adopters of the digital self enumeration process." },
+      { type: "p", text: "Residents have the option to complete their household information online before the traditional door-to-door survey begins. According to official announcements, field enumerators will later verify the submitted information during house visits." },
+
+      { type: "h2", text: "What is self enumeration?", id: "what-is-self-enumeration" },
+      { type: "p", text: "Self enumeration allows individuals or households to enter their census information online instead of providing all details during the enumerator’s visit." },
+      { type: "p", text: "The process aims to:" },
+      { type: "ul", items: [
+        "Reduce paperwork",
+        "Improve data accuracy",
+        "Save time for households",
+        "Speed up census operations",
+        "Support India’s transition to digital public services",
+      ]},
+      { type: "p", text: "Even after completing the online form, census officials may visit the household to verify the submitted information." },
+
+      { type: "h2", text: "Self enumeration West Bengal", id: "self-enumeration-wb" },
+      { type: "p", text: "The self enumeration West Bengal process is available through the official census self-enumeration website." },
+      { type: "p", text: "Residents can:" },
+      { type: "ul", items: [
+        "Register online",
+        "Verify their identity",
+        "Enter household details",
+        "Save progress before final submission",
+        "Receive confirmation after submitting the form",
+      ]},
+      { type: "p", text: "Officials have emphasized that no physical documents are required merely to complete the online self-enumeration process." },
+
+      { type: "h2", text: "se.census.gov.in portal", id: "portal" },
+      { type: "p", text: "The official se.census.gov.in portal serves as the government’s online platform for Census 2027 self-enumeration." },
+      { type: "p", text: "Using the portal, eligible residents can:" },
+      { type: "ul", items: [
+        "Create a Self-Enumeration (SE) account",
+        "Generate an SE ID",
+        "Complete household information",
+        "Update family member details",
+        "Review submitted responses",
+        "Finalize the census form online",
+      ]},
+      { type: "p", text: "The portal is designed to simplify participation while reducing the workload during door-to-door enumeration." },
+
+      { type: "h2", text: "How to use se.census.gov.in", id: "how-to-use" },
+      { type: "p", text: "The se.census.gov.in process generally includes these steps:" },
+      { type: "ol", items: [
+        "Visit the official Self-Enumeration portal.",
+        "Register using the required information.",
+        "Complete OTP verification.",
+        "Select your preferred language.",
+        "Mark your household location where required.",
+        "Fill in household and family details.",
+        "Review the information carefully.",
+        "Submit the completed form.",
+      ]},
+      { type: "p", text: "After submission, an enumerator may still visit your residence to verify the information provided." },
+
+      { type: "h2", text: "Self enumeration Census 2027 West Bengal", id: "self-enumeration-census-2027-wb" },
+      { type: "p", text: "The self enumeration Census 2027 West Bengal initiative gives residents greater flexibility by allowing them to complete the census online during the designated self-enumeration window before field visits begin. This digital-first approach is intended to improve convenience while maintaining the accuracy of official population records." },
+
+      { type: "h2", text: "Why Census 2027 is significant", id: "why-significant" },
+      { type: "p", text: "The Census 2027 is expected to play a vital role in national planning." },
+      { type: "p", text: "Census data helps governments make decisions regarding:" },
+      { type: "ul", items: [
+        "Education",
+        "Healthcare",
+        "Housing",
+        "Infrastructure",
+        "Transportation",
+        "Social welfare",
+        "Urban planning",
+        "Public services",
+      ]},
+      { type: "p", text: "Accurate population data supports better policy-making and resource allocation across the country." },
+
+      { type: "h2", text: "Benefits of digital self enumeration", id: "benefits" },
+      { type: "p", text: "The move toward digital census collection offers several advantages:" },
+      { type: "ul", items: [
+        "Faster data collection",
+        "Improved accuracy",
+        "Reduced manual paperwork",
+        "Greater convenience for households",
+        "Easier verification by census officials",
+        "More efficient processing of census information",
+      ]},
+      { type: "p", text: "The initiative represents one of the largest digital governance projects undertaken in India’s census history." },
+
+      { type: "h2", text: "Frequently asked questions", id: "faq" },
+
+      { type: "h3", text: "What is Census West Bengal 2027?", id: "faq-wb" },
+      { type: "p", text: "It is the West Bengal phase of the Census of India 2027, which includes an online self-enumeration option followed by verification through field enumerators." },
+
+      { type: "h3", text: "What is self enumeration?", id: "faq-self-enum" },
+      { type: "p", text: "Self enumeration allows residents to complete their census information online before an official enumerator visits the household." },
+
+      { type: "h3", text: "What is the se.census.gov.in portal?", id: "faq-portal" },
+      { type: "p", text: "The se.census.gov.in portal is the official government website where eligible residents can register and complete their Census 2027 self-enumeration." },
+
+      { type: "h3", text: "Is self enumeration mandatory?", id: "faq-mandatory" },
+      { type: "p", text: "Self-enumeration is offered as an option. Households that do not use the online system are still expected to be covered through the regular house-to-house census process." },
+
+      { type: "h3", text: "Will officials still visit after online submission?", id: "faq-visit" },
+      { type: "p", text: "Yes. Census officials may visit households to verify the information submitted online." },
+
+      { type: "h2", text: "Final thoughts", id: "final-thoughts" },
+      { type: "p", text: "The Census West Bengal 2027 represents an important step toward a modern, digital census in India. Through the se.census.gov.in portal, residents can complete self enumeration from home before field verification begins, making participation more convenient while helping improve the quality of census data." },
+      { type: "p", text: "As the Census of India 2027 progresses, the digital self-enumeration system is expected to simplify the process for millions of households and contribute to more accurate demographic information for planning India’s future." },
+
+      { type: "h2", text: "Sources", id: "sources" },
+      { type: "ul", items: [
+        "India.gov.in — Census of India 2027: https://www.india.gov.in/spotlight/details/census-of-india-2027",
+        "Times of India — Census 2027 self-enumeration in West Bengal: https://timesofindia.indiatimes.com/city/kolkata/census-2027-house-listing-begins-across-tamil-nadu-self-enumeration-starts-in-west-bengal-all-you-need-to-know/articleshow/132783235.cms",
+        "Economic Times — How to fill SIR / self-enumeration form and generate SE ID: https://m.economictimes.com/news/new-updates/sir-online-form-how-to-fill-your-form-direct-link-generate-se-id-and-complete-process/articleshow/132383380.cms",
+        "Vikaspedia — Self Enumeration in Census 2027: https://socialwelfare.vikaspedia.in/viewcontent/social-welfare/community-power/census-2027/self-enumeration-in-census-2027",
+        "South 24 Parganas District — Census 2027: https://s24pgs.gov.in/census-2027/",
+        "Census India — Official home: https://censusindia.gov.in/census.website/en",
+      ]},
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
