@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { allPosts } from "@/lib/posts";
+import { allPostsMerged } from "@/lib/blog";
+
+export const dynamic = "force-dynamic";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store";
 
@@ -26,8 +28,8 @@ function formatDate(iso: string): string {
   });
 }
 
-export default function BlogIndex() {
-  const posts = allPosts();
+export default async function BlogIndex() {
+  const posts = await allPostsMerged();
   return (
     <main className="min-h-screen bg-background">
       <div className="mx-auto max-w-3xl px-6 py-16">

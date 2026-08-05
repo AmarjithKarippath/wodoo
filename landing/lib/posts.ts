@@ -1,9 +1,7 @@
 /**
- * Blog content lives here as structured data (no MDX dependency). Each post
- * compiles to a static page at /blog/{slug}.
- *
- * Add a new post: append an entry here, then add the URL to
- * public/sitemap.xml so search engines can discover it.
+ * Built-in blog posts (structured blocks, no MDX).
+ * Admin-published posts live in Postgres (blog_posts) and merge at runtime.
+ * Sitemap/robots are dynamic — new posts appear at /sitemap.xml automatically.
  */
 
 export type Block =

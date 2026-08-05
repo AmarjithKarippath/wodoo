@@ -230,18 +230,18 @@ Productivity tools live under `/tools`. Registry: `landing/lib/tools.ts`.
 | Marketplace fee calculator (eBay & Etsy) | `/tools/marketplace-fee-calculator` |
 | Volume discount vs unit margin planner | `/tools/volume-discount-planner` |
 
-To add another tool: register it in `lib/tools.ts`, add `app/tools/<slug>/page.tsx`, and update `public/sitemap.xml`.
+To add another tool: register it in `lib/tools.ts` and add `app/tools/<slug>/page.tsx`. The sitemap picks it up automatically.
 
 ## SEO
 
-Static files are served from `landing/public/`:
+`/sitemap.xml` and `/robots.txt` are generated dynamically by Next.js (not static files in `public/`):
 
-| URL | File |
-|-----|------|
-| https://www.wodoo.store/robots.txt | `landing/public/robots.txt` |
-| https://www.wodoo.store/sitemap.xml | `landing/public/sitemap.xml` |
+| URL | Source |
+|-----|--------|
+| https://www.wodoo.store/robots.txt | `landing/app/robots.ts` |
+| https://www.wodoo.store/sitemap.xml | `landing/app/sitemap.xml/route.ts` → `lib/build-sitemap.ts` |
 
-When you add a blog post or tool, update `landing/public/sitemap.xml` with the new URL.
+The sitemap includes home, all tools from `lib/tools.ts`, the blog index, static posts, and **admin-published DB posts**. Publishing or deleting a post via `/admin/blog` does not require a redeploy for SEO discovery.
 
 ## Stack
 

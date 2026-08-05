@@ -1,9 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allPosts, getPost, type Block } from "@/lib/posts";
+import { allPosts, type Block } from "@/lib/posts";
+import { allPostsMerged, getPostMerged } from "@/lib/blog";
 import { StartStoreButton } from "@/components/wodoo/start-store-button";
 import { imageAttribution } from "@/lib/image-metadata";
+
+export const dynamic = "force-dynamic";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.wodoo.store";
 
@@ -15,7 +18,7 @@ export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> },
 ): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPostMerged(slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${post.slug}`;
   return {
@@ -86,16 +89,18 @@ function RenderBlock({ block }: { block: Block }) {
   }
 }
 
-function relatedPosts(currentSlug: string) {
-  return allPosts().filter((p) => p.slug !== currentSlug).slice(0, 3);
+async function relatedPosts(currentSlug: string) {
+  const posts = await allPostsMerged();
+  return posts.filter((p) => p.slug !== currentSlug).slice(0, 3);
 }
 
 export default async function BlogPost(
   { params }: { params: Promise<{ slug: string }> },
 ) {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPostMerged(slug);
   if (!post) notFound();
+  const related = await relatedPosts(post.slug);
 
   const url = `${SITE_URL}/blog/${post.slug}`;
   const articleJsonLd = {
@@ -182,7 +187,7 @@ export default async function BlogPost(
         <section className="mt-16 border-t border-border pt-10">
           <h2 className="text-lg font-semibold text-foreground">Keep reading</h2>
           <ul className="mt-4 space-y-3">
-            {relatedPosts(post.slug).map((p) => (
+            {related.map((p) => (
               <li key={p.slug}>
                 <Link href={`/blog/${p.slug}`} className="group block">
                   <div className="font-semibold text-foreground group-hover:text-primary">{p.title}</div>

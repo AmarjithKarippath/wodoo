@@ -38,6 +38,12 @@ export default function AdminLayout({
               >
                 Registrations
               </Link>
+              <Link
+                href="/admin/blog"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+              >
+                Blog
+              </Link>
             </nav>
           </div>
           <Link

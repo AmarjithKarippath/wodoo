@@ -128,30 +128,7 @@ if (!toolsTs.includes("dropshipping-profit-calculator")) {
   console.log("registry updated")
 }
 
-let sitemap = fs.readFileSync("public/sitemap.xml", "utf8")
-if (!sitemap.includes("dropshipping-profit-calculator")) {
-  const today = "2026-08-02"
-  const blocks = tools
-    .map(
-      (t) => `  <url>
-    <loc>https://www.wodoo.store/tools/${t.slug}</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.wodoo.store/tools/${t.slug}.webp</image:loc>
-      <image:title>${escapeXml(t.title)}</image:title>
-      <image:caption>${escapeXml(t.imageAlt)}</image:caption>
-    </image:image>
-  </url>`,
-    )
-    .join("\n")
-  sitemap = sitemap.replace(
-    "  <url>\n    <loc>https://www.wodoo.store/blog</loc>",
-    `${blocks}\n  <url>\n    <loc>https://www.wodoo.store/blog</loc>`,
-  )
-  fs.writeFileSync("public/sitemap.xml", sitemap)
-  console.log("sitemap updated")
-}
+// Sitemap is dynamic (app/sitemap.xml/route.ts) — tools from lib/tools.ts appear automatically.
+console.log("sitemap: dynamic — no public/sitemap.xml write")
 
 console.log("done", tools.length)

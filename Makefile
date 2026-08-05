@@ -42,7 +42,9 @@ psql: ## Open psql shell (local)
 
 migrate: ## Apply pending SQL migrations (local)
 	@test -f db/migrations/002_waitlist_country.sql || (echo "Missing db/migrations/002_waitlist_country.sql — pull/commit latest code" && exit 1)
+	@test -f db/migrations/003_blog_posts.sql || (echo "Missing db/migrations/003_blog_posts.sql — pull/commit latest code" && exit 1)
 	$(COMPOSE) exec -T postgres psql -U $${POSTGRES_USER:-wodoo} -d $${POSTGRES_DB:-wodoo} < db/migrations/002_waitlist_country.sql
+	$(COMPOSE) exec -T postgres psql -U $${POSTGRES_USER:-wodoo} -d $${POSTGRES_DB:-wodoo} < db/migrations/003_blog_posts.sql
 
 ps: ## Show local container status
 	$(COMPOSE) ps
@@ -92,8 +94,10 @@ prod-psql: ## Open psql shell (production)
 migrate-prod: ## Apply pending SQL migrations (production)
 	@test -f .env.production || (echo "Missing .env.production — run: make prod-init" && exit 1)
 	@test -f db/migrations/002_waitlist_country.sql || (echo "Missing db/migrations/002_waitlist_country.sql — git pull the latest commit that includes db/migrations/" && exit 1)
+	@test -f db/migrations/003_blog_posts.sql || (echo "Missing db/migrations/003_blog_posts.sql — git pull the latest commit that includes db/migrations/" && exit 1)
 	@set -a && . ./.env.production && set +a && \
-		$(COMPOSE_PROD) exec -T postgres psql -U "$$POSTGRES_USER" -d "$${POSTGRES_DB:-wodoo}" < db/migrations/002_waitlist_country.sql
+		$(COMPOSE_PROD) exec -T postgres psql -U "$$POSTGRES_USER" -d "$${POSTGRES_DB:-wodoo}" < db/migrations/002_waitlist_country.sql && \
+		$(COMPOSE_PROD) exec -T postgres psql -U "$$POSTGRES_USER" -d "$${POSTGRES_DB:-wodoo}" < db/migrations/003_blog_posts.sql
 
 prod-stop: ## Stop production containers without removing them
 	$(COMPOSE_PROD) stop
